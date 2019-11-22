@@ -1,0 +1,91 @@
+﻿@{
+    Layout = null;
+}
+@model STSys.Core.Quarzt.Models.LoginViewModel
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>贵州首途智慧科技有限公司</title>
+    <!-- basic styles -->
+    <link href="~/lib/assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/lib/assets/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/lib/assets/font/fonts.css" rel="stylesheet" />
+
+    <!-- ace styles -->
+    <link href="~/lib/assets/css/ace.min.css" rel="stylesheet" />
+    <link href="~/lib/assets/css/ace-rtl.min.css" rel="stylesheet" />
+    <link href="~/lib/poshytip/tip-yellowsimple/tip-yellowsimple.css" rel="stylesheet" />
+
+
+</head>
+<body class="login-layout">
+    <div class="main-container">
+        <div class="main-content">
+            <div class="row">
+                <div class="col-sm-10 col-sm-offset-1">
+                    <div class="login-container">
+                        <div class="center">
+                            <h1>
+                                <img src="~/lib/assets/css/images/2.png" />
+                                <span class="white">任务调度系统</span>
+                            </h1>
+                            <h4 class="blue">&copy; 贵州首途智慧科技有限公司</h4>
+                        </div>
+                        <div class="space-6"></div>
+                        <div class="position-relative">
+                            <div id="login-box" class="login-box visible widget-box no-border">
+                                <div class="widget-body">
+                                    <div class="widget-main">
+                                        <h4 class="header blue lighter bigger">
+                                            <i class="icon-coffee green"></i>
+                                            请输入用户名与密码
+                                        </h4>
+                                        <div class="space-6"></div>
+                                        <form method="post" asp-route-returnurl="@ViewData["ReturnUrl"]">
+                                            <fieldset>
+                                                <label class="block clearfix">
+                                                    <span class="block input-icon input-icon-right">
+                                                        @Html.TextBoxFor(s => s.UserName, new { @Value = "", @onclick = "JavaScript:this.value=''", @placeholder = "用户名", @class = "form-control {required:true,maxlength:50,messages:{required:'必填',maxlength:'最大长度不超过50个字符'}}" })
+                                                        @Html.ValidationMessageFor(s => s.UserName)
+                                                        <i class="icon-user"></i>
+                                                    </span>
+                                                </label>
+
+                                                <label class="block clearfix">
+                                                    <span class="block input-icon input-icon-right">
+                                                        @Html.PasswordFor(s => s.Pwd, new { @Value = "", @onclick = "JavaScript:this.value=''", @placeholder = "密码", @class = "form-control {required:true,maxlength:50,messages:{required:'必填',maxlength:'最大长度不超过50个字符'}}" })
+                                                        @Html.ValidationMessageFor(s => s.Pwd)
+                                                        <i class="icon-lock"></i>
+                                                    </span>
+                                                </label>
+
+                                                <div class="space"></div>
+
+                                                <div class="clearfix">
+                                                    <button type="submit" class="width-35 pull-right btn btn-sm btn-primary">
+                                                        <i class="icon-key"></i>
+                                                        登录
+                                                    </button>
+                                                </div>
+                                                <div class="space-4"></div>
+                                            </fieldset>
+                                        </form>
+                                    </div><!-- /widget-main -->
+                                </div><!-- /widget-body -->
+                            </div><!-- /login-box -->
+                        </div><!-- /position-relative -->
+                    </div>
+                </div><!-- /.col -->
+            </div><!-- /.row -->
+        </div>
+    </div><!-- /.main-container -->
+    <!-- basic scripts -->
+    <script src="~/js/jquery-1.10.2.min.js"></script>
+    <script src="~/js/jquery.validate.js"></script>
+    <script src="~/js/jquery.metadata.js"></script>
+    <script src="~/js/jquery.validate.unobtrusive.js"></script>
+    <script src="~/lib/poshytip/jquery.poshytip.js"></script>
+    
+</body>
+</html>

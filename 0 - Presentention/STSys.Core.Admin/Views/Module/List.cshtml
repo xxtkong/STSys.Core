@@ -1,0 +1,62 @@
+﻿@model IQueryable<STSys.Core.Admin.Abstractions.Entities.ModuleEntity>
+@using STSys.Core.Domain.Core.Common
+@using STSys.Core.Admin.Application.HtmlExt
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th class="center">
+                <label>
+                    <input type="checkbox" class="ace" name="chk" onclick="stselect(this)">
+                    <span class="lbl"></span>
+                </label>
+            </th>
+            <th>模块名称</th>
+            <th>模块地址</th>
+            <th>模块图标</th>
+            <th>所属模块</th>
+            <th>排序</th>
+            <th>状态</th>
+            <th>操作</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null)
+        {
+            foreach (var item in Model)
+            {
+                <tr>
+                    <td class="center">
+                        <label>
+                            <input type="checkbox" class="ace" value="@item.Id">
+                            <span class="lbl"></span>
+                        </label>
+                    </td>
+                    <td>@item.Name</td>
+                    <td>@item.URL</td>
+                    <td>@item.Icon</td>
+                    @{ 
+                        string f = "│",t = "";
+                        if (item.Level > 0)
+                        {
+                            for (int i = 0; i < item.Level; i++)
+                            {
+                                t += "├";
+                            }
+                            f = f + t;
+                        }
+                    }
+                    <td>@f @item.PName</td>
+                    <td>@item.Sort</td>
+                    <td>@item.Status.CommonState()</td>
+                    <td>
+                        <button class="btn  btn-info " type="button" onclick="commonOpen(this,'/module/edit?id=@item.Id')" title="编辑" data-width="700" data-height="700"><i class="fa fa-paste"></i> 编辑</button>
+                      
+                        <button class="btn btn-danger" type="button" onclick="commonDelete('/module/delete', {id:'@item.Id'})"><i class="fa fa-minus"></i> 删除</button>
+                    </td>
+                </tr>
+            }
+        }
+
+    </tbody>
+</table>
+@Html.AjaxPager((int)ViewBag.PageSize, (int)ViewBag.TotalCount)

@@ -1,0 +1,90 @@
+﻿@model LoginViewModel
+@{
+    ViewData["Title"] = "用户登录";
+}
+<style>
+    .btn-group label {
+        width: 120px;
+    }
+    .index-nav {
+        background-color: #1ba3d3;
+    }
+
+    .submit-info input {
+        border-radius: 5px;
+    }
+    .btn-group > .btn:first-child {
+        margin-left: 0;
+        border-radius: inherit;
+        padding-left: inherit;
+    }
+    .submit-info input.radio {
+        font-size: 15px;
+        height: inherit;
+        border: 1px solid var(--border-one);
+        border-radius: 30px;
+        outline: none;
+    }
+
+    .hidden-input {
+        opacity: 0;
+        position: absolute;
+        z-index: -1;
+    }
+
+    input[type=checkbox] + span {
+        /* your style goes here */
+        display: inline-block;
+        height: 1em;
+        width: 1em;
+        border-radius: 4px;
+        background-color: gray;
+    }
+
+    /* active style goes here */
+    input[type=checkbox]:checked + span {
+        background-color: red;
+    }
+    .post-job-btn {
+        margin-top: 10px;
+    }
+</style>
+<section id="post-project">
+    <div class="container">
+        <div class="post-project">
+            <div class="row">
+                <div class="col-sm-6 col-md-6 col-lg-6   offset-3">
+                    <form class="submit-info" asp-action="login">
+                        <input type="hidden" asp-for="ReturnUrl" />
+                        <div class="need-info">
+                            <p class="info-title">请输入用户名</p>
+                            <input type="text" class="form-control" placeholder="请输入用户名" asp-for="Username" autocomplete="off" autofocus>
+                        </div>
+                        <div class="need-info">
+                            <p class="info-title">请输入密码</p>
+                            <input type="password" class="form-control" placeholder="请输入密码" asp-for="Password" autocomplete="off">
+                        </div>
+                        <div class="need-info">
+                            @*<p class="info-title">请输入密码</p>*@
+                            <div class="btn-group" data-toggle="buttons">
+                                <label class="btn btn-default" for="option1">
+                                    <input type="radio" class="radio " name="options" asp-for="UserType" value="1" id="option1" checked>
+                                    企业主
+                                </label>
+                                <label class="btn btn-default" for="option2">
+                                    <input type="radio" class="radio " name="options"  asp-for="UserType" value="2" id="option2">
+                                    服务顾问
+                                </label>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="post-job-btn">
+                            <button href="javascript:;" class="button-ymp" value="login" name="button">登 录</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

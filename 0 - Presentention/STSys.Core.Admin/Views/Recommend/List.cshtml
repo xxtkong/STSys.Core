@@ -1,0 +1,52 @@
+﻿@model IQueryable<STSys.Core.Admin.Abstractions.Entities.ColumnEntity>
+@using STSys.Core.Domain.Core.Common
+<table class="table table-striped table-advance table-hover">
+    <thead>
+        <tr>
+            <th class="center">
+                <label>
+                    <input type="checkbox" class="ace" name="chk" onclick="stselect(this)">
+                    <span class="lbl"></span>
+                </label>
+            </th>
+            <th>栏目名称</th>
+            <th>栏目标识</th>
+            <th>栏目简介</th>
+            <th>栏目数据源</th>
+            <th>状态</th>
+            <th>排序</th>
+            <th>跳转地址</th>
+            <th>栏目归属于</th>
+            <th>操作</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.Any())
+        {
+            foreach (var item in Model)
+            {
+                <tr>
+                    <td class="center">
+                        <label>
+                            <input type="checkbox" class="ace" value="@item.Id">
+                            <span class="lbl"></span>
+                        </label>
+                    </td>
+                    <td>@item.ColumnName</td>
+                    <td>@item.ColumnEName</td>
+                    <td>@item.Intro.GetSubString(50, "")</td>
+                    <td>@(item.DataSource.ConvertEnum<E_Column_DataSource>())</td>
+                    <td>@item.Status.CommonState()</td>
+                    <td>@item.Sort</td>
+                    <td>@item.Url</td>
+                    <td>@(item.Source.ConvertEnum<E_Column_Source>()) </td>
+                    <td>
+                        <div class="visible-md visible-lg hidden-sm hidden-xs btn-group">
+                           
+                        </div>
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>

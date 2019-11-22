@@ -1,0 +1,49 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_Pop.cshtml";
+}
+
+@model STSys.Core.Admin.Application.ViewModels.ResetPwd
+<div class="page-content">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="widget-box">
+                <div class="widget-header">
+                    <h4>重置密码</h4>
+                </div>
+                <div class="widget-body">
+                    <div class="widget-main">
+                        <form class="form-horizontal" role="form" method="post" id="form1">
+                            <div class="form-group">
+                                <label class="col-sm-3 control-label no-padding-right" for="form-field-1">新密码</label>
+                                <div class="col-sm-9">
+                                    <input type="text" asp-for="Pwd" class="form-control" placeholder="新密码" />
+                                </div>
+                            </div>
+                            <button class="btn btn-info" type="button" id="btnSave">
+                                <i class="icon-ok bigger-110"></i>
+                                提交
+                            </button>
+                           <input type="hidden" asp-for="Id" />
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $("#btnSave").click(function () {
+        var b = jQuery("#form1").valid();
+        if (b) {
+            $.post("/Manager/Reset", $("#form1").serialize(), function (result) {
+                if (result) {
+                    layer.alert("重置成功", { icon: 1 }, function (index) {
+                        window.parent.location.reload();
+                        parent.layer.close(i);
+                    });
+                }
+            })
+        }
+    });
+</script>

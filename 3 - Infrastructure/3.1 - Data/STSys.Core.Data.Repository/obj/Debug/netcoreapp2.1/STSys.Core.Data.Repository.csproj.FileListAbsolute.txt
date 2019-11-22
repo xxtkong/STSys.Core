@@ -1,0 +1,16 @@
+D:\公司项目\STSys.Core\trunk\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Repository\bin\Debug\netcoreapp2.1\STSys.Core.Data.Repository.deps.json
+D:\公司项目\STSys.Core\trunk\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Repository\bin\Debug\netcoreapp2.1\STSys.Core.Data.Repository.dll
+D:\公司项目\STSys.Core\trunk\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Repository\bin\Debug\netcoreapp2.1\STSys.Core.Data.Repository.pdb
+D:\公司项目\STSys.Core\trunk\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Repository\bin\Debug\netcoreapp2.1\STSys.Core.Data.Context.dll
+D:\公司项目\STSys.Core\trunk\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Repository\bin\Debug\netcoreapp2.1\STSys.Core.Domain.Core.dll
+D:\公司项目\STSys.Core\trunk\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Repository\bin\Debug\netcoreapp2.1\STSys.Core.Domain.dll
+D:\公司项目\STSys.Core\trunk\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Repository\bin\Debug\netcoreapp2.1\STSys.Core.Domain.pdb
+D:\公司项目\STSys.Core\trunk\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Repository\bin\Debug\netcoreapp2.1\STSys.Core.Data.Context.pdb
+D:\公司项目\STSys.Core\trunk\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Repository\bin\Debug\netcoreapp2.1\STSys.Core.Domain.Core.pdb
+D:\公司项目\STSys.Core\trunk\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Repository\obj\Debug\netcoreapp2.1\STSys.Core.Data.Repository.csprojAssemblyReference.cache
+D:\公司项目\STSys.Core\trunk\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Repository\obj\Debug\netcoreapp2.1\STSys.Core.Data.Repository.csproj.CoreCompileInputs.cache
+D:\公司项目\STSys.Core\trunk\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Repository\obj\Debug\netcoreapp2.1\STSys.Core.Data.Repository.AssemblyInfoInputs.cache
+D:\公司项目\STSys.Core\trunk\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Repository\obj\Debug\netcoreapp2.1\STSys.Core.Data.Repository.AssemblyInfo.cs
+D:\公司项目\STSys.Core\trunk\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Repository\obj\Debug\netcoreapp2.1\STSys.Core.Data.Repository.csproj.CopyComplete
+D:\公司项目\STSys.Core\trunk\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Repository\obj\Debug\netcoreapp2.1\STSys.Core.Data.Repository.dll
+D:\公司项目\STSys.Core\trunk\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Repository\obj\Debug\netcoreapp2.1\STSys.Core.Data.Repository.pdb

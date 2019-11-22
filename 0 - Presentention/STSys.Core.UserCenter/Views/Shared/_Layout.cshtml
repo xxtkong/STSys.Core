@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <environment include="Development">
+        <link href="/css/public.css" rel="stylesheet" />
+        <link href="/css/iconfont.css" rel="stylesheet" />
+        <link href="/css/fenye.css" rel="stylesheet" />
+        <link href="/css/reset.css" rel="stylesheet" />
+        <link href="/css/personal_center_pub.css" rel="stylesheet" />
+        <link href="/css/refund.css" rel="stylesheet" />
+        <link href="/css/my_message.css" rel="stylesheet" />
+        <script src="/js/jquery-3.3.1.min.js"></script>
+
+    </environment>
+
+
+    <environment names="Staging,Production">
+
+    </environment>
+    @RenderSection("Style", required: false)
+</head>
+<body>
+    <partial name="_Top" />
+    <partial name="_Nav" />
+    <section class="auto">
+        <div class="content_wrap clear_float">
+            <partial name="_Left" />
+            @RenderBody()
+        </div>
+    </section>
+    <partial name="_Footer"/>        
+    <environment include="Development">
+        <script src="/js/jquery.validate.js"></script>
+        <script src="/js/jquery.validate.unobtrusive.js"></script>
+        <script src="/js/jquery.metadata.js"></script>
+        @*<script src="/js/layer.js"></script>*@
+        <script src="/js/st.min.js"></script>
+        <script src="/lib/poshytip/jquery.poshytip.js"></script>
+        <script src="/lib/st/js/base.js"></script>
+        <script src="/lib/st/js/common.js"></script>
+        <script src="/lib/st/js/swiper.min.js"></script>
+        <script src="/lib/st/js/jquery.easing.min.js"></script>
+        <script src="/lib/st/js/company_center.js"></script>
+    </environment>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

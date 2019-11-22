@@ -1,0 +1,49 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+    <TypeScriptToolsVersion>3.0</TypeScriptToolsVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\TScripts\admin.ts" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="MySql.Data.EntityFrameworkCore" Version="8.0.18" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="2.2.6" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\1 - Application\STSys.Core.Admin.Application\STSys.Core.Admin.Application.csproj" />
+    <ProjectReference Include="..\..\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.Data.IoC\STSys.Core.Data.IoC.csproj" />
+    <ProjectReference Include="..\..\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.Log\STSys.Core.Log.csproj" />
+    <ProjectReference Include="..\..\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.MQMiddleware\STSys.Core.MQMiddleware.csproj" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <None Include="wwwroot\lib\zTree\jquery.ztree.all.js" />
+    <None Include="wwwroot\lib\zTree\jquery.ztree.all.min.js" />
+    <None Include="wwwroot\lib\zTree\jquery.ztree.core.js" />
+    <None Include="wwwroot\lib\zTree\jquery.ztree.core.min.js" />
+    <None Include="wwwroot\lib\zTree\jquery.ztree.excheck.js" />
+    <None Include="wwwroot\lib\zTree\jquery.ztree.excheck.min.js" />
+    <None Include="wwwroot\lib\zTree\jquery.ztree.exedit.js" />
+    <None Include="wwwroot\lib\zTree\jquery.ztree.exedit.min.js" />
+    <None Include="wwwroot\lib\zTree\jquery.ztree.exhide.js" />
+    <None Include="wwwroot\lib\zTree\jquery.ztree.exhide.min.js" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <TypeScriptCompile Include="wwwroot\TScripts\admin.ts" />
+  </ItemGroup>
+
+</Project>

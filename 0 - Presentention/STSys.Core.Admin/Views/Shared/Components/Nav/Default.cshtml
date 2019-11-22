@@ -1,0 +1,84 @@
+﻿@*@Html.Raw(ViewBag.nav)
+<script type="text/javascript">
+    $(function () {
+            var menuVal = "@ViewBag.CurrentNav";
+            if ("" !== $.trim(menuVal)) {
+                $("#" + menuVal).parents("ul").addClass("in").siblings("ul").removeClass("in ");
+            }
+        });
+</script>*@
+
+<ul class="nav" id="side-menu">
+    <li class="nav-header">
+        <div class="dropdown profile-element">
+            <a data-toggle="dropdown" class="dropdown-toggle" href="/main/index">
+                <span class="clear">
+                    <span class="block m-t-xs" style="font-size:20px;">
+                        <i class="fa fa-area-chart"></i>
+                        <strong class="font-bold">后台管理系统</strong>
+                    </span>
+                </span>
+            </a>
+        </div>
+        <div class="logo-element">
+            BBW
+        </div>
+    </li>
+    <li class="hidden-folded padder m-t m-b-sm text-muted text-xs">
+        <span class="ng-scope">分类</span>
+    </li>
+    <li>
+        <a class="J_menuItem" href="/main/index">
+            <i class="fa fa-home"></i>
+            <span class="nav-label">主页</span>
+        </a>
+    </li>
+    <li class="active">
+        <a href="#">
+            <i class="fa fa-gear"></i>
+            <span class="nav-label">后台功能</span>
+            <span class="fa arrow"></span>
+        </a>
+        <ul class="nav nav-second-level">
+            <li>
+                <a class="J_menuItem" href="/manager/index">后台用户管理</a>
+            </li>
+            <li>
+                <a class="J_menuItem" href="/module/index">后台模块管理</a>
+            </li>
+            <li>
+                <a class="J_menuItem" href="/role/index">后台角色管理</a>
+            </li>
+            <li>
+                <a class="J_menuItem" href="/syserrorlog/index">系统错误日志</a>
+            </li>
+            <li>
+                <a class="J_menuItem" href="graph_peity.html">系统数据库执行</a>
+            </li>
+
+        </ul>
+    </li>
+    <li>
+        <a href="#">
+            <i class="fa fa-compass"></i>
+            <span class="nav-label">前台功能</span>
+            <span class="fa arrow"></span>
+        </a>
+        <ul class="nav nav-second-level collapse">
+            <li>
+                <a class="J_menuItem" href="/users/index">前台用户管理</a>
+            </li>
+            <li>
+                <a class="J_menuItem" href="graph_flot.html">首页配置</a>
+            </li>
+            <li>
+                <a class="J_menuItem" href="graph_morris.html">前台广告设置</a>
+            </li>
+            <li>
+                <a class="J_menuItem" href="graph_rickshaw.html">友情链接</a>
+            </li>
+
+
+        </ul>
+    </li>
+</ul>

@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\2 - Domain\STSys.Core.Admin.Abstractions\STSys.Core.Admin.Abstractions.csproj" />
+    <ProjectReference Include="..\STSys.Core.Data.Context\STSys.Core.Data.Context.csproj" />
+    <ProjectReference Include="..\STSys.Core.Data.Repository\STSys.Core.Data.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,51 @@
+﻿@model IQueryable<STSys.Core.Admin.Abstractions.Entities.ModuleElementEntity>
+@using STSys.Core.Domain.Core.Common
+@using STSys.Core.Admin.Application.HtmlExt
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th class="center">
+                <label>
+                    <input type="checkbox" class="ace" name="chk" onclick="stselect(this)">
+                    <span class="lbl"></span>
+                </label>
+            </th>
+            <th>名称</th>
+            <th>DOMId</th>
+            <th>图标</th>
+            <th>样式</th>
+            <th>javascript</th>
+            <th>排序</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null)
+        {
+            foreach (var item in Model)
+            {
+        <tr>
+            <td class="center">
+                <label>
+                    <input type="checkbox" class="ace" value="@item.Id">
+                    <span class="lbl"></span>
+                </label>
+            </td>
+            <td>@item.Name</td>
+            <td>@item.DomId</td>
+            <td>@item.Icon</td>
+            <td>@item.Class.GetSubString(20, "")</td>
+            <td>@item.Script.GetSubString(20, "")</td>
+            <td>@item.Sort</td>
+            <td>
+                <button class="btn  btn-info " type="button" onclick="commonOpen(this,'/module/ModuleElementEdit?id=@item.Id')" title="编辑" data-width="700" data-height="600"><i class="fa fa-paste"></i> 编辑</button>
+
+                <button class="btn btn-danger" type="button" onclick="commonDelete('/module/ModuleElementDelete', {id:'@item.Id'})"><i class="fa fa-minus"></i> 删除</button>
+            </td>
+        </tr>
+            }
+        }
+
+    </tbody>
+</table>
+@Html.AjaxPager((int)ViewBag.PageSize, (int)ViewBag.TotalCount)

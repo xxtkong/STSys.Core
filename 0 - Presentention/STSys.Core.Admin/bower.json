@@ -1,0 +1,17 @@
+{
+  "name": "admin",
+  "description": "admin",
+  "main": "",
+  "authors": [
+    "git <https://gitee.com/xxtk/NASys.git>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

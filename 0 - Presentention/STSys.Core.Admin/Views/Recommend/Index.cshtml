@@ -1,0 +1,30 @@
+﻿@model IQueryable<STSys.Core.Admin.Abstractions.Entities.ColumnEntity>
+<section class="wrapper">
+   
+    <div class="row">
+        <div class="col-lg-12">
+            <section class="panel">
+                <header class="panel-heading">
+                    <a href="/Recommend/Add"  class="btn btn-success">新增</a>
+                    <span class="tools pull-right">
+                        <a href="javascript:;" class="fa fa-chevron-down"></a>
+                        <a href="javascript:;" class="fa fa-times"></a>
+                    </span>
+                </header>
+                <div class="panel-body">
+                    <form class="form-inline" role="form">
+                        <div class="form-group margin-r20">
+                            <label for="account">栏目名称:</label>
+                            <input type="text" class="form-control" id="name" placeholder="栏目名称" autocomplete="off" />
+                        </div>
+                        <button type="button" class="btn btn-success" id="btnSearch">查询</button>
+                    </form>
+                    
+                </div>
+                <div  id="showData">
+                    <partial name="List" />
+                </div>
+            </section>
+        </div>
+    </div>
+</section>

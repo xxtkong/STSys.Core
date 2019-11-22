@@ -1,0 +1,158 @@
+/*我的消息中心*/
+.tab_content_wrap .tab_content {
+    display: none;
+}
+
+.tab_content_wrap .tab_content.selected {
+    display: block;
+}
+
+.my_message_con {
+    background: #fff;
+    padding-bottom: 40px;
+}
+
+.content_wrap .content_right .title {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0 20px;
+}
+
+.message_content {
+    background: #fff;
+}
+
+.my_message_con .state {
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #7c7c7c;
+    font-size: 14px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.my_message_con .state ul {
+    overflow: hidden;
+}
+
+.my_message_con .state ul li {
+    float: left;
+    padding: 0 10px;
+    line-height: 30px;
+    margin-right: 10px;
+}
+
+.my_message_con .state ul li.active {
+    background: #ff7900;
+    color: #fff;
+
+}
+
+.my_message_con .state ul li:hover {
+    cursor: pointer;
+}
+
+.my_message_con .tab_content .tab_item {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.my_message_con .tab_content .tab_item:last-child {
+    border-bottom: 0 none;
+}
+
+.my_message_con .tab_content .tab_item ul {
+    overflow: hidden;
+}
+
+.my_message_con .tab_content .tab_item li {
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 14px;
+    color: #7c7c7c;
+}
+
+.my_message_con .tab_content .txt {
+    width: 57%;
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+.my_message_con .tab_content .txt a {
+    color: #474747;
+}
+
+.my_message_con .tab_content .txt .msg_title {
+    color: #474747;
+    font-size: 16px;
+}
+
+.my_message_con .tab_content .txt .msg_title i {
+    margin-right: 8px;
+    color: #ff7900;
+    font-size: 20px;
+}
+
+.my_message_con .tab_content .txt .msg_con {
+    color: #7c7c7c;
+    line-height: 24px;
+    padding-left: 28px;
+}
+
+.my_message_con .tab_content .time {
+    width: 30%;
+    text-align: center;
+}
+
+.my_message_con .tab_content .opt {
+    width: 13%;
+    text-align: center;
+}
+
+.my_message_con .tab_content .opt a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+/*已读状态*/
+.my_message_con .tab_content .tab_item.yiduFlag .msg_title i {
+    color: #7c7c7c;
+}
+
+.my_message_con .tab_content .tab_item.yiduFlag .opt a {
+    color: #ff7900;
+}
+
+/*分页*/
+.page_box {
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.page_box .page {
+    text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

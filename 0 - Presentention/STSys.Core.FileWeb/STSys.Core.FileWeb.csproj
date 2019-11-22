@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\2 - Domain\STSys.Core.File.Abstractions\STSys.Core.File.Abstractions.csproj" />
+    <ProjectReference Include="..\..\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.Data.IoC\STSys.Core.Data.IoC.csproj" />
+    <ProjectReference Include="..\..\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.DotNettyRPC\STSys.Core.DotNettyRPC.csproj" />
+    <ProjectReference Include="..\..\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.HotlinkingPreventionMiddleware\STSys.Core.HotlinkingPreventionMiddleware.csproj" />
+  </ItemGroup>
+
+</Project>

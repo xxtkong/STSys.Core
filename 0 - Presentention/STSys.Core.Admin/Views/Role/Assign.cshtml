@@ -1,0 +1,103 @@
+﻿@{
+    Layout = "~/Views/Shared/_Pop.cshtml";
+}
+<div class="row">
+    <div class="col-sm-12">
+        <div class="ibox float-e-margins">
+            <div class="ibox-title">
+                <h5>角色授权</h5>
+                <div class="ibox-tools">
+                    
+                </div>
+            </div>
+            <div class="ibox-content">
+                <div class="row">
+                    <div class="col-xs-3">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="ibox">
+                                    <div class="ibox-title">
+                                        <h5>请先选择模块</h5>
+                                        <div class="ibox-tools">
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="ibox-content">
+                                        <div class="">
+                                            <ul id="orgtree" class="ztree" style="width: 100%"></ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-9 ">
+                        <div class="ibox" >
+                            <div class="ibox-title">
+                                <h5>模块操作</h5>
+                                <div class="ibox-tools">
+                                    
+                                </div>
+                            </div>
+                            <div class="ibox-content" id="showData">
+                                <partial name="AssignList" />
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@Html.Hidden("roleId", (Guid)ViewBag.id)
+@Html.Hidden("hidpid")
+@Html.Hidden("moduleId")
+@section Scripts
+    {
+    <script>
+        var ztree = function () {
+            var url = '/Module/LoadModule';
+            var setting = {
+                view: { selectedMulti: false },
+                data: {
+                    key: {
+                        name: 'name',
+                        title: 'name'
+                    }
+                },
+                callback: {
+                    onClick: function (event, treeId, treeNode) {
+                        var data = {};
+                        data.roleId = $("#roleId").val();
+                        data.moduleId = treeNode.id;
+                        $("#moduleId").val(data.moduleId);
+                        $.btnClick({
+                            url: "/Role/LoadElement",
+                            data: data
+                        });
+                    }
+                }
+            };
+            var load = function () {
+                $.getJSON(url, function (json) {
+                    var zTreeObj = $.fn.zTree.init($("#orgtree"), setting, json);
+                    zTreeObj.expandAll(true);
+                });
+            };
+            load();
+            return {
+                reload: load
+            };
+        }();
+
+        function isassign(e) {
+            var data = {};
+            data.roleId = $("#roleId").val();
+            data.elementId = $(e).val();
+            data.ischecked = $(e).is(":checked");
+            data.moduleId = $("#moduleId").val();
+            $.post("/Role/SaveAssign", data);
+        }
+    </script>
+}

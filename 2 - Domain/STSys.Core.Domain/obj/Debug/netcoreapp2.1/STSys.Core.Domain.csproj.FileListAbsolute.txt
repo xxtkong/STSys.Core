@@ -1,0 +1,12 @@
+D:\公司项目\STSys.Core\trunk\STSys.Core\2 - Domain\STSys.Core.Domain\bin\Debug\netcoreapp2.1\STSys.Core.Domain.deps.json
+D:\公司项目\STSys.Core\trunk\STSys.Core\2 - Domain\STSys.Core.Domain\bin\Debug\netcoreapp2.1\STSys.Core.Domain.dll
+D:\公司项目\STSys.Core\trunk\STSys.Core\2 - Domain\STSys.Core.Domain\bin\Debug\netcoreapp2.1\STSys.Core.Domain.pdb
+D:\公司项目\STSys.Core\trunk\STSys.Core\2 - Domain\STSys.Core.Domain\bin\Debug\netcoreapp2.1\STSys.Core.Domain.Core.dll
+D:\公司项目\STSys.Core\trunk\STSys.Core\2 - Domain\STSys.Core.Domain\bin\Debug\netcoreapp2.1\STSys.Core.Domain.Core.pdb
+D:\公司项目\STSys.Core\trunk\STSys.Core\2 - Domain\STSys.Core.Domain\obj\Debug\netcoreapp2.1\STSys.Core.Domain.csprojAssemblyReference.cache
+D:\公司项目\STSys.Core\trunk\STSys.Core\2 - Domain\STSys.Core.Domain\obj\Debug\netcoreapp2.1\STSys.Core.Domain.csproj.CoreCompileInputs.cache
+D:\公司项目\STSys.Core\trunk\STSys.Core\2 - Domain\STSys.Core.Domain\obj\Debug\netcoreapp2.1\STSys.Core.Domain.AssemblyInfoInputs.cache
+D:\公司项目\STSys.Core\trunk\STSys.Core\2 - Domain\STSys.Core.Domain\obj\Debug\netcoreapp2.1\STSys.Core.Domain.AssemblyInfo.cs
+D:\公司项目\STSys.Core\trunk\STSys.Core\2 - Domain\STSys.Core.Domain\obj\Debug\netcoreapp2.1\STSys.Core.Domain.csproj.CopyComplete
+D:\公司项目\STSys.Core\trunk\STSys.Core\2 - Domain\STSys.Core.Domain\obj\Debug\netcoreapp2.1\STSys.Core.Domain.dll
+D:\公司项目\STSys.Core\trunk\STSys.Core\2 - Domain\STSys.Core.Domain\obj\Debug\netcoreapp2.1\STSys.Core.Domain.pdb

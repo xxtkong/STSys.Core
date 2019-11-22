@@ -1,0 +1,91 @@
+/*顾问发票管理*/
+/*开发票开始*/
+.guwenBillManage {
+    padding-bottom: 30px;
+    background: #fff;
+}
+
+    .guwenBillManage .bill_tit {
+        height: 70px;
+        line-height: 70px;
+        font-weight: 700;
+        margin-left: 38px;
+        color: #474747;
+        font-size: 14px;
+    }
+
+    .guwenBillManage .confirm {
+        width: 100px;
+        height: 40px;
+        background: #fd982d;
+        line-height: 40px;
+        text-align: center;
+        margin: 0 auto;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+    }
+
+        .guwenBillManage .confirm a {
+            display: block;
+            width: 100%;
+            height: 100%;
+            font-size: 14px;
+            color:#fff;
+        }
+
+/*开发票结束*/
+/*填写邮寄信息开始*/
+
+.fapiao_message_wrap .orderInfo_message {
+    width: 100%;
+    margin-top: 0;
+}
+
+.send_con .item {
+    font-size: 0;
+    margin-bottom: 20px;
+}
+
+    .send_con .item span, .send_con .item .input_box {
+        display: inline-block;
+        font-size: 14px;
+        vertical-align: top;
+    }
+
+    .send_con .item span {
+        width: 154px;
+        text-align: right;
+        line-height: 36px;
+        color: #474747;
+    }
+
+    .send_con .item .input_box {
+        width: 252px;
+        height: 36px;
+        line-height: 36px;
+        margin-left: 12px;
+    }
+
+        .send_con .item .input_box input {
+            display: block;
+            width: 100%;
+            height: 100%;
+            padding-left: 10px;
+            border: 1px solid #ddd;
+        }
+
+.send_bill_message {
+    position: relative;
+    padding-bottom: 30px;
+}
+
+    .send_bill_message .confirm {
+        position: absolute;
+        top: 58%;
+        left: 25%;
+    }
+
+/*填写邮寄信息结束*/
+
+

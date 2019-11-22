@@ -1,0 +1,122 @@
+{
+  "ReRoutes": [
+    //获取Token
+    {
+      "DownstreamPathTemplate": "/connect/token",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 9000
+        }
+      ],
+      "UpstreamPathTemplate": "/token",
+      "UpstreamHttpMethod": [ "Post" ],
+      "Priority": 2
+    },
+    //登录获取Token
+    {
+      "DownstreamPathTemplate": "/authapi/login",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 9000
+        }
+      ],
+      "UpstreamPathTemplate": "/authapi/login",
+      "UpstreamHttpMethod": [ "Post" ],
+      "Priority": 2
+    },
+    //测试服务1
+    {
+      "DownstreamPathTemplate": "/api/values/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5000
+        }
+      ],
+      "UpstreamPathTemplate": "/myapi/getvalue/{id}",
+      "UpstreamHttpMethod": [ "Get", "Post" ],
+      "LoadBalancerOptions": {
+        "Type": "RoundRobin"
+      },
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "finbook",
+        "AllowedScopes": []
+      }
+    },
+    //测试服务2
+    {
+      "DownstreamPathTemplate": "/api/home",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5000
+        }
+      ],
+      "UpstreamPathTemplate": "/myapi/home",
+      "UpstreamHttpMethod": [ "Get", "Post" ]
+    },
+    //负载均衡配置
+    {
+      "DownstreamPathTemplate": "/api/values/{id}", //真实的服务地址
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [ //负载均衡配置
+        {
+          "Host": "localhost",
+          "Port": 9492
+        },
+        {
+          "Host": "localhost",
+          "Port": 9493
+        }
+      ],
+      "UpstreamPathTemplate": "/{id}", //浏览器访问地址
+      "UpstreamHttpMethod": [ "Get", "Post" ],
+      "LoadBalancerOptions": {
+        "Type": "RoundRobin"
+      }
+    },
+    //聚合服务
+    {
+      "DownstreamPathTemplate": "/api/values/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 9492
+        }
+      ],
+      "UpstreamPathTemplate": "/laura/{id}",
+      "UpstreamHttpMethod": [ "Get", "Post" ],
+      "Key": "product"
+    },
+    {
+      "DownstreamPathTemplate": "/api/values/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 9493
+        }
+      ],
+      "UpstreamPathTemplate": "/tom/{id}",
+      "UpstreamHttpMethod": [ "Get", "Post" ],
+      "Key": "message"
+    }
+    //限流、熔断、缓存配置
+  ],
+  "Aggregates": [
+    {
+      "ReRouteKeys": [
+        "product",
+        "message"
+      ],
+      "UpstreamPathTemplate": "/ap/{id}"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+D:\项目\NASys\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.HotlinkingPreventionMiddleware\bin\Debug\netcoreapp2.2\STSys.Core.HotlinkingPreventionMiddleware.deps.json
+D:\项目\NASys\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.HotlinkingPreventionMiddleware\bin\Debug\netcoreapp2.2\STSys.Core.HotlinkingPreventionMiddleware.dll
+D:\项目\NASys\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.HotlinkingPreventionMiddleware\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\项目\NASys\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.HotlinkingPreventionMiddleware\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Hosting.Abstractions.xml
+D:\项目\NASys\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.HotlinkingPreventionMiddleware\obj\Debug\netcoreapp2.2\STSys.Core.HotlinkingPreventionMiddleware.csproj.CoreCompileInputs.cache
+D:\项目\NASys\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.HotlinkingPreventionMiddleware\obj\Debug\netcoreapp2.2\STSys.Core.HotlinkingPreventionMiddleware.AssemblyInfoInputs.cache
+D:\项目\NASys\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.HotlinkingPreventionMiddleware\obj\Debug\netcoreapp2.2\STSys.Core.HotlinkingPreventionMiddleware.AssemblyInfo.cs
+D:\项目\NASys\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.HotlinkingPreventionMiddleware\obj\Debug\netcoreapp2.2\STSys.Core.HotlinkingPreventionMiddleware.csproj.CopyComplete
+D:\项目\NASys\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.HotlinkingPreventionMiddleware\bin\Debug\netcoreapp2.2\STSys.Core.HotlinkingPreventionMiddleware.pdb
+D:\项目\NASys\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.HotlinkingPreventionMiddleware\obj\Debug\netcoreapp2.2\STSys.Core.HotlinkingPreventionMiddleware.dll
+D:\项目\NASys\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.HotlinkingPreventionMiddleware\obj\Debug\netcoreapp2.2\STSys.Core.HotlinkingPreventionMiddleware.pdb
+D:\项目\NASys\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.HotlinkingPreventionMiddleware\obj\Debug\netcoreapp2.2\STSys.Core.HotlinkingPreventionMiddleware.csprojAssemblyReference.cache

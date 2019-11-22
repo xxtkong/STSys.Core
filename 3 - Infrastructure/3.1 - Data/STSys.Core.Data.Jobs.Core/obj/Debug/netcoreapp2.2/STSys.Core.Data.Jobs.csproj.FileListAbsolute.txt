@@ -1,0 +1,17 @@
+D:\公司项目\STSys.Core\trunk\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Jobs.Core\bin\Debug\netcoreapp2.2\STSys.Core.Data.Jobs.deps.json
+D:\公司项目\STSys.Core\trunk\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Jobs.Core\bin\Debug\netcoreapp2.2\STSys.Core.Data.Jobs.dll
+D:\公司项目\STSys.Core\trunk\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Jobs.Core\obj\Debug\netcoreapp2.2\STSys.Core.Data.Jobs.csproj.CoreCompileInputs.cache
+D:\公司项目\STSys.Core\trunk\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Jobs.Core\obj\Debug\netcoreapp2.2\STSys.Core.Data.Jobs.AssemblyInfoInputs.cache
+D:\公司项目\STSys.Core\trunk\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Jobs.Core\obj\Debug\netcoreapp2.2\STSys.Core.Data.Jobs.AssemblyInfo.cs
+D:\公司项目\STSys.Core\trunk\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Jobs.Core\bin\Debug\netcoreapp2.2\STSys.Core.Data.Jobs.pdb
+D:\公司项目\STSys.Core\trunk\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Jobs.Core\obj\Debug\netcoreapp2.2\STSys.Core.Data.Jobs.dll
+D:\公司项目\STSys.Core\trunk\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Jobs.Core\obj\Debug\netcoreapp2.2\STSys.Core.Data.Jobs.pdb
+D:\项目\NASys\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Jobs.Core\bin\Debug\netcoreapp2.2\STSys.Core.Data.Jobs.deps.json
+D:\项目\NASys\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Jobs.Core\bin\Debug\netcoreapp2.2\STSys.Core.Data.Jobs.dll
+D:\项目\NASys\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Jobs.Core\bin\Debug\netcoreapp2.2\STSys.Core.Data.Jobs.pdb
+D:\项目\NASys\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Jobs.Core\obj\Debug\netcoreapp2.2\STSys.Core.Data.Jobs.csproj.CoreCompileInputs.cache
+D:\项目\NASys\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Jobs.Core\obj\Debug\netcoreapp2.2\STSys.Core.Data.Jobs.AssemblyInfoInputs.cache
+D:\项目\NASys\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Jobs.Core\obj\Debug\netcoreapp2.2\STSys.Core.Data.Jobs.AssemblyInfo.cs
+D:\项目\NASys\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Jobs.Core\obj\Debug\netcoreapp2.2\STSys.Core.Data.Jobs.dll
+D:\项目\NASys\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Jobs.Core\obj\Debug\netcoreapp2.2\STSys.Core.Data.Jobs.pdb
+D:\项目\NASys\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Jobs.Core\obj\Debug\netcoreapp2.2\STSys.Core.Data.Jobs.csprojAssemblyReference.cache

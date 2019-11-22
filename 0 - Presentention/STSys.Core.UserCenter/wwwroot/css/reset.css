@@ -1,0 +1,226 @@
+.auto {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+abbr[title], acronym[title] {
+    text-decoration: none;
+}
+
+input, button, textarea { /*去除input默认样式*/
+    -webkit-appearance: none;
+    appearance: none;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+input[type="checkbox"] {
+    -webkit-appearance: checkbox;
+    appearance: checkbox;
+}
+
+input[type="radio"] {
+    -webkit-appearance: radio;
+    appearance: radio;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    color: #999;
+}
+
+input::-ms-clear, input::-ms-reveal {
+    display: none;
+}
+
+textarea {
+    resize: none;
+}
+
+.clearfloat:after {
+    display: block;
+    clear: both;
+    content: "";
+    visibility: hidden;
+    height: 0;
+}
+
+.show {
+    display: block;
+
+}
+
+.hide {
+    display: none;
+}
+
+/*兼容*/
+.clearfloat {
+    zoom: 1;
+}
+
+/*公共色号*/
+/*橘黄色*/
+.color_org {
+    color: #fd982d !important;
+}
+
+/*蓝色*/
+.color_blue {
+    color: #2181f7 !important;
+}
+
+/*灰色*/
+.color_gray {
+    color: #dedede !important;
+}
+
+/*白色*/
+.color_bai {
+    color: #fff !important;
+}
+
+/*数字的黄色*/
+.color_num {
+    color: #ff7900 !important;
+}
+
+.color_hong {
+    color: #e10e0e !important;
+}
+
+.color_green {
+    color: #00cc0e !important;
+}
+
+/* 橘黄色背景*/
+.bg_org {
+    background: #fd982d !important;
+}
+
+/*蓝色背景*/
+.bg_blue {
+    background: #2181f7 !important;
+}
+
+/*灰色背景*/
+.bg_gray {
+    background: #dedede !important;
+}
+
+.wd8 {
+    width: 8% !important;
+}
+
+.wd10 {
+    width: 10% !important;
+}
+
+.wd12 {
+    width: 12% !important;
+}
+
+.wd13 {
+    width: 13% !important;
+}
+
+.wd20 {
+    width: 20%;
+}
+
+.wd30 {
+    width: 30%;
+}
+
+.wd40 {
+    width: 40%;
+}
+
+.wd50 {
+    width: 50%;
+}
+
+.wd60 {
+    width: 60%;
+}
+
+.wd80 {
+    width: 80%;
+}
+
+.text_ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+/*公共头部---logo...开始*/
+header {
+    height: 90px;
+    position: relative;
+}
+
+header .logo {
+    width: 329px;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    top: 15px;
+}
+
+header .logo a {
+    display: block;
+}
+
+.welcome {
+    padding: 0 28px;
+    border-left: 1px solid #bfbfbf;
+    margin-left: 150px;
+    margin-top: 25px;
+}
+
+.welcome h5 {
+    color: #333;
+    font-size: 16px;
+}
+
+.welcome p {
+    color: #999;
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+.header_tel {
+    height: 90px;
+    line-height: 90px;
+    font-size: 24px;
+    color: #fd982d;
+    position: relative;
+}
+
+.header_tel i.icon-dianhua1 {
+    font-size: 32px;
+    position: absolute;
+    top: 0;
+    left: -38px;
+}
+
+/*公共头部---logo...结束*/
+
+
+

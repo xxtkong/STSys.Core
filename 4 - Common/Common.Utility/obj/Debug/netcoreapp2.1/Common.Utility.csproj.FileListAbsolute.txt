@@ -1,0 +1,8 @@
+D:\公司项目\STSys.Core\trunk\STSys.Core\4 - Common\Common.Utility\bin\Debug\netcoreapp2.1\Common.Utility.deps.json
+D:\公司项目\STSys.Core\trunk\STSys.Core\4 - Common\Common.Utility\bin\Debug\netcoreapp2.1\Common.Utility.dll
+D:\公司项目\STSys.Core\trunk\STSys.Core\4 - Common\Common.Utility\bin\Debug\netcoreapp2.1\Common.Utility.pdb
+D:\公司项目\STSys.Core\trunk\STSys.Core\4 - Common\Common.Utility\obj\Debug\netcoreapp2.1\Common.Utility.csproj.CoreCompileInputs.cache
+D:\公司项目\STSys.Core\trunk\STSys.Core\4 - Common\Common.Utility\obj\Debug\netcoreapp2.1\Common.Utility.AssemblyInfoInputs.cache
+D:\公司项目\STSys.Core\trunk\STSys.Core\4 - Common\Common.Utility\obj\Debug\netcoreapp2.1\Common.Utility.AssemblyInfo.cs
+D:\公司项目\STSys.Core\trunk\STSys.Core\4 - Common\Common.Utility\obj\Debug\netcoreapp2.1\Common.Utility.dll
+D:\公司项目\STSys.Core\trunk\STSys.Core\4 - Common\Common.Utility\obj\Debug\netcoreapp2.1\Common.Utility.pdb

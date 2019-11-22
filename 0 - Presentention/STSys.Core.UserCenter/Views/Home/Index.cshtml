@@ -1,0 +1,297 @@
+﻿@{
+    ViewData["Title"] = "个人中心首页";
+}
+@using STSys.Core.UserCenter.Models;
+@model UsersHomeViewModel
+
+<link rel="stylesheet" href="~/css/style/company_personal_center.css?">
+<div class="content_right fr">
+    <!--用户信息-->
+    <div class="user_infor clear_float">
+        <div class="user_infor_left fl">
+            <div class="img">
+                <img src="@Model.usersHome.PicUrl" alt="">
+            </div>
+            <div class="desc">
+                <p class="p1">
+                    <span class="name">@Model.usersHome.UserName</span>
+                </p>
+                <p class="p3">安全：<span class="safe_level"></span><span>较高</span></p>
+            </div>
+        </div>
+        <div class="user_infor_right fl">
+            <ul>
+                <li>
+                    <p class="p1">
+                        <span>余额：</span>
+                        <span class="price">￥@Model.usersHome.Balance</span>
+                        <a href="/Users/Account/Recharge">转入</a>
+                        <i>/</i>
+                        <a href="/Users/Account/Withdraw">提现</a>
+                    </p>
+                    <p class="p2">
+                        <span class="">红包：</span>
+                        <span class="price">￥@Model.usersHome.RedEnvelopes</span>
+                    </p>
+                </li>
+                <li>
+                    <p class="p2">
+                        <span>优惠券：<i class="youhui_num">@Model.usersHome.CouponNumber</i></span>
+                        <a href="/Users/Account/CouponIndex">查看</a>
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--订单状态-->
+    <div class="order_state">
+        <ul>
+            <li>
+                <a href="/Users/OrderCenter/Index">
+                    <div class="icon">
+                        <i class="iconfont icon-daifukuan"></i>
+                    </div>
+                    <p>待付款<span>@Model.orderNumberModel.dfNum</span></p>
+                </a>
+            </li>
+
+            <li>
+                <a href="/Users/OrderCenter/Index">
+                    <div class="icon">
+                        <i class="iconfont icon-daiqianhetong"></i>
+                    </div>
+                    <p>待签合同<span>@Model.orderNumberModel.dqNum</span></p>
+                </a>
+            </li>
+            <li>
+                <a href="/Users/OrderCenter/Index">
+                    <div class="icon">
+                        <i class="iconfont icon-fuwuzhong"></i>
+                    </div>
+                    <p>服务中<span>@Model.orderNumberModel.yqNum</span></p>
+                </a>
+            </li>
+            <li>
+                <a href="/Users/OrderCenter/Index">
+                    <div class="icon">
+                        <i class="iconfont icon-daipingjia"></i>
+                    </div>
+                    <p>待评价<span>@Model.orderNumberModel.dpNum</span></p>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!--我的订单 -->
+    @*<div class="myorder clear_float">
+            <div class="title">
+                <span class="fl">我的订单</span>
+                <a href="/Users/OrderCenter/Index" class="fr">查看全部订单</a>
+            </div>
+            <div class="order_list">
+
+                <div class="order_item">
+                    @if (Order != null && Order.Any())
+                    {
+                        var num = 0;
+                        foreach (var OrderDetail in Order)
+                        {
+                            foreach (var item in OrderDetail.OrderDetailsList)
+                            {
+                                num++;
+                                if (num > 2)
+                                {
+                                    break;
+                                }
+
+                                <div class="item">
+                                    @if (OrderDetail.OrderDetailsList.Count > 1)
+                                    {
+                                        <div class="pro_info">
+                                            <a href="javascript:;" target="_blank">
+                                                <div class="pro_list clear_float">
+                                                    @foreach (var item1 in OrderDetail.OrderDetailsList.Take(2))
+                                                    {
+                                                        <img src="@item1.BasicPicUrl" alt="" class="pro_list">
+                                                    }
+                                                    @if (OrderDetail.OrderDetailsList.Count > 2)
+                                                    {
+                                                        <span class="more"></span>
+                                                    }
+                                                </div>
+                                            </a>
+                                        </div>
+                                    }
+                                    else
+                                    {
+                                        if (item.SetMealAreaId == 0 || item.SetMealAreaId == null)
+                                        {
+                                            <div class="pro_info">
+                                                <a href="/fuwu/@(item.ProductId).html" target="_blank" class="clear_float">
+                                                    <!--产品图片-->
+                                                    <div class="pro_img">
+                                                        <img src="@item.BasicPicUrl.Img(1)" alt="">
+                                                    </div>
+                                                    <!--描述-->
+                                                    <div class="desc">
+                                                        <p> @Html.Raw(item.Title)</p>
+                                                        <p class="p2"> @Html.Raw(item.Summary)</p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        }
+                                        else
+                                        {
+                                            <div class="pro_info">
+                                                <a href="javascript:;" target="_blank">
+                                                    <div class="tc_title">
+                                                        <span class="type">【套餐】</span>
+                                                        <span class="title_des">@(item.ProductName)</span>
+                                                    </div>
+                                                    <div class="tc_list">
+                                                        <ul>
+                                                            @if (!string.IsNullOrEmpty(item.SpecificationsName))
+                                                            {
+                                                                foreach (var itemTitle in item.SpecificationsName.Split('+'))
+                                                                {
+                                                                    <li><i class="iconfont icon-yuandian"></i><span>@itemTitle</span></li>
+                                                                }
+                                                            }
+                                                        </ul>
+                                                    </div>
+                                                </a>
+                                            </div>
+
+                                        }
+                                    }
+
+                                    <!--服务商信息-->
+                                    <div class="server_msg">
+                                        <div class="img">
+                                            <img src="@item.ct_PicUrl.Img(0)" alt="" style="border-radius: 50%;">
+                                        </div>
+                                        <p class="name">@item.c_UserName</p>
+                                    </div>
+                                    <!--价格-->
+                                    <div class="price" style="min-width: 57px;">
+                                        @if (item.PayablePrice == 0)
+                                        {
+                                            <p class="pay_price">面议</p>
+                                        }
+                                        else
+                                        {
+                                            <p class="pay_price">￥@item.PayablePrice</p>
+                                            if (item.Status > 0)
+                                            {
+                                                <p class="pay_way">
+                                                    <a href="/pay/index.html?orderno=@item.OrderNo">
+                                                        @(item.PayType == -1 ? "" : Enum.GetName(typeof(E_PayState), item.PayType).ToString())支付
+                                                    </a>
+                                                </p>
+                                            }
+                                        }
+                                    </div>
+                                    <!--状态-->
+                                    <div class="state">
+                                        <p class="text">
+                                            @if ((",3,4,6,7,8,").Contains("," + item.Status.ToString() + ","))
+                                            {
+                                                @Html.Raw("服务中")
+                                            }
+                                            else if ((",5,9,").Contains("," + item.Status.ToString() + ","))
+                                            {
+                                                @Html.Raw("已完成")
+                                            }
+                                            else if ((",-1,-2,").Contains("," + item.Status.ToString() + ","))
+                                            {
+                                                @Html.Raw("已取消")
+                                            }
+                                            else
+                                            {
+                                                @(Enum.GetName(typeof(E_UsersDisplayState), item.Status).ToString().Substring(1))
+                                            }
+                                        </p>
+                                        <p class="time">@item.CreateTime.StrByDateTime("yyyy.MM.dd HH:mm")</p>
+                                    </div>
+                                    <!--关于订单-->
+                                    <div class="about_order">
+                                        @if (OrderDetail.OrderDetailsList.Count > 1 && (OrderDetail.Status > (int)E_UsersDisplayState.a待付款 && OrderDetail.Status != (int)E_UsersDisplayState.e服务中))
+                                        {
+                                            <a href="/Users/OrderCenter/SplitOrder?orderNo=@item.OrderNo" target="_blank">订单详情</a>
+                                        }
+                                        else
+                                        {
+                                            <a href="/Users/OrderCenter/OrderDetails?sonOrderNo=@item.SonOrderNo" target="_blank">订单详情</a>
+                                        }
+                                    </div>
+                                </div>
+                            }
+                        }
+                    }
+                    else
+                    {
+                        <div class="empty_order">
+                            <img src="/Content/st/images/company_user/empty_order.png" alt="">
+                            <a href="/index.html" class="xiadanBtn">去下单</a>
+                        </div>
+                    }
+                </div>
+            </div>
+            <div class="plus_box " id="plusBox">
+                <div class="top">
+                    <a href="/BrandReg/Index" target="_blank">
+                        <img src="/Content/st/images/company_user/plus_pro1.jpg" alt="">
+                    </a>
+                </div>
+                <div class="bottom">
+                    <a href="/CompanyEvalua/Index" target="_blank">
+                        <img src="/Content/st/images/company_user/plus_pro2.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>*@
+    <!--什么值得买-->
+    <div class="best_goods">
+        <div class="title">什么值得买</div>
+        <div class="goods_list">
+            <ul>
+                @if (Model.productList.Any())
+                {
+                    foreach (var item in Model.productList)
+                    {
+
+                        <li>
+                            <a href="/fuwu/@(item.Id).html" title="@item.Title" target="_blank">
+                                <div class="img">
+                                    <img src="@item.BasicPicUrl" alt="@item.Title" class="share_pic">
+                                </div>
+
+                                <p class="p1">@item.Title</p>
+                                <p class="p2">@item.Summary</p>
+                                <p class="p3">
+                                    @if (item.SalePrice == 0)
+                                    {
+                                        @Html.Raw("面议")
+                                    }
+                                    else
+                                    {
+                                        @Html.Raw("￥" + item.SalePrice)
+                                    }
+                                </p>
+                            </a>
+                        </li>
+                    }
+                }
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+@*@model IEnumerable<dynamic>*@
+@*<span>@Model.Count()</span>
+    @await Component.InvokeAsync("Summary")
+    <vc:Summary msg="msg" />*@
+
+
+@*@User.Identity.Name
+    @User.Claims.Count();*@

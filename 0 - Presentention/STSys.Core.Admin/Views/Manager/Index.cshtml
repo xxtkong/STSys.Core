@@ -1,0 +1,63 @@
+﻿@using STSys.Core.Admin.Application.HtmlExt
+@section Styles
+{
+
+
+}
+
+<div class="row">
+    <div class="col-sm-12">
+        <div class="ibox float-e-margins">
+            <div class="ibox-title">
+                <h5>后台用户管理</h5>
+                <div class="ibox-tools">
+
+                    <a class="collapse-link">
+                        <i class="fa "></i>
+                    </a>
+
+                    <a class="close-link">
+                        <i class="fa fa-chevron-up"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="ibox-content">
+                <div class="">
+                    <button class="btn  btn-info " type="button" onclick="commonOpen(this,'/manager/add')" title="新增" data-width="700" data-height="700"><i class="fa fa-plus"></i> 新增 </button>
+                    @Html.Button("btnadd","","onclick=\"commonOpen(this, '/manager/add')\"")
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <form class="form-inline" role="form" id="form">
+                            <div class="form-group margin-r20">
+                                <label for="account">账户:</label>
+                                <input type="text" class="form-control" id="account" name="account" placeholder="账户" autocomplete="off" />
+                            </div>
+                            <div class="form-group margin-r20">
+                                <label for="name">姓名:</label>
+                                <input type="text" class="form-control" id="name" name="name" placeholder="姓名" autocomplete="off" />
+                            </div>
+                            <div class="form-group margin-r20">
+                                <label for="mobile">联系电话:</label>
+                                <input type="text" class="form-control" id="mobile" name="mobile" placeholder="联系电话" autocomplete="off" />
+                            </div>
+                            <button type="button" class="btn btn-success" id="btnSearch" onclick="commonSearch('/manager/list')">查询</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="table-responsive" id="showData" data-pageurl="/manager/list">
+                    <partial name="List" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+@section Scripts
+{
+<script type="text/javascript">
+
+</script>
+}

@@ -1,0 +1,50 @@
+﻿@model IEnumerable<STSys.Core.Admin.Application.ViewModels.QueueInfo>
+@using STSys.Core.Domain.Core.Common
+@using STSys.Core.Admin.Application.HtmlExt
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th class="center">
+                <label>
+                    <input type="checkbox" class="ace" name="chk" onclick="stselect(this)">
+                    <span class="lbl"></span>
+                </label>
+            </th>
+            <th>Id</th>
+            <th>Level</th>
+            <th>name</th>
+            <th>msg</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null)
+        {
+            foreach (var item in Model)
+            {
+                <tr>
+                    <td class="center">
+                        <label>
+                            <input type="checkbox" class="ace" value="@item.id">
+                            <span class="lbl"></span>
+                        </label>
+                    </td>
+                    <td>@item.id</td>
+                    <td>@item.level</td>
+                    <td>@item.name.GetSubString(20,"")</td>
+                    <td>
+                        <textarea style="margin: 0px; width: 565px; height: 82px;">
+@item.msg
+</textarea>
+                        
+                        
+                    </td>
+                    <td>
+                        <button class="btn btn-danger" type="button" onclick="commonDelete('/SysErrorLog/delete', {id:'@item.id'})"><i class="fa fa-minus"></i> 删除</button>
+                    </td>
+                </tr>
+            }
+        }
+
+    </tbody>
+</table>
+@Html.AjaxPager((int)ViewBag.PageSize, (int)ViewBag.TotalCount)

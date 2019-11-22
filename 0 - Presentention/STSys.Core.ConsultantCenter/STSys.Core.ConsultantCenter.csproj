@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Essensoft.AspNetCore.Payment.Alipay" Version="2.4.3" />
+    <PackageReference Include="Essensoft.AspNetCore.Payment.WeChatPay" Version="2.4.3" />
+    <PackageReference Include="IdentityModel" Version="3.10.10" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\2 - Domain\STSys.Core.Domain.Core\STSys.Core.Domain.Core.csproj" />
+  </ItemGroup>
+
+</Project>

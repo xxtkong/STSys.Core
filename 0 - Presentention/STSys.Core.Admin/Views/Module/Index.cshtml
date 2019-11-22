@@ -1,0 +1,93 @@
+﻿@section Styles
+    {
+
+
+}
+
+<div class="row">
+    <div class="col-sm-12">
+        <div class="ibox float-e-margins">
+            <div class="ibox-title">
+                <h5>后台模块管理</h5>
+                <div class="ibox-tools">
+                    <a class="collapse-link">
+                        <i class="fa "></i>
+                    </a>
+                    <a class="close-link">
+                        <i class="fa fa-chevron-up"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="ibox-content">
+                <div class="row">
+                    <div class="col-xs-3">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="ibox">
+                                    <div class="">
+                                        <h4 class="lighter smaller"></h4>
+                                    </div>
+                                    <div class="">
+                                        <div class="widget-main padding-8">
+                                            <ul id="orgtree" class="ztree" style="width: 100%"></ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-9 ">
+                        <div class="">
+                            <button class="btn  btn-info " type="button" onclick="commonOpen(this,'/module/add')" title="新增" data-width="700" data-height="700"><i class="fa fa-plus"></i> 新增 </button>
+                            <button class="btn btn-primary " type="button" onclick="setEle()" title="分配操作" data-width="700" data-height="700"><i class="fa fa-cog"></i> 分配操作 </button>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <form class="form-inline" role="form" id="form">
+                                    <div class="form-group margin-r20">
+                                        <label for="account">模块名称:</label>
+                                        <input type="text" class="form-control" id="name" name="name" placeholder="模块名称" autocomplete="off" />
+                                    </div>
+
+                                    <button type="button" class="btn btn-success" id="btnSearch" onclick="commonSearch('/module/list')">查询</button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="table-responsive" id="showData" data-pageurl="/module/list">
+                            <partial name="List" />
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+@Html.Hidden("hidpid")
+
+@section Scripts
+    {
+    <script src="/BllScripts/Module.js"></script>
+     <script>
+        function setEle() {
+            var a = new Array();
+            $("input[name='chk']").closest("table").find('tbody > tr > td:first-child input:checkbox').each(function () {
+                var that = $(this); if (that.is(":checked")) { a.push(that.attr("value")); }
+            });
+            if (a.length == 0) { layer.alert("请先选择一条数据"); return false; }
+            if (a.length > 1) { layer.alert("只能选择一条数据"); return false; }
+            lay.open("/Module/ModuleElement?moduleId=" + a.toString(), "分配操作", "80%", "90%");
+        }
+     </script>   
+    @*<script>
+        var zTreeObj;
+        var setting = {};  // zTree 的参数配置，后面详解
+        var zNodes = [{ "id": "8df48ac2-375d-4830-4016-08d7584f725a", "name": "后台管理", "isParent": true, "open": false, "children": [{ "id": "8df48ac2-375d-4830-4016-08d7584f725b", "name": "后台用户管理", "isParent": false, "open": false, "children": null }, { "id": "0707e670-de17-4cca-0982-08d75c31f5a4", "name": "后台模块管理", "isParent": false, "open": false, "children": null }, { "id": "77cb2052-711f-4597-9146-08d75d0060a0", "name": "后台角色管理", "isParent": false, "open": false, "children": null }] }];
+
+        $(document).ready(function () {
+            zTreeObj = $.fn.zTree.init($("#orgtree"), setting, zNodes); //初始化zTree，三个参数一次分别是容器(zTree 的容器 className 别忘了设置为 "ztree")、参数配置、数据源
+        });
+
+    </script>*@
+}

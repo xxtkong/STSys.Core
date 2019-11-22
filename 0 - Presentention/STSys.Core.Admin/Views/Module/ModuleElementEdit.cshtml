@@ -1,0 +1,104 @@
+﻿@{
+    Layout = "~/Views/Shared/_Pop.cshtml";
+}
+@model STSys.Core.Admin.Abstractions.Entities.ModuleElementEntity
+<style>
+    .layui-layer-rim {
+        border: 1px solid;
+    }
+</style>
+<section class="wrapper">
+    <!-- BEGIN ROW  -->
+    <div class="row">
+        <div class="col-lg-12">
+            <section class="panel">
+                <div class="panel-body">
+                    <form class="form-horizontal" role="form" asp-controller="Module" asp-action="ModuleElementEdit" data-ajax="true" data-ajax-method="post" data-ajax-success="formSuccess">
+                        <div class="form-group">
+                            <label for="inputEmail1" class="col-lg-2 col-sm-2 control-label">按钮名称</label>
+                            <div class="col-lg-10">
+                                <input type="text" asp-for="Name" class="form-control" placeholder="按钮名称">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputEmail1" class="col-lg-2 col-sm-2 control-label">DomId</label>
+                            <div class="col-lg-10">
+                                <input type="text" asp-for="DomId" class="form-control" placeholder="DomId">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputEmail1" class="col-lg-2 col-sm-2 control-label">按钮图标</label>
+                            <div class="col-lg-10">
+                                <input type="text" asp-for="Icon" class="form-control" placeholder="按钮图标">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputEmail1" class="col-lg-2 col-sm-2 control-label">按钮样式</label>
+                            <div class="col-lg-10">
+                                <input type="text" asp-for="Class" class="form-control" placeholder="按钮样式">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputEmail1" class="col-lg-2 col-sm-2 control-label">按钮JS</label>
+                            <div class="col-lg-10">
+                                <input type="text" asp-for="Script" class="form-control" placeholder="按钮JS">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputEmail1" class="col-lg-2 col-sm-2 control-label">按钮排序</label>
+                            <div class="col-lg-10">
+                                <input type="text" asp-for="Sort" class="form-control" placeholder="按钮排序">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputEmail1" class="col-lg-2 col-sm-2 control-label">按钮跳转地址</label>
+                            <div class="col-lg-10">
+                                <input type="text" asp-for="URL" class="form-control" placeholder="按钮跳转地址">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputEmail1" class="col-lg-2 col-sm-2 control-label">按钮说明</label>
+                            <div class="col-lg-10">
+                                <input type="text" asp-for="Remark" class="form-control" placeholder="按钮说明">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-lg-offset-2 col-lg-10">
+                                <button type="submit" class="btn btn-danger">保存</button>
+                            </div>
+                        </div>
+                        <input type="hidden" asp-for="ModuleId" />
+                        <input type="hidden" asp-for="Id" />
+                    </form>
+                </div>
+            </section>
+        </div>
+    </div>
+    <!-- END ROW  -->
+</section>
+
+@section Scripts
+    {
+    <script>
+        $("#Icon").click(function () {
+                var that = $(this);
+                var offset = that.offset();
+                var left = offset.left;
+                var width = that.width();
+                var top = offset.top + that.height() + 20;
+                layer.open({
+                    type: 2,
+                    shadeClose: false,
+                    offset: [top, left],   //相对定位
+                    area: [width + "px", '50%'],
+                    skin: 'layui-layer-rim',
+                    title: "选择图标",
+                    content: "/Module/Icon",
+                    shade: 0.3
+                });
+        });
+        function setIcon(value) {
+            $("#Icon").val(value);
+        }
+    </script>
+}

@@ -1,0 +1,86 @@
+﻿@model STSys.Core.Admin.Abstractions.Entities.ColumnEntity
+@using STSys.Core.Admin.Application.Extensions
+<section class="wrapper">
+    <!-- BEGIN ROW  -->
+    <div class="row">
+        <div class="col-lg-12">
+            <section class="panel">
+                <header class="panel-heading">
+                    <a class="btn  btn-success" href="/Recommend/Index">
+                        <i class="fa fa-mail-reply-all">
+                        </i>
+                        返回
+                    </a>
+                    <span class="tools pull-right">
+                        <a href="javascript:;" class="fa fa-chevron-down"></a>
+                        <a href="javascript:;" class="fa fa-times"></a>
+                    </span>
+                </header>
+                <div class="panel-body">
+                    <form class="form-horizontal" role="form" asp-controller="Recommend" asp-action="Add" method="post">
+                        <div class="form-group">
+                            <label for="ColumnName" class="col-lg-2 col-sm-2 control-label">栏目名称</label>
+                            <div class="col-lg-8">
+                                @Html.TextBoxFor(s => s.ColumnName, new { @class = "col-xs-10 col-sm-5 form-control {required:true,maxlength:50,messages:{required:'必填',maxlength:'最大长度不超过50个字符'}}" })
+                                @Html.ValidationMessageFor(s => s.ColumnName)
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="ColumnName" class="col-lg-2 col-sm-2 control-label">栏目标识</label>
+                            <div class="col-lg-8">
+                                @Html.DropDownListFor(s => s.ColumnEName, DropDownListEntensions.ColumnIdentify(), new { @class = "form-control col-xs-10 col-sm-5 {required:true,maxlength:50,messages:{maxlength:'最大长度不超过50个字符'}}" })
+                                @Html.ValidationMessageFor(s => s.ColumnEName)
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="ColumnName" class="col-lg-2 col-sm-2 control-label">栏目标识</label>
+                            <div class="col-lg-8">
+                                @Html.TextBoxFor(s => s.Sort, new { @class = "form-control col-xs-10 col-sm-5 {digits:true}", @Value = 0 })
+                                @Html.ValidationMessageFor(s => s.Sort)
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="ColumnName" class="col-lg-2 col-sm-2 control-label">栏目标识</label>
+                            <div class="col-lg-8">
+                                @Html.DropDownListFor(s => s.DataSource, DropDownListEntensions.CommonEnum<E_Column_DataSource>(), new { @class = "form-control col-xs-10 col-sm-5" })
+                                @Html.ValidationMessageFor(s => s.DataSource)
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="ColumnName" class="col-lg-2 col-sm-2 control-label">栏目标识</label>
+                            <div class="col-lg-8">
+                                @Html.DropDownListFor(s => s.Source, DropDownListEntensions.CommonEnum<E_Column_Source>(), new { @class = "form-control col-xs-10 col-sm-5" })
+                                @Html.ValidationMessageFor(s => s.Source)
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="ColumnName" class="col-lg-2 col-sm-2 control-label">栏目标识</label>
+                            <div class="col-lg-8">
+                                @Html.TextBoxFor(s => s.Url, new { @class = "form-control col-xs-10 col-sm-5 {maxlength:250,messages:{required:'必填',maxlength:'最大长度不超过250个字符'}}" })
+                                @Html.ValidationMessageFor(s => s.Url)
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="ColumnName" class="col-lg-2 col-sm-2 control-label">栏目标识</label>
+                            <div class="col-lg-8">
+                                @Html.TextAreaFor(s => s.Intro, new { @class = "form-control col-xs-10 col-sm-5 {maxlength:50,messages:{maxlength:'最大长度不超过50个字符'}}", @style = "margin: 0px; width: 834px; height: 127px;" })
+                                @Html.ValidationMessageFor(s => s.Intro)
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-lg-offset-2 col-lg-10">
+                                <button type="submit" class="btn btn-danger">
+                                    <i class="fa fa-save">
+                                    </i>
+                                    保存
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </div>
+    <!-- END ROW  -->
+</section>

@@ -1,0 +1,29 @@
+﻿@model LogoutViewModel
+<style>
+    .index-nav {
+        background-color: #1ba3d3;
+    }
+
+    .submit-info input {
+        border-radius: 5px;
+    }
+</style>
+<section id="post-project">
+    <div class="container">
+        <div class="post-project">
+            <div class="row">
+                <div class="col-sm-6 col-md-6 col-lg-6   offset-3">
+                    <p>你确定要退出系统吗?</p>
+                    <form asp-action="Logout">
+                        <input type="hidden" name="logoutId" value="@Model.LogoutId" />
+                        <fieldset>
+                            <div class="form-group">
+                                <button class="btn btn-primary">注销用户</button>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

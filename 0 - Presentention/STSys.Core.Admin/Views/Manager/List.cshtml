@@ -1,0 +1,62 @@
+﻿@model IQueryable<STSys.Core.Users.Abstractions.Entities.ManagerEntities>
+@using STSys.Core.Domain.Core.Common
+@using STSys.Core.Admin.Application.HtmlExt
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th></th>
+            <th>照片</th>
+            <th>账户</th>
+            <th>手机</th>
+            <th>姓名</th>
+            <th>邮箱</th>
+            <th>QQ</th>
+            <th>联系地址</th>
+            <th>状态</th>
+            <th>操作</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null)
+        {
+            foreach (var item in Model)
+            {
+                <tr>
+                    <td >
+                        <input type="checkbox"  class="i-checks" >
+                    </td>
+                    <td>
+                        <img src="@item.PicUrl.StringDefault("/img/webuploader.png")" style="height:50px;width:50px;" />
+                    </td>
+                    <td>
+                        @item.Account
+                    </td>
+                    <td>
+                        @item.Mobile
+                    </td>
+                    <td>
+                        @item.Name
+                    </td>
+                    <td>
+                        @item.Email
+                    </td>
+                    <td>
+                        @item.QQ
+                    </td>
+                    <td>
+                        @item.Address
+                    </td>
+                    <td>@item.Status</td>
+                    <td>
+                        <button class="btn  btn-info " type="button" onclick="commonOpen(this,'/manager/edit?id=@item.Id')" title="编辑" data-width="700" data-height="700"><i class="fa fa-paste"></i> 编辑</button>
+                        <button class="btn btn-warning  " type="button" onclick="commonOpen(this,'/manager/reset?id=@item.Id')" title="重置密码" data-width="500" data-height="300"><i class="fa fa-warning"></i> 重置密码</button>
+                        <button class="btn btn-danger" type="button" onclick="commonDelete('/manager/delete', {id:'@item.Id'})"><i class="fa fa-minus"></i> 删除</button>
+                        <button class="btn " type="button" onclick="commonOpen(this,'/manager/role?id=@item.Id')" data-width="700" data-height="700"><i class="fa fa-database"></i> 设置角色</button>
+                    </td>
+                </tr>
+            }
+        }
+
+    </tbody>
+</table>
+@Html.AjaxPager((int)ViewBag.PageSize, (int)ViewBag.TotalCount)

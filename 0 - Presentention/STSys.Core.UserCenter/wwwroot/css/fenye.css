@@ -1,0 +1,37 @@
+.page {
+    /*width: 100%;*/
+    text-align: center;
+    /*overflow: auto;*/
+    margin-top: 10px;
+}
+
+.page ul {
+    width: 100%;
+}
+
+.pagination a {
+    padding: 5px 10px;
+    border: solid 1px #e5e5e5;
+    color: #323232;
+    margin: 0 4px;
+}
+
+.pagination a:hover {
+    color: #fdfdfd;
+    background-color: #2181f7;
+    border: solid 1px #2181f7;
+}
+
+.pagination a.active {
+    color: #FFFFFF;
+    background-color: #2181f7;
+    border: solid 1px #2181f7;
+}
+
+.pagination a:first-child {
+    border: none
+}
+
+.pagination a:last-child {
+    border: none
+}
