@@ -13815,11 +13815,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\项目\\NASys\\STSys.Core\\0 - Presentention\\STSys.Core.IdentityProvider\\STSys.Core.IdentityProvider.csproj",
+      "projectUniqueName": "D:\\最新\\STSys\\0 - Presentention\\STSys.Core.IdentityProvider\\STSys.Core.IdentityProvider.csproj",
       "projectName": "STSys.Core.IdentityProvider",
-      "projectPath": "D:\\项目\\NASys\\STSys.Core\\0 - Presentention\\STSys.Core.IdentityProvider\\STSys.Core.IdentityProvider.csproj",
+      "projectPath": "D:\\最新\\STSys\\0 - Presentention\\STSys.Core.IdentityProvider\\STSys.Core.IdentityProvider.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "D:\\项目\\NASys\\STSys.Core\\0 - Presentention\\STSys.Core.IdentityProvider\\obj\\",
+      "outputPath": "D:\\最新\\STSys\\0 - Presentention\\STSys.Core.IdentityProvider\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13840,14 +13840,14 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "D:\\项目\\NASys\\STSys.Core\\2 - Domain\\STSys.Core.Domain\\STSys.Core.Domain.csproj": {
-              "projectPath": "D:\\项目\\NASys\\STSys.Core\\2 - Domain\\STSys.Core.Domain\\STSys.Core.Domain.csproj"
+            "D:\\最新\\STSys\\2 - Domain\\STSys.Core.Domain\\STSys.Core.Domain.csproj": {
+              "projectPath": "D:\\最新\\STSys\\2 - Domain\\STSys.Core.Domain\\STSys.Core.Domain.csproj"
             },
-            "D:\\项目\\NASys\\STSys.Core\\3 - Infrastructure\\3.2 - CrossCutting\\STSys.Core.Data.IoC\\STSys.Core.Data.IoC.csproj": {
-              "projectPath": "D:\\项目\\NASys\\STSys.Core\\3 - Infrastructure\\3.2 - CrossCutting\\STSys.Core.Data.IoC\\STSys.Core.Data.IoC.csproj"
+            "D:\\最新\\STSys\\3 - Infrastructure\\3.2 - CrossCutting\\STSys.Core.Data.IoC\\STSys.Core.Data.IoC.csproj": {
+              "projectPath": "D:\\最新\\STSys\\3 - Infrastructure\\3.2 - CrossCutting\\STSys.Core.Data.IoC\\STSys.Core.Data.IoC.csproj"
             },
-            "D:\\项目\\NASys\\STSys.Core\\4 - Common\\Ocelot.JWTAuthorizePolicy\\Ocelot.JWTAuthorizePolicy.csproj": {
-              "projectPath": "D:\\项目\\NASys\\STSys.Core\\4 - Common\\Ocelot.JWTAuthorizePolicy\\Ocelot.JWTAuthorizePolicy.csproj"
+            "D:\\最新\\STSys\\4 - Common\\Ocelot.JWTAuthorizePolicy\\Ocelot.JWTAuthorizePolicy.csproj": {
+              "projectPath": "D:\\最新\\STSys\\4 - Common\\Ocelot.JWTAuthorizePolicy\\Ocelot.JWTAuthorizePolicy.csproj"
             }
           }
         }

@@ -6,3 +6,11 @@ D:\项目\NASys\STSys.Core\2 - Domain\STSys.Core.Admins\obj\Debug\netcoreapp2.2\
 D:\项目\NASys\STSys.Core\2 - Domain\STSys.Core.Admins\obj\Debug\netcoreapp2.2\STSys.Core.Admins.AssemblyInfo.cs
 D:\项目\NASys\STSys.Core\2 - Domain\STSys.Core.Admins\obj\Debug\netcoreapp2.2\STSys.Core.Admins.dll
 D:\项目\NASys\STSys.Core\2 - Domain\STSys.Core.Admins\obj\Debug\netcoreapp2.2\STSys.Core.Admins.pdb
+D:\最新\STSys\2 - Domain\STSys.Core.Admins\bin\Debug\netcoreapp2.2\STSys.Core.Admins.deps.json
+D:\最新\STSys\2 - Domain\STSys.Core.Admins\bin\Debug\netcoreapp2.2\STSys.Core.Admins.dll
+D:\最新\STSys\2 - Domain\STSys.Core.Admins\bin\Debug\netcoreapp2.2\STSys.Core.Admins.pdb
+D:\最新\STSys\2 - Domain\STSys.Core.Admins\obj\Debug\netcoreapp2.2\STSys.Core.Admins.csproj.CoreCompileInputs.cache
+D:\最新\STSys\2 - Domain\STSys.Core.Admins\obj\Debug\netcoreapp2.2\STSys.Core.Admins.AssemblyInfoInputs.cache
+D:\最新\STSys\2 - Domain\STSys.Core.Admins\obj\Debug\netcoreapp2.2\STSys.Core.Admins.AssemblyInfo.cs
+D:\最新\STSys\2 - Domain\STSys.Core.Admins\obj\Debug\netcoreapp2.2\STSys.Core.Admins.dll
+D:\最新\STSys\2 - Domain\STSys.Core.Admins\obj\Debug\netcoreapp2.2\STSys.Core.Admins.pdb

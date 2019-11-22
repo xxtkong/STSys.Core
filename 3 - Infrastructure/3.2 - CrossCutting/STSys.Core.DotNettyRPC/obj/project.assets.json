@@ -5289,11 +5289,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\项目\\NASys\\STSys.Core\\3 - Infrastructure\\3.2 - CrossCutting\\STSys.Core.DotNettyRPC\\STSys.Core.DotNettyRPC.csproj",
+      "projectUniqueName": "D:\\最新\\STSys\\3 - Infrastructure\\3.2 - CrossCutting\\STSys.Core.DotNettyRPC\\STSys.Core.DotNettyRPC.csproj",
       "projectName": "STSys.Core.DotNettyRPC",
-      "projectPath": "D:\\项目\\NASys\\STSys.Core\\3 - Infrastructure\\3.2 - CrossCutting\\STSys.Core.DotNettyRPC\\STSys.Core.DotNettyRPC.csproj",
+      "projectPath": "D:\\最新\\STSys\\3 - Infrastructure\\3.2 - CrossCutting\\STSys.Core.DotNettyRPC\\STSys.Core.DotNettyRPC.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "D:\\项目\\NASys\\STSys.Core\\3 - Infrastructure\\3.2 - CrossCutting\\STSys.Core.DotNettyRPC\\obj\\",
+      "outputPath": "D:\\最新\\STSys\\3 - Infrastructure\\3.2 - CrossCutting\\STSys.Core.DotNettyRPC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

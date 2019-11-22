@@ -7,3 +7,12 @@ D:\项目\NASys\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.DotN
 D:\项目\NASys\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.DotNettyRPC\obj\Debug\netcoreapp2.1\STSys.Core.DotNettyRPC.dll
 D:\项目\NASys\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.DotNettyRPC\obj\Debug\netcoreapp2.1\STSys.Core.DotNettyRPC.pdb
 D:\项目\NASys\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.DotNettyRPC\obj\Debug\netcoreapp2.1\STSys.Core.DotNettyRPC.csprojAssemblyReference.cache
+D:\最新\STSys\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.DotNettyRPC\bin\Debug\netcoreapp2.1\STSys.Core.DotNettyRPC.deps.json
+D:\最新\STSys\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.DotNettyRPC\bin\Debug\netcoreapp2.1\STSys.Core.DotNettyRPC.dll
+D:\最新\STSys\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.DotNettyRPC\bin\Debug\netcoreapp2.1\STSys.Core.DotNettyRPC.pdb
+D:\最新\STSys\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.DotNettyRPC\obj\Debug\netcoreapp2.1\STSys.Core.DotNettyRPC.csprojAssemblyReference.cache
+D:\最新\STSys\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.DotNettyRPC\obj\Debug\netcoreapp2.1\STSys.Core.DotNettyRPC.csproj.CoreCompileInputs.cache
+D:\最新\STSys\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.DotNettyRPC\obj\Debug\netcoreapp2.1\STSys.Core.DotNettyRPC.AssemblyInfoInputs.cache
+D:\最新\STSys\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.DotNettyRPC\obj\Debug\netcoreapp2.1\STSys.Core.DotNettyRPC.AssemblyInfo.cs
+D:\最新\STSys\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.DotNettyRPC\obj\Debug\netcoreapp2.1\STSys.Core.DotNettyRPC.dll
+D:\最新\STSys\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.DotNettyRPC\obj\Debug\netcoreapp2.1\STSys.Core.DotNettyRPC.pdb

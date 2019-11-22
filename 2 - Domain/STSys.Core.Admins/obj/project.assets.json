@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\项目\\NASys\\STSys.Core\\2 - Domain\\STSys.Core.Admins\\STSys.Core.Admins.csproj",
+      "projectUniqueName": "D:\\最新\\STSys\\2 - Domain\\STSys.Core.Admins\\STSys.Core.Admins.csproj",
       "projectName": "STSys.Core.Admins",
-      "projectPath": "D:\\项目\\NASys\\STSys.Core\\2 - Domain\\STSys.Core.Admins\\STSys.Core.Admins.csproj",
+      "projectPath": "D:\\最新\\STSys\\2 - Domain\\STSys.Core.Admins\\STSys.Core.Admins.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "D:\\项目\\NASys\\STSys.Core\\2 - Domain\\STSys.Core.Admins\\obj\\",
+      "outputPath": "D:\\最新\\STSys\\2 - Domain\\STSys.Core.Admins\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

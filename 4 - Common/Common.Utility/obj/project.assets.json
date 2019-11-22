@@ -822,11 +822,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\项目\\NASys\\STSys.Core\\4 - Common\\Common.Utility\\Common.Utility.csproj",
+      "projectUniqueName": "D:\\最新\\STSys\\4 - Common\\Common.Utility\\Common.Utility.csproj",
       "projectName": "Common.Utility",
-      "projectPath": "D:\\项目\\NASys\\STSys.Core\\4 - Common\\Common.Utility\\Common.Utility.csproj",
+      "projectPath": "D:\\最新\\STSys\\4 - Common\\Common.Utility\\Common.Utility.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "D:\\项目\\NASys\\STSys.Core\\4 - Common\\Common.Utility\\obj\\",
+      "outputPath": "D:\\最新\\STSys\\4 - Common\\Common.Utility\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

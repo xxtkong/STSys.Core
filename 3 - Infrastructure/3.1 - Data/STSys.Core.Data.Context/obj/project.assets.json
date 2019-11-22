@@ -7452,11 +7452,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\项目\\NASys\\STSys.Core\\3 - Infrastructure\\3.1 - Data\\STSys.Core.Data.Context\\STSys.Core.Data.Context.csproj",
+      "projectUniqueName": "D:\\最新\\STSys\\3 - Infrastructure\\3.1 - Data\\STSys.Core.Data.Context\\STSys.Core.Data.Context.csproj",
       "projectName": "STSys.Core.Data.Context",
-      "projectPath": "D:\\项目\\NASys\\STSys.Core\\3 - Infrastructure\\3.1 - Data\\STSys.Core.Data.Context\\STSys.Core.Data.Context.csproj",
+      "projectPath": "D:\\最新\\STSys\\3 - Infrastructure\\3.1 - Data\\STSys.Core.Data.Context\\STSys.Core.Data.Context.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "D:\\项目\\NASys\\STSys.Core\\3 - Infrastructure\\3.1 - Data\\STSys.Core.Data.Context\\obj\\",
+      "outputPath": "D:\\最新\\STSys\\3 - Infrastructure\\3.1 - Data\\STSys.Core.Data.Context\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -7477,14 +7477,14 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "D:\\项目\\NASys\\STSys.Core\\2 - Domain\\STSys.Core.Admin.Abstractions\\STSys.Core.Admin.Abstractions.csproj": {
-              "projectPath": "D:\\项目\\NASys\\STSys.Core\\2 - Domain\\STSys.Core.Admin.Abstractions\\STSys.Core.Admin.Abstractions.csproj"
+            "D:\\最新\\STSys\\2 - Domain\\STSys.Core.Admin.Abstractions\\STSys.Core.Admin.Abstractions.csproj": {
+              "projectPath": "D:\\最新\\STSys\\2 - Domain\\STSys.Core.Admin.Abstractions\\STSys.Core.Admin.Abstractions.csproj"
             },
-            "D:\\项目\\NASys\\STSys.Core\\2 - Domain\\STSys.Core.Domain\\STSys.Core.Domain.csproj": {
-              "projectPath": "D:\\项目\\NASys\\STSys.Core\\2 - Domain\\STSys.Core.Domain\\STSys.Core.Domain.csproj"
+            "D:\\最新\\STSys\\2 - Domain\\STSys.Core.Domain\\STSys.Core.Domain.csproj": {
+              "projectPath": "D:\\最新\\STSys\\2 - Domain\\STSys.Core.Domain\\STSys.Core.Domain.csproj"
             },
-            "D:\\项目\\NASys\\STSys.Core\\2 - Domain\\STSys.Core.Users.Abstractions\\STSys.Core.Users.Abstractions.csproj": {
-              "projectPath": "D:\\项目\\NASys\\STSys.Core\\2 - Domain\\STSys.Core.Users.Abstractions\\STSys.Core.Users.Abstractions.csproj"
+            "D:\\最新\\STSys\\2 - Domain\\STSys.Core.Users.Abstractions\\STSys.Core.Users.Abstractions.csproj": {
+              "projectPath": "D:\\最新\\STSys\\2 - Domain\\STSys.Core.Users.Abstractions\\STSys.Core.Users.Abstractions.csproj"
             }
           }
         }

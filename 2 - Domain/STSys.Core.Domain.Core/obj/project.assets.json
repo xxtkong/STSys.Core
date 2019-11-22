@@ -1103,11 +1103,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\项目\\NASys\\STSys.Core\\2 - Domain\\STSys.Core.Domain.Core\\STSys.Core.Domain.Core.csproj",
+      "projectUniqueName": "D:\\最新\\STSys\\2 - Domain\\STSys.Core.Domain.Core\\STSys.Core.Domain.Core.csproj",
       "projectName": "STSys.Core.Domain.Core",
-      "projectPath": "D:\\项目\\NASys\\STSys.Core\\2 - Domain\\STSys.Core.Domain.Core\\STSys.Core.Domain.Core.csproj",
+      "projectPath": "D:\\最新\\STSys\\2 - Domain\\STSys.Core.Domain.Core\\STSys.Core.Domain.Core.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "D:\\项目\\NASys\\STSys.Core\\2 - Domain\\STSys.Core.Domain.Core\\obj\\",
+      "outputPath": "D:\\最新\\STSys\\2 - Domain\\STSys.Core.Domain.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -1128,8 +1128,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "D:\\项目\\NASys\\STSys.Core\\4 - Common\\Common.Utility\\Common.Utility.csproj": {
-              "projectPath": "D:\\项目\\NASys\\STSys.Core\\4 - Common\\Common.Utility\\Common.Utility.csproj"
+            "D:\\最新\\STSys\\4 - Common\\Common.Utility\\Common.Utility.csproj": {
+              "projectPath": "D:\\最新\\STSys\\4 - Common\\Common.Utility\\Common.Utility.csproj"
             }
           }
         }

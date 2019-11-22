@@ -7133,11 +7133,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\项目\\NASys\\STSys.Core\\2 - Domain\\STSys.Core.Users\\STSys.Core.Users.csproj",
+      "projectUniqueName": "D:\\最新\\STSys\\2 - Domain\\STSys.Core.Users\\STSys.Core.Users.csproj",
       "projectName": "STSys.Core.Users",
-      "projectPath": "D:\\项目\\NASys\\STSys.Core\\2 - Domain\\STSys.Core.Users\\STSys.Core.Users.csproj",
+      "projectPath": "D:\\最新\\STSys\\2 - Domain\\STSys.Core.Users\\STSys.Core.Users.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "D:\\项目\\NASys\\STSys.Core\\2 - Domain\\STSys.Core.Users\\obj\\",
+      "outputPath": "D:\\最新\\STSys\\2 - Domain\\STSys.Core.Users\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -7158,8 +7158,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "D:\\项目\\NASys\\STSys.Core\\2 - Domain\\STSys.Core.Users.Abstractions\\STSys.Core.Users.Abstractions.csproj": {
-              "projectPath": "D:\\项目\\NASys\\STSys.Core\\2 - Domain\\STSys.Core.Users.Abstractions\\STSys.Core.Users.Abstractions.csproj"
+            "D:\\最新\\STSys\\2 - Domain\\STSys.Core.Users.Abstractions\\STSys.Core.Users.Abstractions.csproj": {
+              "projectPath": "D:\\最新\\STSys\\2 - Domain\\STSys.Core.Users.Abstractions\\STSys.Core.Users.Abstractions.csproj"
             }
           }
         }

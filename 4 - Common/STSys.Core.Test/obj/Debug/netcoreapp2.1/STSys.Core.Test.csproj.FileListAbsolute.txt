@@ -20,3 +20,14 @@ D:\项目\NASys\STSys.Core\4 - Common\STSys.Core.Test\obj\Debug\netcoreapp2.1\ST
 D:\项目\NASys\STSys.Core\4 - Common\STSys.Core.Test\obj\Debug\netcoreapp2.1\STSys.Core.Test.dll
 D:\项目\NASys\STSys.Core\4 - Common\STSys.Core.Test\obj\Debug\netcoreapp2.1\STSys.Core.Test.pdb
 D:\项目\NASys\STSys.Core\4 - Common\STSys.Core.Test\obj\Debug\netcoreapp2.1\STSys.Core.Test.csprojAssemblyReference.cache
+D:\最新\STSys\4 - Common\STSys.Core.Test\bin\Debug\netcoreapp2.1\STSys.Core.Test.deps.json
+D:\最新\STSys\4 - Common\STSys.Core.Test\bin\Debug\netcoreapp2.1\STSys.Core.Test.runtimeconfig.json
+D:\最新\STSys\4 - Common\STSys.Core.Test\bin\Debug\netcoreapp2.1\STSys.Core.Test.runtimeconfig.dev.json
+D:\最新\STSys\4 - Common\STSys.Core.Test\bin\Debug\netcoreapp2.1\STSys.Core.Test.dll
+D:\最新\STSys\4 - Common\STSys.Core.Test\bin\Debug\netcoreapp2.1\STSys.Core.Test.pdb
+D:\最新\STSys\4 - Common\STSys.Core.Test\obj\Debug\netcoreapp2.1\STSys.Core.Test.csprojAssemblyReference.cache
+D:\最新\STSys\4 - Common\STSys.Core.Test\obj\Debug\netcoreapp2.1\STSys.Core.Test.csproj.CoreCompileInputs.cache
+D:\最新\STSys\4 - Common\STSys.Core.Test\obj\Debug\netcoreapp2.1\STSys.Core.Test.AssemblyInfoInputs.cache
+D:\最新\STSys\4 - Common\STSys.Core.Test\obj\Debug\netcoreapp2.1\STSys.Core.Test.AssemblyInfo.cs
+D:\最新\STSys\4 - Common\STSys.Core.Test\obj\Debug\netcoreapp2.1\STSys.Core.Test.dll
+D:\最新\STSys\4 - Common\STSys.Core.Test\obj\Debug\netcoreapp2.1\STSys.Core.Test.pdb

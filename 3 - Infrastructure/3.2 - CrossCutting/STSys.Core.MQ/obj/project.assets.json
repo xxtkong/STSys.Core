@@ -4649,11 +4649,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\项目\\NASys\\STSys.Core\\3 - Infrastructure\\3.2 - CrossCutting\\STSys.Core.MQ\\STSys.Core.MQ.csproj",
+      "projectUniqueName": "D:\\最新\\STSys\\3 - Infrastructure\\3.2 - CrossCutting\\STSys.Core.MQ\\STSys.Core.MQ.csproj",
       "projectName": "STSys.Core.MQ",
-      "projectPath": "D:\\项目\\NASys\\STSys.Core\\3 - Infrastructure\\3.2 - CrossCutting\\STSys.Core.MQ\\STSys.Core.MQ.csproj",
+      "projectPath": "D:\\最新\\STSys\\3 - Infrastructure\\3.2 - CrossCutting\\STSys.Core.MQ\\STSys.Core.MQ.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "D:\\项目\\NASys\\STSys.Core\\3 - Infrastructure\\3.2 - CrossCutting\\STSys.Core.MQ\\obj\\",
+      "outputPath": "D:\\最新\\STSys\\3 - Infrastructure\\3.2 - CrossCutting\\STSys.Core.MQ\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -4674,8 +4674,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "D:\\项目\\NASys\\STSys.Core\\2 - Domain\\STSys.Core.Domain.Core\\STSys.Core.Domain.Core.csproj": {
-              "projectPath": "D:\\项目\\NASys\\STSys.Core\\2 - Domain\\STSys.Core.Domain.Core\\STSys.Core.Domain.Core.csproj"
+            "D:\\最新\\STSys\\2 - Domain\\STSys.Core.Domain.Core\\STSys.Core.Domain.Core.csproj": {
+              "projectPath": "D:\\最新\\STSys\\2 - Domain\\STSys.Core.Domain.Core\\STSys.Core.Domain.Core.csproj"
             }
           }
         }

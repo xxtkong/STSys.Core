@@ -8229,11 +8229,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\项目\\NASys\\STSys.Core\\4 - Common\\Ocelot.JWTAuthorizePolicy\\Ocelot.JWTAuthorizePolicy.csproj",
+      "projectUniqueName": "D:\\最新\\STSys\\4 - Common\\Ocelot.JWTAuthorizePolicy\\Ocelot.JWTAuthorizePolicy.csproj",
       "projectName": "Ocelot.JWTAuthorizePolicy",
-      "projectPath": "D:\\项目\\NASys\\STSys.Core\\4 - Common\\Ocelot.JWTAuthorizePolicy\\Ocelot.JWTAuthorizePolicy.csproj",
+      "projectPath": "D:\\最新\\STSys\\4 - Common\\Ocelot.JWTAuthorizePolicy\\Ocelot.JWTAuthorizePolicy.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "D:\\项目\\NASys\\STSys.Core\\4 - Common\\Ocelot.JWTAuthorizePolicy\\obj\\",
+      "outputPath": "D:\\最新\\STSys\\4 - Common\\Ocelot.JWTAuthorizePolicy\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

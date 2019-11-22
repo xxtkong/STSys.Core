@@ -12336,11 +12336,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\项目\\NASys\\STSys.Core\\0 - Presentention\\STSys.Core.ConsultantCenter\\STSys.Core.ConsultantCenter.csproj",
+      "projectUniqueName": "D:\\最新\\STSys\\0 - Presentention\\STSys.Core.ConsultantCenter\\STSys.Core.ConsultantCenter.csproj",
       "projectName": "STSys.Core.ConsultantCenter",
-      "projectPath": "D:\\项目\\NASys\\STSys.Core\\0 - Presentention\\STSys.Core.ConsultantCenter\\STSys.Core.ConsultantCenter.csproj",
+      "projectPath": "D:\\最新\\STSys\\0 - Presentention\\STSys.Core.ConsultantCenter\\STSys.Core.ConsultantCenter.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "D:\\项目\\NASys\\STSys.Core\\0 - Presentention\\STSys.Core.ConsultantCenter\\obj\\",
+      "outputPath": "D:\\最新\\STSys\\0 - Presentention\\STSys.Core.ConsultantCenter\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12361,8 +12361,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "D:\\项目\\NASys\\STSys.Core\\2 - Domain\\STSys.Core.Domain.Core\\STSys.Core.Domain.Core.csproj": {
-              "projectPath": "D:\\项目\\NASys\\STSys.Core\\2 - Domain\\STSys.Core.Domain.Core\\STSys.Core.Domain.Core.csproj"
+            "D:\\最新\\STSys\\2 - Domain\\STSys.Core.Domain.Core\\STSys.Core.Domain.Core.csproj": {
+              "projectPath": "D:\\最新\\STSys\\2 - Domain\\STSys.Core.Domain.Core\\STSys.Core.Domain.Core.csproj"
             }
           }
         }

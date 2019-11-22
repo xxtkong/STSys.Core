@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\项目\\NASys\\STSys.Core\\3 - Infrastructure\\3.2 - CrossCutting\\STSys.Core.MQMiddleware\\STSys.Core.MQMiddleware.csproj",
+      "projectUniqueName": "D:\\最新\\STSys\\3 - Infrastructure\\3.2 - CrossCutting\\STSys.Core.MQMiddleware\\STSys.Core.MQMiddleware.csproj",
       "projectName": "STSys.Core.MQMiddleware",
-      "projectPath": "D:\\项目\\NASys\\STSys.Core\\3 - Infrastructure\\3.2 - CrossCutting\\STSys.Core.MQMiddleware\\STSys.Core.MQMiddleware.csproj",
+      "projectPath": "D:\\最新\\STSys\\3 - Infrastructure\\3.2 - CrossCutting\\STSys.Core.MQMiddleware\\STSys.Core.MQMiddleware.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "D:\\项目\\NASys\\STSys.Core\\3 - Infrastructure\\3.2 - CrossCutting\\STSys.Core.MQMiddleware\\obj\\",
+      "outputPath": "D:\\最新\\STSys\\3 - Infrastructure\\3.2 - CrossCutting\\STSys.Core.MQMiddleware\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

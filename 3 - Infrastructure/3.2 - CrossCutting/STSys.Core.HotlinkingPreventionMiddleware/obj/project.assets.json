@@ -1208,11 +1208,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\项目\\NASys\\STSys.Core\\3 - Infrastructure\\3.2 - CrossCutting\\STSys.Core.HotlinkingPreventionMiddleware\\STSys.Core.HotlinkingPreventionMiddleware.csproj",
+      "projectUniqueName": "D:\\最新\\STSys\\3 - Infrastructure\\3.2 - CrossCutting\\STSys.Core.HotlinkingPreventionMiddleware\\STSys.Core.HotlinkingPreventionMiddleware.csproj",
       "projectName": "STSys.Core.HotlinkingPreventionMiddleware",
-      "projectPath": "D:\\项目\\NASys\\STSys.Core\\3 - Infrastructure\\3.2 - CrossCutting\\STSys.Core.HotlinkingPreventionMiddleware\\STSys.Core.HotlinkingPreventionMiddleware.csproj",
+      "projectPath": "D:\\最新\\STSys\\3 - Infrastructure\\3.2 - CrossCutting\\STSys.Core.HotlinkingPreventionMiddleware\\STSys.Core.HotlinkingPreventionMiddleware.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "D:\\项目\\NASys\\STSys.Core\\3 - Infrastructure\\3.2 - CrossCutting\\STSys.Core.HotlinkingPreventionMiddleware\\obj\\",
+      "outputPath": "D:\\最新\\STSys\\3 - Infrastructure\\3.2 - CrossCutting\\STSys.Core.HotlinkingPreventionMiddleware\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

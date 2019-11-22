@@ -15113,11 +15113,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\项目\\NASys\\STSys.Core\\0 - Presentention\\STSys.Core.Admin\\STSys.Core.Admin.csproj",
+      "projectUniqueName": "D:\\最新\\STSys\\0 - Presentention\\STSys.Core.Admin\\STSys.Core.Admin.csproj",
       "projectName": "STSys.Core.Admin",
-      "projectPath": "D:\\项目\\NASys\\STSys.Core\\0 - Presentention\\STSys.Core.Admin\\STSys.Core.Admin.csproj",
+      "projectPath": "D:\\最新\\STSys\\0 - Presentention\\STSys.Core.Admin\\STSys.Core.Admin.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "D:\\项目\\NASys\\STSys.Core\\0 - Presentention\\STSys.Core.Admin\\obj\\",
+      "outputPath": "D:\\最新\\STSys\\0 - Presentention\\STSys.Core.Admin\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -15138,17 +15138,17 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "D:\\项目\\NASys\\STSys.Core\\1 - Application\\STSys.Core.Admin.Application\\STSys.Core.Admin.Application.csproj": {
-              "projectPath": "D:\\项目\\NASys\\STSys.Core\\1 - Application\\STSys.Core.Admin.Application\\STSys.Core.Admin.Application.csproj"
+            "D:\\最新\\STSys\\1 - Application\\STSys.Core.Admin.Application\\STSys.Core.Admin.Application.csproj": {
+              "projectPath": "D:\\最新\\STSys\\1 - Application\\STSys.Core.Admin.Application\\STSys.Core.Admin.Application.csproj"
             },
-            "D:\\项目\\NASys\\STSys.Core\\3 - Infrastructure\\3.2 - CrossCutting\\STSys.Core.Data.IoC\\STSys.Core.Data.IoC.csproj": {
-              "projectPath": "D:\\项目\\NASys\\STSys.Core\\3 - Infrastructure\\3.2 - CrossCutting\\STSys.Core.Data.IoC\\STSys.Core.Data.IoC.csproj"
+            "D:\\最新\\STSys\\3 - Infrastructure\\3.2 - CrossCutting\\STSys.Core.Data.IoC\\STSys.Core.Data.IoC.csproj": {
+              "projectPath": "D:\\最新\\STSys\\3 - Infrastructure\\3.2 - CrossCutting\\STSys.Core.Data.IoC\\STSys.Core.Data.IoC.csproj"
             },
-            "D:\\项目\\NASys\\STSys.Core\\3 - Infrastructure\\3.2 - CrossCutting\\STSys.Core.Log\\STSys.Core.Log.csproj": {
-              "projectPath": "D:\\项目\\NASys\\STSys.Core\\3 - Infrastructure\\3.2 - CrossCutting\\STSys.Core.Log\\STSys.Core.Log.csproj"
+            "D:\\最新\\STSys\\3 - Infrastructure\\3.2 - CrossCutting\\STSys.Core.Log\\STSys.Core.Log.csproj": {
+              "projectPath": "D:\\最新\\STSys\\3 - Infrastructure\\3.2 - CrossCutting\\STSys.Core.Log\\STSys.Core.Log.csproj"
             },
-            "D:\\项目\\NASys\\STSys.Core\\3 - Infrastructure\\3.2 - CrossCutting\\STSys.Core.MQMiddleware\\STSys.Core.MQMiddleware.csproj": {
-              "projectPath": "D:\\项目\\NASys\\STSys.Core\\3 - Infrastructure\\3.2 - CrossCutting\\STSys.Core.MQMiddleware\\STSys.Core.MQMiddleware.csproj"
+            "D:\\最新\\STSys\\3 - Infrastructure\\3.2 - CrossCutting\\STSys.Core.MQMiddleware\\STSys.Core.MQMiddleware.csproj": {
+              "projectPath": "D:\\最新\\STSys\\3 - Infrastructure\\3.2 - CrossCutting\\STSys.Core.MQMiddleware\\STSys.Core.MQMiddleware.csproj"
             }
           }
         }

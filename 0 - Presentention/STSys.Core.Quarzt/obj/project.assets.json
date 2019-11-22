@@ -13974,11 +13974,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\项目\\NASys\\STSys.Core\\0 - Presentention\\STSys.Core.Quarzt\\STSys.Core.Quarzt.csproj",
+      "projectUniqueName": "D:\\最新\\STSys\\0 - Presentention\\STSys.Core.Quarzt\\STSys.Core.Quarzt.csproj",
       "projectName": "STSys.Core.Quarzt",
-      "projectPath": "D:\\项目\\NASys\\STSys.Core\\0 - Presentention\\STSys.Core.Quarzt\\STSys.Core.Quarzt.csproj",
+      "projectPath": "D:\\最新\\STSys\\0 - Presentention\\STSys.Core.Quarzt\\STSys.Core.Quarzt.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "D:\\项目\\NASys\\STSys.Core\\0 - Presentention\\STSys.Core.Quarzt\\obj\\",
+      "outputPath": "D:\\最新\\STSys\\0 - Presentention\\STSys.Core.Quarzt\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13999,8 +13999,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "D:\\项目\\NASys\\STSys.Core\\3 - Infrastructure\\3.3 - Job\\STSys.Core.Jobs\\STSys.Core.Jobs.csproj": {
-              "projectPath": "D:\\项目\\NASys\\STSys.Core\\3 - Infrastructure\\3.3 - Job\\STSys.Core.Jobs\\STSys.Core.Jobs.csproj"
+            "D:\\最新\\STSys\\3 - Infrastructure\\3.3 - Job\\STSys.Core.Jobs\\STSys.Core.Jobs.csproj": {
+              "projectPath": "D:\\最新\\STSys\\3 - Infrastructure\\3.3 - Job\\STSys.Core.Jobs\\STSys.Core.Jobs.csproj"
             }
           }
         }

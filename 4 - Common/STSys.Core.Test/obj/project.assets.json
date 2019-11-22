@@ -5812,11 +5812,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\项目\\NASys\\STSys.Core\\4 - Common\\STSys.Core.Test\\STSys.Core.Test.csproj",
+      "projectUniqueName": "D:\\最新\\STSys\\4 - Common\\STSys.Core.Test\\STSys.Core.Test.csproj",
       "projectName": "STSys.Core.Test",
-      "projectPath": "D:\\项目\\NASys\\STSys.Core\\4 - Common\\STSys.Core.Test\\STSys.Core.Test.csproj",
+      "projectPath": "D:\\最新\\STSys\\4 - Common\\STSys.Core.Test\\STSys.Core.Test.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "D:\\项目\\NASys\\STSys.Core\\4 - Common\\STSys.Core.Test\\obj\\",
+      "outputPath": "D:\\最新\\STSys\\4 - Common\\STSys.Core.Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

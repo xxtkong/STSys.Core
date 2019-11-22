@@ -12901,11 +12901,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\项目\\NASys\\STSys.Core\\0 - Presentention\\STSys.Core.Orders\\STSys.Core.Orders.csproj",
+      "projectUniqueName": "D:\\最新\\STSys\\0 - Presentention\\STSys.Core.Orders\\STSys.Core.Orders.csproj",
       "projectName": "STSys.Core.Orders",
-      "projectPath": "D:\\项目\\NASys\\STSys.Core\\0 - Presentention\\STSys.Core.Orders\\STSys.Core.Orders.csproj",
+      "projectPath": "D:\\最新\\STSys\\0 - Presentention\\STSys.Core.Orders\\STSys.Core.Orders.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "D:\\项目\\NASys\\STSys.Core\\0 - Presentention\\STSys.Core.Orders\\obj\\",
+      "outputPath": "D:\\最新\\STSys\\0 - Presentention\\STSys.Core.Orders\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -12286,11 +12286,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\项目\\NASys\\STSys.Core\\0 - Presentention\\STSys.Core.API.Geteway\\STSys.Core.API.Geteway.csproj",
+      "projectUniqueName": "D:\\最新\\STSys\\0 - Presentention\\STSys.Core.API.Geteway\\STSys.Core.API.Geteway.csproj",
       "projectName": "STSys.Core.API.Geteway",
-      "projectPath": "D:\\项目\\NASys\\STSys.Core\\0 - Presentention\\STSys.Core.API.Geteway\\STSys.Core.API.Geteway.csproj",
+      "projectPath": "D:\\最新\\STSys\\0 - Presentention\\STSys.Core.API.Geteway\\STSys.Core.API.Geteway.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "D:\\项目\\NASys\\STSys.Core\\0 - Presentention\\STSys.Core.API.Geteway\\obj\\",
+      "outputPath": "D:\\最新\\STSys\\0 - Presentention\\STSys.Core.API.Geteway\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

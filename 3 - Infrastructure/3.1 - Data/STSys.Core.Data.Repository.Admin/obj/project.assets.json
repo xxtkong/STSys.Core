@@ -7644,11 +7644,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\项目\\NASys\\STSys.Core\\3 - Infrastructure\\3.1 - Data\\STSys.Core.Data.Repository.Admin\\STSys.Core.Data.Repository.Admin.csproj",
+      "projectUniqueName": "D:\\最新\\STSys\\3 - Infrastructure\\3.1 - Data\\STSys.Core.Data.Repository.Admin\\STSys.Core.Data.Repository.Admin.csproj",
       "projectName": "STSys.Core.Data.Repository.Admin",
-      "projectPath": "D:\\项目\\NASys\\STSys.Core\\3 - Infrastructure\\3.1 - Data\\STSys.Core.Data.Repository.Admin\\STSys.Core.Data.Repository.Admin.csproj",
+      "projectPath": "D:\\最新\\STSys\\3 - Infrastructure\\3.1 - Data\\STSys.Core.Data.Repository.Admin\\STSys.Core.Data.Repository.Admin.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "D:\\项目\\NASys\\STSys.Core\\3 - Infrastructure\\3.1 - Data\\STSys.Core.Data.Repository.Admin\\obj\\",
+      "outputPath": "D:\\最新\\STSys\\3 - Infrastructure\\3.1 - Data\\STSys.Core.Data.Repository.Admin\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -7669,14 +7669,14 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "D:\\项目\\NASys\\STSys.Core\\2 - Domain\\STSys.Core.Admin.Abstractions\\STSys.Core.Admin.Abstractions.csproj": {
-              "projectPath": "D:\\项目\\NASys\\STSys.Core\\2 - Domain\\STSys.Core.Admin.Abstractions\\STSys.Core.Admin.Abstractions.csproj"
+            "D:\\最新\\STSys\\2 - Domain\\STSys.Core.Admin.Abstractions\\STSys.Core.Admin.Abstractions.csproj": {
+              "projectPath": "D:\\最新\\STSys\\2 - Domain\\STSys.Core.Admin.Abstractions\\STSys.Core.Admin.Abstractions.csproj"
             },
-            "D:\\项目\\NASys\\STSys.Core\\3 - Infrastructure\\3.1 - Data\\STSys.Core.Data.Context\\STSys.Core.Data.Context.csproj": {
-              "projectPath": "D:\\项目\\NASys\\STSys.Core\\3 - Infrastructure\\3.1 - Data\\STSys.Core.Data.Context\\STSys.Core.Data.Context.csproj"
+            "D:\\最新\\STSys\\3 - Infrastructure\\3.1 - Data\\STSys.Core.Data.Context\\STSys.Core.Data.Context.csproj": {
+              "projectPath": "D:\\最新\\STSys\\3 - Infrastructure\\3.1 - Data\\STSys.Core.Data.Context\\STSys.Core.Data.Context.csproj"
             },
-            "D:\\项目\\NASys\\STSys.Core\\3 - Infrastructure\\3.1 - Data\\STSys.Core.Data.Repository\\STSys.Core.Data.Repository.csproj": {
-              "projectPath": "D:\\项目\\NASys\\STSys.Core\\3 - Infrastructure\\3.1 - Data\\STSys.Core.Data.Repository\\STSys.Core.Data.Repository.csproj"
+            "D:\\最新\\STSys\\3 - Infrastructure\\3.1 - Data\\STSys.Core.Data.Repository\\STSys.Core.Data.Repository.csproj": {
+              "projectPath": "D:\\最新\\STSys\\3 - Infrastructure\\3.1 - Data\\STSys.Core.Data.Repository\\STSys.Core.Data.Repository.csproj"
             }
           }
         }
