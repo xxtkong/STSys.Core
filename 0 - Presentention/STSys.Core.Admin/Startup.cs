@@ -17,6 +17,7 @@ using Microsoft.Extensions.Logging;
 using STSys.Core.Admin.Application.Extensions;
 using STSys.Core.Data.Context;
 using STSys.Core.Data.IoC;
+using STSys.Core.Domain.Core.Common;
 using STSys.Core.Domain.Interfaces.Repository;
 using STSys.Core.Log;
 using STSys.Core.MQMiddleware;
@@ -44,6 +45,12 @@ namespace STSys.Core.Admin
                 // This lambda determines whether user consent for non-essential cookies is needed for a given request.
                 options.CheckConsentNeeded = context => true;
                 options.MinimumSameSitePolicy = SameSiteMode.None;
+            });
+            services.Configure<AssemblyOptions>(options => {
+                options.DomainAssemblyName = new List<string>() {
+                    "STSys.Core.Admin.Abstractions",
+                    "STSys.Core.Users.Abstractions"
+                };
             });
             services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(CookieAuthenticationDefaults.AuthenticationScheme, options =>
             {

@@ -1,11 +1,16 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Options;
 using MongoDB.Driver;
 using STSys.Core.Data.Context.Config;
+using STSys.Core.Domain.Core.Common;
+using STSys.Core.Domain.Interfaces.EntityMapper;
 using STSys.Core.Users.Abstractions.Entities;
 using STSys.Core.Users.Abstractions.Mapping;
 using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Reflection;
 using System.Text;
 
 namespace STSys.Core.Data.Context
@@ -14,10 +19,12 @@ namespace STSys.Core.Data.Context
     {
         private readonly IConfiguration _configuration;
         private readonly string _connectionString;
-        public STSysContext(DbContextOptions<STSysContext> options, IConfiguration configuration) : base(options)
+        private readonly AssemblyOptions _assemblyOptions;
+        public STSysContext(DbContextOptions<STSysContext> options, IConfiguration configuration,IOptions<AssemblyOptions> assemblyOptions) : base(options)
         {
             _configuration = configuration;
             _connectionString = configuration.GetConnectionString("DefaultConnection");
+            _assemblyOptions = assemblyOptions.Value;
         }
         /// <summary>
         /// Add-Migration updatedb
@@ -26,6 +33,24 @@ namespace STSys.Core.Data.Context
         /// <param name="modelBuilder"></param>
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            var domainAssembly = _assemblyOptions.DomainAssemblyName;
+            foreach (var item in domainAssembly)
+            {
+                var entityTypes = Assembly.Load(new AssemblyName(item)).GetTypes()
+                .Where(type => !string.IsNullOrWhiteSpace(type.Namespace))
+                .Where(type => type.GetTypeInfo().IsClass)
+                .Where(type => type.GetTypeInfo().BaseType != null)
+                .Where(type => typeof(IEntityMapper).IsAssignableFrom(type)).ToList();
+
+                foreach (var entityType in entityTypes)
+                {
+                    modelBuilder.ApplyConfigurationsFromAssembly(entityType.Assembly);
+                    //if (modelBuilder.Model.FindEntityType(entityType) != null)
+                    //    continue;
+                    //modelBuilder.Model.AddEntityType(entityType);
+                }
+            }
+
             modelBuilder.ApplyConfiguration(new ManagerEFMapping());
             //modelBuilder.EnableAutoHistory(null);
             modelBuilder.Entity<ManagerEntities>().HasData(new ManagerEntities()
