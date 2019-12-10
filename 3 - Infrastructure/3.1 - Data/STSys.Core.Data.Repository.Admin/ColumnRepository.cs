@@ -13,10 +13,8 @@ namespace STSys.Core.Data.Repository.Admin
 {
     public class ColumnRepository : Repository<ColumnEntity>, IColumnRepository
     {
-        private readonly DbConnectionFactory _dbConnectionFactory;
         public ColumnRepository(STSysContext dbContext) : base(dbContext)
         {
-            this._dbConnectionFactory = dbContext.DbConnections;
         }
         public IQueryable<ColumnEntity> GetPage(string name, string sort, out int pcount, bool? sortDesc = true, int? page = 1, int? pageSize = 10)
         {

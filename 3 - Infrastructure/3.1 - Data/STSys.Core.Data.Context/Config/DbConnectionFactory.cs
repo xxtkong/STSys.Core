@@ -20,7 +20,8 @@ namespace STSys.Core.Data.Context.Config
         private readonly IConfiguration _configuration;
         public DbConnectionFactory(IConfiguration configuration)
         {
-            switch (_provider)
+            string provider = configuration.GetConnectionString("SQLProvider") ?? "mssql";
+            switch (provider)
             {
                 case "mssql":
                     _connectionString = configuration.GetConnectionString("DefaultConnection");
@@ -90,7 +91,6 @@ namespace STSys.Core.Data.Context.Config
                 return DbConnection.Values.First();
             }
         }
-
         public IMongoDatabase GetMongoDatabase
         {
             get
@@ -99,8 +99,6 @@ namespace STSys.Core.Data.Context.Config
             }
         }
 
-        private string _provider ="mssql";
-        public string Provider { get => _provider; set => _provider = value;}
-
+       
     }
 }

@@ -35,11 +35,12 @@ namespace STSys.Core.Data.IoC
             .AddScoped(typeof(IRepositoryEF<>), typeof(Repository<>))
             .AddScoped(typeof(IRepositoryMongoDB<>),typeof(RepositoryMongoDB<>))
             .AddScoped<INotificationHandler<DomainNotification>, DomainNotificationHandler>()
-            //.AddScoped<DbConnectionFactory>()
+         
             .AddScoped<IUsersRepository, UsersRepository>()
             .AddScoped<IManagerRepository, ManagerRepository>()
             .AddScoped<IColumnRepository, ColumnRepository>()
             .AddScoped<IRoleRepository, RoleRepository>()
+            //.AddScoped<DbConnectionFactory>()
             .AddDbConnectionFactory(configuration)
             ;
 
@@ -47,7 +48,6 @@ namespace STSys.Core.Data.IoC
         public static IServiceCollection AddDbConnectionFactory(this IServiceCollection services, IConfiguration configuration)
         {
             var factory = new DbConnectionFactory(configuration);
-            factory.Provider = "mssql";
             services.AddSingleton(factory);
             return services;
         }

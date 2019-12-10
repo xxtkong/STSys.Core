@@ -11,10 +11,8 @@ namespace STSys.Core.Data.Repository.Users
 {
     public class UsersRepository : DapperRepository<UsersEntities>, IUsersRepository
     {
-        private readonly DbConnectionFactory _dbConnectionFactory;
         public UsersRepository(STSysContext dbContext) : base(dbContext.DbConnections)
         {
-            this._dbConnectionFactory = dbContext.DbConnections;
         }
     }
 }

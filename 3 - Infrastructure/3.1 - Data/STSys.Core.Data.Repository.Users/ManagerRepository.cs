@@ -16,10 +16,8 @@ namespace STSys.Core.Data.Repository.Users
 {
     public class ManagerRepository : Repository<ManagerEntities>, IManagerRepository
     {
-        private readonly DbConnectionFactory _dbConnectionFactory;
         public ManagerRepository(STSysContext dbContext) : base(dbContext)
         {
-            this._dbConnectionFactory = dbContext.DbConnections;
         }
 
         public bool Edit(ManagerEntities entities, List<Expression<Func<ManagerEntities, dynamic>>> expressionList)

@@ -21,11 +21,9 @@ namespace STSys.Core.Data.Repository.Admin
         private readonly IRepositoryEF<RelevanceElementEntity> _relevanceElementRepository;
 
         private readonly IUnitOfWork _unitOfWork;
-        private readonly DbConnectionFactory _dbConnectionFactory;
 
         public RoleRepository(STSysContext dbContext, IRepositoryEF<RelevanceRoleEntity> repositoryEF, IUnitOfWork unitOfWork, IRepositoryEF<ModuleElementEntity> moduleElementRepository, IRepositoryEF<RelevanceElementEntity> relevanceElementRepository) : base(dbContext)
         {
-            this._dbConnectionFactory = dbContext.DbConnections;
             this._repositoryEF = repositoryEF;
             this._unitOfWork = unitOfWork;
             this._moduleElementRepository = moduleElementRepository;
