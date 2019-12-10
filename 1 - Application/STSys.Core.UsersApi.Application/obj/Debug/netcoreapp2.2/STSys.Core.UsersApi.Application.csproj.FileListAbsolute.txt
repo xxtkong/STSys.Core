@@ -93,5 +93,3 @@ D:\最新\STSys\1 - Application\STSys.Core.UsersApi.Application\obj\Debug\netcor
 D:\最新\STSys\1 - Application\STSys.Core.UsersApi.Application\obj\Debug\netcoreapp2.2\STSys.Core.UsersApi.Application.csproj.CopyComplete
 D:\最新\STSys\1 - Application\STSys.Core.UsersApi.Application\obj\Debug\netcoreapp2.2\STSys.Core.UsersApi.Application.dll
 D:\最新\STSys\1 - Application\STSys.Core.UsersApi.Application\obj\Debug\netcoreapp2.2\STSys.Core.UsersApi.Application.pdb
-D:\最新\STSys\1 - Application\STSys.Core.UsersApi.Application\bin\Debug\netcoreapp2.2\STSys.Core.Data.dll
-D:\最新\STSys\1 - Application\STSys.Core.UsersApi.Application\bin\Debug\netcoreapp2.2\STSys.Core.Data.pdb

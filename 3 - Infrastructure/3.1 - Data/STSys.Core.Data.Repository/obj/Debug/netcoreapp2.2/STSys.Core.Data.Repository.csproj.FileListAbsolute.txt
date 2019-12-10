@@ -68,5 +68,3 @@ D:\最新\STSys\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Repository\obj\Deb
 D:\最新\STSys\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Repository\obj\Debug\netcoreapp2.2\STSys.Core.Data.Repository.csproj.CopyComplete
 D:\最新\STSys\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Repository\obj\Debug\netcoreapp2.2\STSys.Core.Data.Repository.dll
 D:\最新\STSys\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Repository\obj\Debug\netcoreapp2.2\STSys.Core.Data.Repository.pdb
-D:\最新\STSys\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Repository\bin\Debug\netcoreapp2.2\STSys.Core.Data.dll
-D:\最新\STSys\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Repository\bin\Debug\netcoreapp2.2\STSys.Core.Data.pdb

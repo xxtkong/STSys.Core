@@ -55,7 +55,7 @@ namespace STSys.Core.UsersApi
             //添加缓存
             services.AddMemoryCache();
             services.AddHttpClient();
-            services.AddNativeInjectorBootStrapper();
+            services.AddNativeInjectorBootStrapper(Configuration);
             //Mapper.AssertConfigurationIsValid();
        
 

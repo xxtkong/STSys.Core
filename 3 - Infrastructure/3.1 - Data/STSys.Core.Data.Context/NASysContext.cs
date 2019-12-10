@@ -18,12 +18,12 @@ namespace STSys.Core.Data.Context
     public partial class STSysContext : DbContext
     {
         private readonly IConfiguration _configuration;
-        private readonly string _connectionString;
+       // private readonly string _connectionString;
         private readonly AssemblyOptions _assemblyOptions;
         public STSysContext(DbContextOptions<STSysContext> options, IConfiguration configuration, IOptions<AssemblyOptions> assemblyOptions) : base(options)
         {
             _configuration = configuration;
-            _connectionString = configuration.GetConnectionString("DefaultConnection");
+            //_connectionString = configuration.GetConnectionString("DefaultConnection");
             _assemblyOptions = assemblyOptions.Value;
         }
         /// <summary>

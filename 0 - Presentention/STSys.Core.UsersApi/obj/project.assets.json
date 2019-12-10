@@ -2999,6 +2999,15 @@
           "lib/netstandard1.5/MongoDB.Driver.Core.dll": {}
         }
       },
+      "MySqlConnector/0.59.2": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp2.1/MySqlConnector.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/MySqlConnector.dll": {}
+        }
+      },
       "NETStandard.Library/2.0.3": {
         "type": "package",
         "dependencies": {
@@ -3048,6 +3057,33 @@
         },
         "runtime": {
           "lib/netcoreapp2.2/Pipelines.Sockets.Unofficial.dll": {}
+        }
+      },
+      "Pomelo.EntityFrameworkCore.MySql/2.2.6": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational": "2.2.6",
+          "MySqlConnector": "0.59.2",
+          "Pomelo.JsonObject": "2.2.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Pomelo.EntityFrameworkCore.MySql.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Pomelo.EntityFrameworkCore.MySql.dll": {}
+        }
+      },
+      "Pomelo.JsonObject/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.5.0",
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Pomelo.JsonObject.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Pomelo.JsonObject.dll": {}
         }
       },
       "Remotion.Linq/2.2.0": {
@@ -5229,16 +5265,6 @@
           "bin/placeholder/STSys.Core.CrossCutting.Bus.dll": {}
         }
       },
-      "STSys.Core.Data/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.2",
-        "compile": {
-          "bin/placeholder/STSys.Core.Data.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/STSys.Core.Data.dll": {}
-        }
-      },
       "STSys.Core.Data.Context/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
@@ -5248,8 +5274,8 @@
           "Microsoft.EntityFrameworkCore.Proxies": "2.2.4",
           "Microsoft.EntityFrameworkCore.SqlServer": "2.2.6",
           "MongoDB.Driver": "2.8.1",
+          "Pomelo.EntityFrameworkCore.MySql": "2.2.6",
           "STSys.Core.Admin.Abstractions": "1.0.0",
-          "STSys.Core.Data": "1.0.0",
           "STSys.Core.Domain": "1.0.0",
           "STSys.Core.Users.Abstractions": "1.0.0",
           "System.Data.SqlClient": "4.6.1"
@@ -8490,6 +8516,25 @@
         "mongodb.driver.core.nuspec"
       ]
     },
+    "MySqlConnector/0.59.2": {
+      "sha512": "RoPhtnDXuzkIiLdAQuTelCqbr6299ykOZ6ZuW5IHotjLnQoJrxOqY/5i7a3SgENA85N35EBA20WF+iIGxTs66Q==",
+      "type": "package",
+      "path": "mysqlconnector/0.59.2",
+      "files": [
+        ".signature.p7s",
+        "lib/net45/MySqlConnector.dll",
+        "lib/net461/MySqlConnector.dll",
+        "lib/net471/MySqlConnector.dll",
+        "lib/netcoreapp2.1/MySqlConnector.dll",
+        "lib/netcoreapp3.0/MySqlConnector.dll",
+        "lib/netstandard1.3/MySqlConnector.dll",
+        "lib/netstandard2.0/MySqlConnector.dll",
+        "lib/netstandard2.1/MySqlConnector.dll",
+        "logo.png",
+        "mysqlconnector.0.59.2.nupkg.sha512",
+        "mysqlconnector.nuspec"
+      ]
+    },
     "NETStandard.Library/2.0.3": {
       "sha512": "st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "type": "package",
@@ -8679,6 +8724,28 @@
         "lib/netstandard2.0/Pipelines.Sockets.Unofficial.xml",
         "pipelines.sockets.unofficial.2.0.22.nupkg.sha512",
         "pipelines.sockets.unofficial.nuspec"
+      ]
+    },
+    "Pomelo.EntityFrameworkCore.MySql/2.2.6": {
+      "sha512": "rxKq7yt3d79aUVdq4FyBkw1L+S3E9SQVzQY/z8F7ePXUcsKKwulYi60RIxyRK3AA6sqSWGVFR1ckuTnbLjH67Q==",
+      "type": "package",
+      "path": "pomelo.entityframeworkcore.mysql/2.2.6",
+      "files": [
+        ".signature.p7s",
+        "lib/netstandard2.0/Pomelo.EntityFrameworkCore.MySql.dll",
+        "pomelo.entityframeworkcore.mysql.2.2.6.nupkg.sha512",
+        "pomelo.entityframeworkcore.mysql.nuspec"
+      ]
+    },
+    "Pomelo.JsonObject/2.2.0": {
+      "sha512": "kAH3WjIyzHvSjYEQ4h63WJLtpA9PfbgOdEIalL668KvDo3PIlT/2lSFMhXXGrYgGcD1bthszXXs7BASooRXZgA==",
+      "type": "package",
+      "path": "pomelo.jsonobject/2.2.0",
+      "files": [
+        ".signature.p7s",
+        "lib/netstandard2.0/Pomelo.JsonObject.dll",
+        "pomelo.jsonobject.2.2.0.nupkg.sha512",
+        "pomelo.jsonobject.nuspec"
       ]
     },
     "Remotion.Linq/2.2.0": {
@@ -13934,11 +14001,6 @@
       "type": "project",
       "path": "../../3 - Infrastructure/3.2 - CrossCutting/STSys.Core.CrossCutting.Bus/STSys.Core.CrossCutting.Bus.csproj",
       "msbuildProject": "../../3 - Infrastructure/3.2 - CrossCutting/STSys.Core.CrossCutting.Bus/STSys.Core.CrossCutting.Bus.csproj"
-    },
-    "STSys.Core.Data/1.0.0": {
-      "type": "project",
-      "path": "../../3 - Infrastructure/3.1 - Data/STSys.Core.Data/STSys.Core.Data.csproj",
-      "msbuildProject": "../../3 - Infrastructure/3.1 - Data/STSys.Core.Data/STSys.Core.Data.csproj"
     },
     "STSys.Core.Data.Context/1.0.0": {
       "type": "project",

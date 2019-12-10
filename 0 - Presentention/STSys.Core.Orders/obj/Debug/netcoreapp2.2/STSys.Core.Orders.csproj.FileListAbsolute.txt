@@ -65,7 +65,6 @@ D:\最新\STSys\0 - Presentention\STSys.Core.Orders\bin\Debug\netcoreapp2.2\STSy
 D:\最新\STSys\0 - Presentention\STSys.Core.Orders\bin\Debug\netcoreapp2.2\STSys.Core.Orders.pdb
 D:\最新\STSys\0 - Presentention\STSys.Core.Orders\bin\Debug\netcoreapp2.2\STSys.Core.Orders.Views.dll
 D:\最新\STSys\0 - Presentention\STSys.Core.Orders\bin\Debug\netcoreapp2.2\STSys.Core.Orders.Views.pdb
-D:\最新\STSys\0 - Presentention\STSys.Core.Orders\obj\Debug\netcoreapp2.2\STSys.Core.Orders.csprojAssemblyReference.cache
 D:\最新\STSys\0 - Presentention\STSys.Core.Orders\obj\Debug\netcoreapp2.2\STSys.Core.Orders.csproj.CoreCompileInputs.cache
 D:\最新\STSys\0 - Presentention\STSys.Core.Orders\obj\Debug\netcoreapp2.2\STSys.Core.Orders.RazorAssemblyInfo.cache
 D:\最新\STSys\0 - Presentention\STSys.Core.Orders\obj\Debug\netcoreapp2.2\STSys.Core.Orders.RazorAssemblyInfo.cs

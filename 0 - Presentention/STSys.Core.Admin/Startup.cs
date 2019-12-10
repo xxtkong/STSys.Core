@@ -59,7 +59,7 @@ namespace STSys.Core.Admin
             services.AddOptions();
             services.AddAutoMapper(GetType().Assembly);
             services.AddAutoMapperSetup();
-            services.AddNativeInjectorBootStrapper();
+            services.AddNativeInjectorBootStrapper(Configuration);
             services.AddMemoryCache();
             services.TryAddSingleton<IHttpContextAccessor, HttpContextAccessor>();
             services.AddAntiforgery(opts =>

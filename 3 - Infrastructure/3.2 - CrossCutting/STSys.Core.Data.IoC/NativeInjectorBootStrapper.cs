@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using STSys.Core.Admin.Abstractions.Interfaces;
 using STSys.Core.CrossCutting.Bus;
@@ -25,7 +26,7 @@ namespace STSys.Core.Data.IoC
 {
     public static class NativeInjectorBootStrapper
     {
-        public static void AddNativeInjectorBootStrapper(this IServiceCollection services)
+        public static void AddNativeInjectorBootStrapper(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddUnitOfWork<STSysContext>()
             .AddScoped<IMediatorHandler, InMemoryBus>()
@@ -34,12 +35,21 @@ namespace STSys.Core.Data.IoC
             .AddScoped(typeof(IRepositoryEF<>), typeof(Repository<>))
             .AddScoped(typeof(IRepositoryMongoDB<>),typeof(RepositoryMongoDB<>))
             .AddScoped<INotificationHandler<DomainNotification>, DomainNotificationHandler>()
-            .AddScoped<DbConnectionFactory>()
+            //.AddScoped<DbConnectionFactory>()
             .AddScoped<IUsersRepository, UsersRepository>()
             .AddScoped<IManagerRepository, ManagerRepository>()
             .AddScoped<IColumnRepository, ColumnRepository>()
             .AddScoped<IRoleRepository, RoleRepository>()
+            .AddDbConnectionFactory(configuration)
             ;
+
+        }
+        public static IServiceCollection AddDbConnectionFactory(this IServiceCollection services, IConfiguration configuration)
+        {
+            var factory = new DbConnectionFactory(configuration);
+            factory.Provider = "mssql";
+            services.AddSingleton(factory);
+            return services;
         }
     }
 }

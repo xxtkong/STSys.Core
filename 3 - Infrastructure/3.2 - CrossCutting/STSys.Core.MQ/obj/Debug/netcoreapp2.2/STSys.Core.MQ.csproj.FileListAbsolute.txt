@@ -37,7 +37,6 @@ D:\最新\STSys\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.MQ\bin\Debug\ne
 D:\最新\STSys\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.MQ\bin\Debug\netcoreapp2.2\STSys.Core.Domain.Core.pdb
 D:\最新\STSys\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.MQ\bin\Debug\netcoreapp2.2\Common.Utility.pdb
 D:\最新\STSys\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.MQ\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Mvc.ViewFeatures.xml
-D:\最新\STSys\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.MQ\obj\Debug\netcoreapp2.2\STSys.Core.MQ.csprojAssemblyReference.cache
 D:\最新\STSys\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.MQ\obj\Debug\netcoreapp2.2\STSys.Core.MQ.csproj.CoreCompileInputs.cache
 D:\最新\STSys\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.MQ\obj\Debug\netcoreapp2.2\STSys.Core.MQ.AssemblyInfoInputs.cache
 D:\最新\STSys\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.MQ\obj\Debug\netcoreapp2.2\STSys.Core.MQ.AssemblyInfo.cs

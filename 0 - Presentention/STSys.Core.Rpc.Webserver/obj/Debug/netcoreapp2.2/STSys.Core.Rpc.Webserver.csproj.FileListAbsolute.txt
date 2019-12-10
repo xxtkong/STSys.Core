@@ -35,7 +35,6 @@ D:\最新\STSys\0 - Presentention\STSys.Core.Rpc.Webserver\bin\Debug\netcoreapp2
 D:\最新\STSys\0 - Presentention\STSys.Core.Rpc.Webserver\bin\Debug\netcoreapp2.2\STSys.Core.Rpc.Webserver.pdb
 D:\最新\STSys\0 - Presentention\STSys.Core.Rpc.Webserver\bin\Debug\netcoreapp2.2\STSys.Core.Rpc.Webserver.Views.dll
 D:\最新\STSys\0 - Presentention\STSys.Core.Rpc.Webserver\bin\Debug\netcoreapp2.2\STSys.Core.Rpc.Webserver.Views.pdb
-D:\最新\STSys\0 - Presentention\STSys.Core.Rpc.Webserver\obj\Debug\netcoreapp2.2\STSys.Core.Rpc.Webserver.csprojAssemblyReference.cache
 D:\最新\STSys\0 - Presentention\STSys.Core.Rpc.Webserver\obj\Debug\netcoreapp2.2\STSys.Core.Rpc.Webserver.csproj.CoreCompileInputs.cache
 D:\最新\STSys\0 - Presentention\STSys.Core.Rpc.Webserver\obj\Debug\netcoreapp2.2\STSys.Core.Rpc.Webserver.RazorAssemblyInfo.cache
 D:\最新\STSys\0 - Presentention\STSys.Core.Rpc.Webserver\obj\Debug\netcoreapp2.2\STSys.Core.Rpc.Webserver.RazorAssemblyInfo.cs

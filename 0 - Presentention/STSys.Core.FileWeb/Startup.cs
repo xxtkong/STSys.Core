@@ -33,7 +33,7 @@ namespace STSys.Core.FileWeb
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-            services.AddNativeInjectorBootStrapper();
+            services.AddNativeInjectorBootStrapper(Configuration);
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 

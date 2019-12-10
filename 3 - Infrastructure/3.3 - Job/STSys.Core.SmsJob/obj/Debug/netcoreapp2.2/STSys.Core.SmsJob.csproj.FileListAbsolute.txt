@@ -19,7 +19,6 @@ D:\项目\NASys\STSys.Core\3 - Infrastructure\3.3 - Job\STSys.Core.SmsJob\obj\De
 D:\最新\STSys\3 - Infrastructure\3.3 - Job\STSys.Core.SmsJob\bin\Debug\netcoreapp2.2\STSys.Core.SmsJob.deps.json
 D:\最新\STSys\3 - Infrastructure\3.3 - Job\STSys.Core.SmsJob\bin\Debug\netcoreapp2.2\STSys.Core.SmsJob.dll
 D:\最新\STSys\3 - Infrastructure\3.3 - Job\STSys.Core.SmsJob\bin\Debug\netcoreapp2.2\STSys.Core.SmsJob.pdb
-D:\最新\STSys\3 - Infrastructure\3.3 - Job\STSys.Core.SmsJob\obj\Debug\netcoreapp2.2\STSys.Core.SmsJob.csprojAssemblyReference.cache
 D:\最新\STSys\3 - Infrastructure\3.3 - Job\STSys.Core.SmsJob\obj\Debug\netcoreapp2.2\STSys.Core.SmsJob.csproj.CoreCompileInputs.cache
 D:\最新\STSys\3 - Infrastructure\3.3 - Job\STSys.Core.SmsJob\obj\Debug\netcoreapp2.2\STSys.Core.SmsJob.AssemblyInfoInputs.cache
 D:\最新\STSys\3 - Infrastructure\3.3 - Job\STSys.Core.SmsJob\obj\Debug\netcoreapp2.2\STSys.Core.SmsJob.AssemblyInfo.cs

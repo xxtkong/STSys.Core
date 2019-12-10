@@ -126,5 +126,3 @@ D:\最新\STSys\0 - Presentention\STSys.Core.FileWeb\obj\Debug\netcoreapp2.2\STS
 D:\最新\STSys\0 - Presentention\STSys.Core.FileWeb\obj\Debug\netcoreapp2.2\STSys.Core.FileWeb.csproj.CopyComplete
 D:\最新\STSys\0 - Presentention\STSys.Core.FileWeb\obj\Debug\netcoreapp2.2\STSys.Core.FileWeb.dll
 D:\最新\STSys\0 - Presentention\STSys.Core.FileWeb\obj\Debug\netcoreapp2.2\STSys.Core.FileWeb.pdb
-D:\最新\STSys\0 - Presentention\STSys.Core.FileWeb\bin\Debug\netcoreapp2.2\STSys.Core.Data.dll
-D:\最新\STSys\0 - Presentention\STSys.Core.FileWeb\bin\Debug\netcoreapp2.2\STSys.Core.Data.pdb

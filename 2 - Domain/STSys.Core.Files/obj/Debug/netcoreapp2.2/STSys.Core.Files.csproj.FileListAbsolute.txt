@@ -58,5 +58,3 @@ D:\最新\STSys\2 - Domain\STSys.Core.Files\obj\Debug\netcoreapp2.2\STSys.Core.F
 D:\最新\STSys\2 - Domain\STSys.Core.Files\obj\Debug\netcoreapp2.2\STSys.Core.Files.csproj.CopyComplete
 D:\最新\STSys\2 - Domain\STSys.Core.Files\obj\Debug\netcoreapp2.2\STSys.Core.Files.dll
 D:\最新\STSys\2 - Domain\STSys.Core.Files\obj\Debug\netcoreapp2.2\STSys.Core.Files.pdb
-D:\最新\STSys\2 - Domain\STSys.Core.Files\bin\Debug\netcoreapp2.2\STSys.Core.Data.dll
-D:\最新\STSys\2 - Domain\STSys.Core.Files\bin\Debug\netcoreapp2.2\STSys.Core.Data.pdb

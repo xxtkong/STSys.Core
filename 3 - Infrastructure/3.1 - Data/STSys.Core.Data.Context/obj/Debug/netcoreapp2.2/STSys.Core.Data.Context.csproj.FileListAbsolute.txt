@@ -58,5 +58,3 @@ D:\最新\STSys\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Context\obj\Debug\
 D:\最新\STSys\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Context\obj\Debug\netcoreapp2.2\STSys.Core.Data.Context.csproj.CopyComplete
 D:\最新\STSys\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Context\obj\Debug\netcoreapp2.2\STSys.Core.Data.Context.dll
 D:\最新\STSys\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Context\obj\Debug\netcoreapp2.2\STSys.Core.Data.Context.pdb
-D:\最新\STSys\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Context\bin\Debug\netcoreapp2.2\STSys.Core.Data.dll
-D:\最新\STSys\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Context\bin\Debug\netcoreapp2.2\STSys.Core.Data.pdb

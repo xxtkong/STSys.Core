@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "12525a95fdefe1f3c83f6e28a07afa27acb10f87"
+    "signature": "739176c4035084ac55f035aeb62e8ef9599f262c"
   },
   "compilationOptions": {},
   "targets": {
@@ -453,6 +453,14 @@
           }
         }
       },
+      "MySqlConnector/0.59.2": {
+        "runtime": {
+          "lib/netcoreapp2.1/MySqlConnector.dll": {
+            "assemblyVersion": "0.59.2.0",
+            "fileVersion": "0.59.2.0"
+          }
+        }
+      },
       "Newtonsoft.Json/11.0.2": {
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {
@@ -471,6 +479,31 @@
           "lib/netcoreapp2.2/Pipelines.Sockets.Unofficial.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "2.0.22.26858"
+          }
+        }
+      },
+      "Pomelo.EntityFrameworkCore.MySql/2.2.6": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational": "2.2.6",
+          "MySqlConnector": "0.59.2",
+          "Pomelo.JsonObject": "2.2.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Pomelo.EntityFrameworkCore.MySql.dll": {
+            "assemblyVersion": "2.2.6.0",
+            "fileVersion": "2.2.6.0"
+          }
+        }
+      },
+      "Pomelo.JsonObject/2.2.0": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.6.0-preview3.19128.7",
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Pomelo.JsonObject.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.0"
           }
         }
       },
@@ -1647,11 +1680,6 @@
           "STSys.Core.Admin.Abstractions.dll": {}
         }
       },
-      "STSys.Core.Data/1.0.0": {
-        "runtime": {
-          "STSys.Core.Data.dll": {}
-        }
-      },
       "STSys.Core.Data.Context/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "2.2.6",
@@ -1659,8 +1687,8 @@
           "Microsoft.EntityFrameworkCore.Proxies": "2.2.4",
           "Microsoft.EntityFrameworkCore.SqlServer": "2.2.6",
           "MongoDB.Driver": "2.8.1",
+          "Pomelo.EntityFrameworkCore.MySql": "2.2.6",
           "STSys.Core.Admin.Abstractions": "1.0.0",
-          "STSys.Core.Data": "1.0.0",
           "STSys.Core.Domain": "1.0.0",
           "STSys.Core.Users.Abstractions": "1.0.0",
           "System.Data.SqlClient": "4.6.1"
@@ -2016,6 +2044,13 @@
       "path": "mongodb.driver.core/2.8.1",
       "hashPath": "mongodb.driver.core.2.8.1.nupkg.sha512"
     },
+    "MySqlConnector/0.59.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RoPhtnDXuzkIiLdAQuTelCqbr6299ykOZ6ZuW5IHotjLnQoJrxOqY/5i7a3SgENA85N35EBA20WF+iIGxTs66Q==",
+      "path": "mysqlconnector/0.59.2",
+      "hashPath": "mysqlconnector.0.59.2.nupkg.sha512"
+    },
     "Newtonsoft.Json/11.0.2": {
       "type": "package",
       "serviceable": true,
@@ -2029,6 +2064,20 @@
       "sha512": "sha512-Wi7Lm1W3dmSEH8hcPwBTMGX3BtNlEF2hPgmX2OCeTJ/2D2on38emU7DhFcMCsuGJC8GZ90N7N45qLpp150/ueA==",
       "path": "pipelines.sockets.unofficial/2.0.22",
       "hashPath": "pipelines.sockets.unofficial.2.0.22.nupkg.sha512"
+    },
+    "Pomelo.EntityFrameworkCore.MySql/2.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rxKq7yt3d79aUVdq4FyBkw1L+S3E9SQVzQY/z8F7ePXUcsKKwulYi60RIxyRK3AA6sqSWGVFR1ckuTnbLjH67Q==",
+      "path": "pomelo.entityframeworkcore.mysql/2.2.6",
+      "hashPath": "pomelo.entityframeworkcore.mysql.2.2.6.nupkg.sha512"
+    },
+    "Pomelo.JsonObject/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kAH3WjIyzHvSjYEQ4h63WJLtpA9PfbgOdEIalL668KvDo3PIlT/2lSFMhXXGrYgGcD1bthszXXs7BASooRXZgA==",
+      "path": "pomelo.jsonobject/2.2.0",
+      "hashPath": "pomelo.jsonobject.2.2.0.nupkg.sha512"
     },
     "Remotion.Linq/2.2.0": {
       "type": "package",
@@ -2743,11 +2792,6 @@
       "sha512": ""
     },
     "STSys.Core.Admin.Abstractions/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "STSys.Core.Data/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

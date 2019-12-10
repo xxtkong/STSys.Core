@@ -200,5 +200,3 @@ D:\最新\STSys\0 - Presentention\STSys.Core.Admin\obj\Debug\netcoreapp2.2\STSys
 D:\最新\STSys\0 - Presentention\STSys.Core.Admin\obj\Debug\netcoreapp2.2\STSys.Core.Admin.csproj.CopyComplete
 D:\最新\STSys\0 - Presentention\STSys.Core.Admin\obj\Debug\netcoreapp2.2\STSys.Core.Admin.dll
 D:\最新\STSys\0 - Presentention\STSys.Core.Admin\obj\Debug\netcoreapp2.2\STSys.Core.Admin.pdb
-D:\最新\STSys\0 - Presentention\STSys.Core.Admin\bin\Debug\netcoreapp2.2\STSys.Core.Data.dll
-D:\最新\STSys\0 - Presentention\STSys.Core.Admin\bin\Debug\netcoreapp2.2\STSys.Core.Data.pdb

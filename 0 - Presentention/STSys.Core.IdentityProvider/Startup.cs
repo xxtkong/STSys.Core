@@ -63,7 +63,7 @@ namespace STSys.Core.IdentityProvider
                 opts.HeaderName = "_mk_x_h_token";
             });
             services.AddDbContext<STSysContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
-            services.AddNativeInjectorBootStrapper()
+            services.AddNativeInjectorBootStrapper(Configuration)
             ;
             var audienceConfig = Configuration.GetSection("Audience");
             //注入OcelotJwtBearer

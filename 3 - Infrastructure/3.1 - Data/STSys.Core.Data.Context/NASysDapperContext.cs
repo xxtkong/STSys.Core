@@ -11,10 +11,10 @@ namespace STSys.Core.Data.Context
 {
     public partial class STSysContext
     {
-        public IDbConnection STSysDapperConnection
-        {
-            get { return new SqlConnection(_connectionString); }
-        }
+        //public IDbConnection STSysDapperConnection
+        //{
+        //    get { return new SqlConnection(_connectionString); }
+        //}
         public DbConnectionFactory DbConnections
         {
             get

@@ -10,6 +10,7 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="2.2.4" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.2.6" />
     <PackageReference Include="MongoDB.Driver" Version="2.8.1" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="2.2.6" />
     <PackageReference Include="System.Data.SqlClient" Version="4.6.1" />
   </ItemGroup>
 
@@ -17,7 +18,6 @@
     <ProjectReference Include="..\..\..\2 - Domain\STSys.Core.Admin.Abstractions\STSys.Core.Admin.Abstractions.csproj" />
     <ProjectReference Include="..\..\..\2 - Domain\STSys.Core.Domain\STSys.Core.Domain.csproj" />
     <ProjectReference Include="..\..\..\2 - Domain\STSys.Core.Users.Abstractions\STSys.Core.Users.Abstractions.csproj" />
-    <ProjectReference Include="..\STSys.Core.Data\STSys.Core.Data.csproj" />
   </ItemGroup>
 
   <ItemGroup>
