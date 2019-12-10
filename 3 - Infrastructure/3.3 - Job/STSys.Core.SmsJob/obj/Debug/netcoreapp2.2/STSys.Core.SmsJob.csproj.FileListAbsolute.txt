@@ -24,3 +24,4 @@ D:\最新\STSys\3 - Infrastructure\3.3 - Job\STSys.Core.SmsJob\obj\Debug\netcore
 D:\最新\STSys\3 - Infrastructure\3.3 - Job\STSys.Core.SmsJob\obj\Debug\netcoreapp2.2\STSys.Core.SmsJob.AssemblyInfo.cs
 D:\最新\STSys\3 - Infrastructure\3.3 - Job\STSys.Core.SmsJob\obj\Debug\netcoreapp2.2\STSys.Core.SmsJob.dll
 D:\最新\STSys\3 - Infrastructure\3.3 - Job\STSys.Core.SmsJob\obj\Debug\netcoreapp2.2\STSys.Core.SmsJob.pdb
+D:\最新\STSys\3 - Infrastructure\3.3 - Job\STSys.Core.SmsJob\obj\Debug\netcoreapp2.2\STSys.Core.SmsJob.csprojAssemblyReference.cache

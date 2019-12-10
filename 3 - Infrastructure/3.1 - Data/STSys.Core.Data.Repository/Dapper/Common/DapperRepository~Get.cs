@@ -18,44 +18,44 @@ namespace STSys.Core.Data.Repository.Dapper.Common
         public virtual int Count(object predicate = null, IDbTransaction transaction = null)
         {
             if (transaction == null)
-                return _dbConnection["read"].Count<TEntity>(predicate);
+                return _dbConnection.GetConnection("read").Count<TEntity>(predicate);
             else
                 return transaction.Connection.Count<TEntity>(predicate, transaction);
         }
         public virtual TEntity Find(int id, IDbTransaction transaction = null)
         {
             if (transaction == null)
-                return _dbConnection["read"].Get<TEntity>(id);
+                return _dbConnection.GetConnection("read").Get<TEntity>(id);
             else
                 return transaction.Connection.Get<TEntity>(id, transaction);
         }
         public virtual TEntity Find(string sql, object predicate = null, IDbTransaction transaction = null)
         {
             if (transaction == null)
-                return _dbConnection["read"].QueryFirstOrDefault<TEntity>(sql, predicate);
+                return _dbConnection.GetConnection("read").QueryFirstOrDefault<TEntity>(sql, predicate);
             else
                 return transaction.Connection.QueryFirstOrDefault<TEntity>(sql, predicate, transaction);
         }
         public virtual async Task<TEntity> FindAsync(string sql, object predicate = null, IDbTransaction transaction = null)
         {
             if (transaction == null)
-                return await _dbConnection["read"].QueryFirstOrDefaultAsync<TEntity>(sql, predicate);
+                return await _dbConnection.GetConnection("read").QueryFirstOrDefaultAsync<TEntity>(sql, predicate);
             else
                 return await transaction.Connection.QueryFirstOrDefaultAsync<TEntity>(sql, predicate, transaction);
         }
 
         public virtual TEntity Find(int id, CommittableTransaction transaction)
         {
-            if (_dbConnection["read"].State == ConnectionState.Closed)
-                _dbConnection["read"].Open();
-            _dbConnection["read"].EnlistTransaction(transaction);
-            return _dbConnection["read"].Get<TEntity>(id);
+            if (_dbConnection.GetConnection("read").State == ConnectionState.Closed)
+                _dbConnection.GetConnection("read").Open();
+            _dbConnection.GetConnection("read").EnlistTransaction(transaction);
+            return _dbConnection.GetConnection("read").Get<TEntity>(id);
         }
 
         public virtual async Task<TEntity> FindAsync(int id, IDbTransaction transaction = null)
         {
             if (transaction == null)
-                return await _dbConnection["read"].GetAsync<TEntity>(id);
+                return await _dbConnection.GetConnection("read").GetAsync<TEntity>(id);
             else
                 return await transaction.Connection.GetAsync<TEntity>(id, transaction);
         }
@@ -63,7 +63,7 @@ namespace STSys.Core.Data.Repository.Dapper.Common
         public virtual IEnumerable<TEntity> GetAll(object predicate = null, IDbTransaction transaction = null)
         {
             if (transaction == null)
-                return _dbConnection["read"].GetList<TEntity>(predicate);
+                return _dbConnection.GetConnection("read").GetList<TEntity>(predicate);
             else
                 return transaction.Connection.GetList<TEntity>(predicate, null, transaction);
 
@@ -71,21 +71,21 @@ namespace STSys.Core.Data.Repository.Dapper.Common
         public virtual async Task<IEnumerable<TEntity>> GetAllAsync(object predicate = null, IDbTransaction transaction = null)
         {
             if (transaction == null)
-                return await _dbConnection["read"].GetListAsync<TEntity>(predicate);
+                return await _dbConnection.GetConnection("read").GetListAsync<TEntity>(predicate);
             else
                 return await transaction.Connection.GetListAsync<TEntity>(predicate, null, transaction);
         }
         public virtual IEnumerable<TEntity> GetPage(int page, int pageSize, IList<ISort> sorts, object predicate = null, IDbTransaction transaction = null)
         {
             if (transaction == null)
-                return _dbConnection["read"].GetPage<TEntity>(predicate, sorts, page, pageSize);
+                return _dbConnection.GetConnection("read").GetPage<TEntity>(predicate, sorts, page, pageSize);
             else
                 return transaction.Connection.GetPage<TEntity>(predicate, sorts, page, pageSize, transaction);
         }
         public virtual async Task<IEnumerable<TEntity>> GetPageAsync(int page, int pageSize, IList<ISort> sorts, object predicate = null, IDbTransaction transaction = null)
         {
             if (transaction == null)
-                return await _dbConnection["read"].GetPageAsync<TEntity>(predicate, sorts, page, pageSize);
+                return await _dbConnection.GetConnection("read").GetPageAsync<TEntity>(predicate, sorts, page, pageSize);
             else
                 return await transaction.Connection.GetPageAsync<TEntity>(predicate, sorts, page, pageSize, transaction);
         }
@@ -93,7 +93,7 @@ namespace STSys.Core.Data.Repository.Dapper.Common
         public virtual IMultipleResultReader GetMultiple(GetMultiplePredicate predicate = null, IDbTransaction transaction = null)
         {
             if (transaction == null)
-                return _dbConnection["read"].GetMultiple(predicate);
+                return _dbConnection.GetConnection("read").GetMultiple(predicate);
             else
                 return transaction.Connection.GetMultiple(predicate, transaction);
         }
@@ -101,14 +101,14 @@ namespace STSys.Core.Data.Repository.Dapper.Common
         public virtual IEnumerable<TEntity> GetFromSql(string sql, object param = null, IDbTransaction transaction = null)
         {
             if (transaction == null)
-                return _dbConnection["read"].Query<TEntity>(sql, param);
+                return _dbConnection.GetConnection("read").Query<TEntity>(sql, param);
             else
                 return transaction.Connection.Query<TEntity>(sql, param, transaction);
         }
         public  IEnumerable<T> GetFromSql<T>(string sql, object param = null, IDbTransaction transaction = null) where T : class
         {
             if (transaction == null)
-                return _dbConnection["read"].Query<T>(sql, param);
+                return _dbConnection.GetConnection("read").Query<T>(sql, param);
             else
                 return transaction.Connection.Query<T>(sql, param, transaction);
         }
@@ -117,21 +117,21 @@ namespace STSys.Core.Data.Repository.Dapper.Common
         public virtual async Task<IEnumerable<TEntity>> GetFromSqlAsync(string sql, object param = null, IDbTransaction transaction = null)
         {
             if (transaction == null)
-                return await _dbConnection["read"].QueryAsync<TEntity>(sql, param);
+                return await _dbConnection.GetConnection("read").QueryAsync<TEntity>(sql, param);
             else
                 return await transaction.Connection.QueryAsync<TEntity>(sql, param, transaction);
         }
         public virtual GridReader GetMultipleFromSql(string sql, object param = null, IDbTransaction transaction = null)
         {
             if (transaction == null)
-                return _dbConnection["read"].QueryMultiple(sql, param);
+                return _dbConnection.GetConnection("read").QueryMultiple(sql, param);
             else
                 return transaction.Connection.QueryMultiple(sql, param, transaction);
         }
         public virtual async Task<GridReader> GetMultipleFromSqlAsync(string sql, object param = null, IDbTransaction transaction = null)
         {
             if (transaction == null)
-                return await _dbConnection["read"].QueryMultipleAsync(sql, param);
+                return await _dbConnection.GetConnection("read").QueryMultipleAsync(sql, param);
             else
                 return await transaction.Connection.QueryMultipleAsync(sql, param, transaction);
         }
@@ -139,14 +139,14 @@ namespace STSys.Core.Data.Repository.Dapper.Common
         public IEnumerable<dynamic> GetDynamic(string sql, object param, IDbTransaction transaction = null)
         {
             if (transaction == null)
-                return _dbConnection["read"].Query<dynamic>(sql, param);
+                return _dbConnection.GetConnection("read").Query<dynamic>(sql, param);
             else
                 return transaction.Connection.Query<dynamic>(sql, param, transaction);
         }
         public async Task<IEnumerable<dynamic>> GetDynamicAsync(string sql, object param, IDbTransaction transaction = null)
         {
             if (transaction == null)
-                return await _dbConnection["read"].QueryAsync<dynamic>(sql, param);
+                return await _dbConnection.GetConnection("read").QueryAsync<dynamic>(sql, param);
             else
                 return await transaction.Connection.QueryAsync<dynamic>(sql, param, transaction);
         }
@@ -165,7 +165,7 @@ namespace STSys.Core.Data.Repository.Dapper.Common
             p.Add("RecordCount", dbType: DbType.Int32, direction: ParameterDirection.Output);
             var pageData = new PageDataView<TEntity>();
             if (transaction == null)
-                pageData.Items = _dbConnection["read"].Query<TEntity>(proName, p, commandType: CommandType.StoredProcedure).ToList();
+                pageData.Items = _dbConnection.GetConnection("read").Query<TEntity>(proName, p, commandType: CommandType.StoredProcedure).ToList();
             else
                 pageData.Items = transaction.Connection.Query<TEntity>(proName, p, commandType: CommandType.StoredProcedure).ToList();
             pageData.TotalNum = p.Get<int>("RecordCount");
@@ -186,12 +186,12 @@ namespace STSys.Core.Data.Repository.Dapper.Common
             var pList = CommonHelper<TEntity>.GetOraParameters(command);
             if (transaction == null)
             {
-                var list = _dbConnection["read"].Query<TEntity>(command.Key, (object)pList).ToList();
+                var list = _dbConnection.GetConnection("read").Query<TEntity>(command.Key, (object)pList).ToList();
                 return (list != null && list.Count > 0) ? list.FirstOrDefault() : CommonHelper<TEntity>.Copy(null);
             }
             else
             {
-                var list = _dbConnection["read"].Query<TEntity>(command.Key, (object)pList, transaction).ToList();
+                var list = _dbConnection.GetConnection("read").Query<TEntity>(command.Key, (object)pList, transaction).ToList();
                 return (list != null && list.Count > 0) ? list.FirstOrDefault() : CommonHelper<TEntity>.Copy(null);
             }
         }
@@ -201,11 +201,11 @@ namespace STSys.Core.Data.Repository.Dapper.Common
 
             if (transaction == null)
             {
-                return  _dbConnection["read"].Query<TEntity>(sql, parameters).ToList(); 
+                return  _dbConnection.GetConnection("read").Query<TEntity>(sql, parameters).ToList(); 
             }
             else
             {
-                return  _dbConnection["read"].Query<TEntity>(sql, parameters, transaction).ToList();
+                return  _dbConnection.GetConnection("read").Query<TEntity>(sql, parameters, transaction).ToList();
             } 
         }
 
@@ -215,11 +215,11 @@ namespace STSys.Core.Data.Repository.Dapper.Common
 
             if (transaction == null)
             {
-                return _dbConnection["read"].Query<T>(sql, parameters).ToList();
+                return _dbConnection.GetConnection("read").Query<T>(sql, parameters).ToList();
             }
             else
             {
-                return _dbConnection["read"].Query<T>(sql, parameters, transaction).ToList();
+                return _dbConnection.GetConnection("read").Query<T>(sql, parameters, transaction).ToList();
             }
         }
     }

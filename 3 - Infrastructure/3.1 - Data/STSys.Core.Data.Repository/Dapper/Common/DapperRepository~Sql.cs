@@ -13,28 +13,28 @@ namespace STSys.Core.Data.Repository.Dapper.Common
         public virtual int Execute(string sql, object param, IDbTransaction transaction = null)
         {
             if (transaction == null)
-                return _dbConnection["write"].Execute(sql, param);
+                return _dbConnection.GetConnection("write").Execute(sql, param);
             else
                 return transaction.Connection.Execute(sql, param, transaction);
         }
         public virtual async Task<int> ExecuteAsync(string sql, object param, IDbTransaction transaction = null)
         {
             if (transaction == null)
-                return await _dbConnection["write"].ExecuteAsync(sql, param);
+                return await _dbConnection.GetConnection("write").ExecuteAsync(sql, param);
             else
                 return await transaction.Connection.ExecuteAsync(sql, param, transaction);
         }
         public virtual object ExecuteScalar(string sql, object param, IDbTransaction transaction = null)
         {
             if (transaction == null)
-                return _dbConnection["write"].ExecuteScalar(sql, param);
+                return _dbConnection.GetConnection("write").ExecuteScalar(sql, param);
             else
                 return transaction.Connection.ExecuteScalar(sql, param, transaction);
         }
         public virtual async Task<object> ExecuteScalarAsync(string sql, object param, IDbTransaction transaction = null)
         {
             if (transaction == null)
-                return await _dbConnection["write"].ExecuteScalarAsync(sql, param);
+                return await _dbConnection.GetConnection("write").ExecuteScalarAsync(sql, param);
             else
                 return await transaction.Connection.ExecuteScalarAsync(sql, param, transaction);
         }

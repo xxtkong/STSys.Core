@@ -93,14 +93,15 @@ namespace STSys.Core.Admin
             app.UseCookiePolicy();
             app.UseAuthentication();
 
-            var repositoryMongoDB = (IRepositoryMongoDB<QueueInfo>)serviceProvider.GetService(typeof(IRepositoryMongoDB<QueueInfo>));
+            //var repositoryMongoDB = (IRepositoryMongoDB<QueueInfo>)serviceProvider.GetService(typeof(IRepositoryMongoDB<QueueInfo>));
 
-            loggerFactory.AddProvider(new STSysLoggerProvider(new STSysLoggerConfiguration
-            {
-                LogLevel = LogLevel.Error,
-                Color = ConsoleColor.Blue,
-                repositoryMongoDB = repositoryMongoDB
-            }));
+            //loggerFactory.AddProvider(new STSysLoggerProvider(new STSysLoggerConfiguration
+            //{
+            //    LogLevel = LogLevel.Error,
+            //    Color = ConsoleColor.Blue,
+            //    repositoryMongoDB = repositoryMongoDB
+            //}));
+
             //loggerFactory.AddProvider(new STSysLoggerProvider(new STSysLoggerConfiguration
             //{
             //    LogLevel = LogLevel.Debug,

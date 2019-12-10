@@ -16,8 +16,8 @@ namespace STSys.Core.Data.Repository.Dapper.Common
 {
     public partial class DapperRepository<TEntity> : IRepository<TEntity> where TEntity : class
     {
-        private readonly DbConnectionFactory _dbConnection;
-        public DapperRepository(DbConnectionFactory connection)
+        private readonly IDbConnectionFactory _dbConnection;
+        public DapperRepository(IDbConnectionFactory connection)
         {
             this._dbConnection = connection;
         }
@@ -30,9 +30,9 @@ namespace STSys.Core.Data.Repository.Dapper.Common
         {
             if (string.IsNullOrEmpty(key))
                 //取第一条链接
-                return _dbConnection.GetFirstConnection;
+                return _dbConnection.GetFirstConnection();
             else
-                return _dbConnection[key];
+                return _dbConnection.GetConnection(key);
         }
         public IDbTransaction GetdbTransaction(DbConnection dbConnection)
         {

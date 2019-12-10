@@ -34,14 +34,15 @@ namespace STSys.Core.Data.IoC
             .AddMediatR(typeof(UsersInsertCommand).GetTypeInfo().Assembly)
             .AddScoped(typeof(IRepository<>), typeof(DapperRepository<>))
             .AddScoped(typeof(IRepositoryEF<>), typeof(Repository<>))
-            .AddScoped(typeof(IRepositoryMongoDB<>),typeof(RepositoryMongoDB<>))
+            .AddScoped(typeof(IRepositoryMongoDB<>), typeof(RepositoryMongoDB<>))
             .AddScoped<INotificationHandler<DomainNotification>, DomainNotificationHandler>()
             .AddScoped<IUsersRepository, UsersRepository>()
             .AddScoped<IManagerRepository, ManagerRepository>()
             .AddScoped<IColumnRepository, ColumnRepository>()
             .AddScoped<IRoleRepository, RoleRepository>()
+            .AddScoped<IDbConnectionFactory, DbConnectionFactory>();
             //.AddScoped<DbConnectionFactory>()
-            .AddDbConnectionFactory(configuration)
+            //.AddDbConnectionFactory(configuration)
             ;
 
         }

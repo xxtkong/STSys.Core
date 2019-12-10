@@ -12,7 +12,7 @@ using MySql.Data.MySqlClient;
 
 namespace STSys.Core.Data.Context.Config
 {
-    public class DbConnectionFactory
+    public class DbConnectionFactory: IDbConnectionFactory
     {
         private static IDictionary<string, DbConnection> DbConnection = new Dictionary<string, DbConnection>();
         private readonly string _connectionString, _connectionWriteString;
@@ -69,28 +69,7 @@ namespace STSys.Core.Data.Context.Config
                     _mongodbDatabase = client.GetDatabase(configuration["mongo:databaseName"]);
             }
         }
-        public DbConnection this[string index]
-        {
-            get
-            {
-                switch (index)
-                {
-                    case "read":
-                        return DbConnection.Where(s => s.Key.Contains("read")).OrderBy(_ => Guid.NewGuid()).First().Value;
-                    case "write":
-                        return DbConnection.Where(s => s.Key.Contains("read")).OrderBy(_ => Guid.NewGuid()).First().Value;
-                    default:
-                        return DbConnection.OrderBy(_ => Guid.NewGuid()).First().Value;
-                }
-            }
-        }
-        public DbConnection GetFirstConnection
-        {
-            get
-            {
-                return DbConnection.Values.First();
-            }
-        }
+        
         public IMongoDatabase GetMongoDatabase
         {
             get
@@ -99,6 +78,22 @@ namespace STSys.Core.Data.Context.Config
             }
         }
 
-       
+        public DbConnection GetConnection(string index)
+        {
+            switch (index)
+            {
+                case "read":
+                    return DbConnection.Where(s => s.Key.Contains("read")).OrderBy(_ => Guid.NewGuid()).First().Value;
+                case "write":
+                    return DbConnection.Where(s => s.Key.Contains("read")).OrderBy(_ => Guid.NewGuid()).First().Value;
+                default:
+                    return DbConnection.OrderBy(_ => Guid.NewGuid()).First().Value;
+            }
+        }
+
+        public DbConnection GetFirstConnection()
+        {
+            return DbConnection.Values.First();
+        }
     }
 }

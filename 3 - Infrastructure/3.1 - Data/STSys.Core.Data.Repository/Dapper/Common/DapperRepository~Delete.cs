@@ -14,14 +14,14 @@ namespace STSys.Core.Data.Repository.Dapper.Common
         public virtual void Delete(TEntity entity, IDbTransaction transaction = null)
         {
             if (transaction == null)
-                _dbConnection["write"].Delete(entity);
+                _dbConnection.GetConnection("write").Delete(entity);
             else
                 transaction.Connection.Delete(entity, transaction);
         }
         public virtual async Task DeleteAsync(TEntity entity, IDbTransaction transaction = null)
         {
             if (transaction == null)
-               await  _dbConnection["write"].DeleteAsync(entity);
+               await  _dbConnection.GetConnection("write").DeleteAsync(entity);
             else
                await transaction.Connection.DeleteAsync(entity, transaction);
         }
@@ -30,14 +30,14 @@ namespace STSys.Core.Data.Repository.Dapper.Common
         public virtual void Delete(IEnumerable<TEntity> entity, IDbTransaction transaction = null)
         {
             if (transaction == null)
-                _dbConnection["write"].Delete(entity);
+                _dbConnection.GetConnection("write").Delete(entity);
             else
                 transaction.Connection.Delete(entity, transaction);
         }
         public virtual async Task DeleteAsync(IEnumerable<TEntity> entity, IDbTransaction transaction = null)
         {
             if (transaction == null)
-               await _dbConnection["write"].DeleteAsync(entity);
+               await _dbConnection.GetConnection("write").DeleteAsync(entity);
             else
                await transaction.Connection.DeleteAsync(entity, transaction);
         }
@@ -45,14 +45,14 @@ namespace STSys.Core.Data.Repository.Dapper.Common
         public virtual void Delete(IPredicate entity, IDbTransaction transaction = null)
         {
             if (transaction == null)
-                _dbConnection["write"].Delete(entity);
+                _dbConnection.GetConnection("write").Delete(entity);
             else
                 transaction.Connection.Delete(entity, transaction);
         }
         public virtual async Task DeleteAsync(IPredicate entity, IDbTransaction transaction = null)
         {
             if (transaction == null)
-               await  _dbConnection["write"].DeleteAsync(entity);
+               await  _dbConnection.GetConnection("write").DeleteAsync(entity);
             else
                await transaction.Connection.DeleteAsync(entity, transaction);
         }
@@ -60,14 +60,14 @@ namespace STSys.Core.Data.Repository.Dapper.Common
         public virtual void Delete(object entity, IDbTransaction transaction = null)
         {
             if (transaction == null)
-                _dbConnection["write"].Delete(entity);
+                _dbConnection.GetConnection("write").Delete(entity);
             else
                 transaction.Connection.Delete(entity, transaction);
         }
         public virtual async Task DeleteAsync(object entity, IDbTransaction transaction = null)
         {
             if (transaction == null)
-                await _dbConnection["write"].DeleteAsync(entity);
+                await _dbConnection.GetConnection("write").DeleteAsync(entity);
             else
                 await transaction.Connection.DeleteAsync(entity, transaction);
         }
@@ -83,11 +83,11 @@ namespace STSys.Core.Data.Repository.Dapper.Common
             var pList = CommonHelper<TEntity>.GetOraParameters(command);
             if (transaction == null)
             {
-               return  _dbConnection["write"].Execute(command.Key, (object)pList); 
+               return  _dbConnection.GetConnection("write").Execute(command.Key, (object)pList); 
             }
             else
             {
-                return _dbConnection["write"].Execute(command.Key, (object)pList, transaction);
+                return _dbConnection.GetConnection("write").Execute(command.Key, (object)pList, transaction);
             }
         }
     }

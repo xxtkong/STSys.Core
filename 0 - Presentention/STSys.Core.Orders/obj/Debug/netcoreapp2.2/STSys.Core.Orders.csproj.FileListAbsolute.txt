@@ -87,3 +87,4 @@ D:\最新\STSys\0 - Presentention\STSys.Core.Orders\obj\Debug\netcoreapp2.2\STSy
 D:\最新\STSys\0 - Presentention\STSys.Core.Orders\obj\Debug\netcoreapp2.2\STSys.Core.Orders.dll
 D:\最新\STSys\0 - Presentention\STSys.Core.Orders\obj\Debug\netcoreapp2.2\STSys.Core.Orders.pdb
 D:\最新\STSys\0 - Presentention\STSys.Core.Orders\obj\Debug\netcoreapp2.2\STSys.Core.Orders.csproj.CopyComplete
+D:\最新\STSys\0 - Presentention\STSys.Core.Orders\obj\Debug\netcoreapp2.2\STSys.Core.Orders.csprojAssemblyReference.cache

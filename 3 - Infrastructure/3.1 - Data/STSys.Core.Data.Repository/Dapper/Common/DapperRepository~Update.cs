@@ -18,7 +18,7 @@ namespace STSys.Core.Data.Repository.Dapper.Common
         public virtual void Update(TEntity entity, IDbTransaction transaction = null)
         {
             if (transaction == null)
-                _dbConnection["write"].Update(entity);
+                _dbConnection.GetConnection("write").Update(entity);
             else
                 transaction.Connection.Update(entity, transaction);
         }
@@ -26,35 +26,35 @@ namespace STSys.Core.Data.Repository.Dapper.Common
         public virtual async Task UpdateAsync(TEntity entity, IDbTransaction transaction = null)
         {
             if (transaction == null)
-                await _dbConnection["write"].UpdateAsync(entity);
+                await _dbConnection.GetConnection("write").UpdateAsync(entity);
             else
                 await transaction.Connection.UpdateAsync(entity, transaction);
         }
         public virtual void Update(TEntity[] entities, IDbTransaction transaction = null)
         {
             if (transaction == null)
-                _dbConnection["write"].Update(entities);
+                _dbConnection.GetConnection("write").Update(entities);
             else
                 transaction.Connection.Update(entities, transaction);
         }
         public virtual async Task UpdateAsync(TEntity[] entities, IDbTransaction transaction = null)
         {
             if (transaction == null)
-                await _dbConnection["write"].UpdateAsync(entities);
+                await _dbConnection.GetConnection("write").UpdateAsync(entities);
             else
                 await transaction.Connection.UpdateAsync(entities, transaction);
         }
         public virtual void Update(IEnumerable<TEntity> entities, IDbTransaction transaction = null)
         {
             if (transaction == null)
-                _dbConnection["write"].Update(entities);
+                _dbConnection.GetConnection("write").Update(entities);
             else
                 transaction.Connection.Update(entities, transaction);
         }
         public virtual async Task UpdateAsync(IEnumerable<TEntity> entities, IDbTransaction transaction = null)
         {
             if (transaction == null)
-                await _dbConnection["write"].UpdateAsync(entities);
+                await _dbConnection.GetConnection("write").UpdateAsync(entities);
             else
                 await transaction.Connection.UpdateAsync(entities, transaction);
         }
@@ -72,7 +72,7 @@ namespace STSys.Core.Data.Repository.Dapper.Common
             var pList = CommonHelper<TEntity>.GetOraParameters(command); 
             if (transaction == null)
             {
-                return _dbConnection["write"].Execute(command.Key, (object)pList);
+                return _dbConnection.GetConnection("write").Execute(command.Key, (object)pList);
             }
             else
             {

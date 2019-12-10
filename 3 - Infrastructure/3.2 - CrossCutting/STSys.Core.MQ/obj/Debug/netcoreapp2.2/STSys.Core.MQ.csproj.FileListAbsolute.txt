@@ -43,3 +43,4 @@ D:\最新\STSys\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.MQ\obj\Debug\ne
 D:\最新\STSys\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.MQ\obj\Debug\netcoreapp2.2\STSys.Core.MQ.csproj.CopyComplete
 D:\最新\STSys\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.MQ\obj\Debug\netcoreapp2.2\STSys.Core.MQ.dll
 D:\最新\STSys\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.MQ\obj\Debug\netcoreapp2.2\STSys.Core.MQ.pdb
+D:\最新\STSys\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.MQ\obj\Debug\netcoreapp2.2\STSys.Core.MQ.csprojAssemblyReference.cache
