@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using STSys.Core.Admin.Abstractions.Interfaces;
@@ -35,7 +36,6 @@ namespace STSys.Core.Data.IoC
             .AddScoped(typeof(IRepositoryEF<>), typeof(Repository<>))
             .AddScoped(typeof(IRepositoryMongoDB<>),typeof(RepositoryMongoDB<>))
             .AddScoped<INotificationHandler<DomainNotification>, DomainNotificationHandler>()
-         
             .AddScoped<IUsersRepository, UsersRepository>()
             .AddScoped<IManagerRepository, ManagerRepository>()
             .AddScoped<IColumnRepository, ColumnRepository>()
@@ -50,6 +50,13 @@ namespace STSys.Core.Data.IoC
             var factory = new DbConnectionFactory(configuration);
             services.AddSingleton(factory);
             return services;
+        }
+        public static void AddDefaultDbContext(this IServiceCollection services, IConfiguration configuration)
+        {
+            //SqlServer
+            services.AddDbContext<STSysContext>(options => options.UseSqlServer(configuration.GetConnectionString("Connection")));
+            //mysql
+            //services.AddDbContext<STSysContext>(options => options.UseMySql(Configuration.GetConnectionString("MySqlConnection")));
         }
     }
 }

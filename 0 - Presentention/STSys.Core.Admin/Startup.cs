@@ -39,10 +39,10 @@ namespace STSys.Core.Admin
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            ConfigureProductionServices(services);
+            ///默认的数据库链接
+            services.AddDefaultDbContext(Configuration);
             services.Configure<CookiePolicyOptions>(options =>
             {
-                // This lambda determines whether user consent for non-essential cookies is needed for a given request.
                 options.CheckConsentNeeded = context => true;
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
@@ -72,13 +72,7 @@ namespace STSys.Core.Admin
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
-        private void ConfigureProductionServices(IServiceCollection services)
-        {
-            //SqlServer
-            services.AddDbContext<STSysContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
-            //mysql
-            //services.AddDbContext<STSysContext>(options => options.UseMySql(Configuration.GetConnectionString("MySqlConnection")));
-        }
+       
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory, IServiceProvider serviceProvider)
         {
