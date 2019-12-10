@@ -19,7 +19,6 @@ D:\项目\NASys\STSys.Core\4 - Common\Common.Utility\obj\Debug\netcoreapp2.2\Com
 D:\最新\STSys\4 - Common\Common.Utility\bin\Debug\netcoreapp2.2\Common.Utility.deps.json
 D:\最新\STSys\4 - Common\Common.Utility\bin\Debug\netcoreapp2.2\Common.Utility.dll
 D:\最新\STSys\4 - Common\Common.Utility\bin\Debug\netcoreapp2.2\Common.Utility.pdb
-D:\最新\STSys\4 - Common\Common.Utility\obj\Debug\netcoreapp2.2\Common.Utility.csprojAssemblyReference.cache
 D:\最新\STSys\4 - Common\Common.Utility\obj\Debug\netcoreapp2.2\Common.Utility.csproj.CoreCompileInputs.cache
 D:\最新\STSys\4 - Common\Common.Utility\obj\Debug\netcoreapp2.2\Common.Utility.AssemblyInfoInputs.cache
 D:\最新\STSys\4 - Common\Common.Utility\obj\Debug\netcoreapp2.2\Common.Utility.AssemblyInfo.cs

@@ -11,7 +11,7 @@ using MongoDB.Driver;
 
 namespace STSys.Core.Data.Context.Config
 {
-    public class DbConnectionFactory
+    public class DbConnectionFactory: IDbConnectionFactory
     {
         private static IDictionary<string, DbConnection> DbConnection;
         private readonly string _connectionString, _connectionWriteString;
@@ -34,7 +34,7 @@ namespace STSys.Core.Data.Context.Config
                     _mongodbDatabase = client.GetDatabase(configuration["mongo:databaseName"]);
             }
         }
-        
+
         public DbConnection this[string index]
         {
             get
@@ -56,6 +56,25 @@ namespace STSys.Core.Data.Context.Config
             {
                 return _mongodbDatabase;
             }
+        }
+
+
+
+        public string Provider { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+
+        public DbConnection GetConnection(string index)
+        {
+            return DbConnection[index];
+        }
+
+        public DbConnection GetRandomConnection()
+        {
+            throw new NotImplementedException();
+        }
+
+        DbConnection IDbConnectionFactory.GetFirstConnection()
+        {
+            return DbConnection.Values.First();
         }
     }
 }

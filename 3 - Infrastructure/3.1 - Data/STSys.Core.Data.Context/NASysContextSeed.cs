@@ -26,7 +26,7 @@ namespace STSys.Core.Data.Context
             }
             catch (Exception ex)
             {
-                
+
             }
         }
 
@@ -34,7 +34,7 @@ namespace STSys.Core.Data.Context
         {
             return new List<UsersEntities>()
             {
-                 //new Users(){ Mobile = "13512341234" , Balance = 1000, CreateTime = DateTime.Now, Pwd = "123456", Status = 1, UseBalance = 800, Encrypt = "123"}
+                //new Users(){ Mobile = "13512341234" , Balance = 1000, CreateTime = DateTime.Now, Pwd = "123456", Status = 1, UseBalance = 800, Encrypt = "123"}
             };
         }
     }

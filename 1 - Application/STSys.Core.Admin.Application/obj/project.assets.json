@@ -3238,6 +3238,16 @@
           "bin/placeholder/STSys.Core.Cache.dll": {}
         }
       },
+      "STSys.Core.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "compile": {
+          "bin/placeholder/STSys.Core.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/STSys.Core.Data.dll": {}
+        }
+      },
       "STSys.Core.Data.Context/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
@@ -3248,6 +3258,7 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "2.2.6",
           "MongoDB.Driver": "2.8.1",
           "STSys.Core.Admin.Abstractions": "1.0.0",
+          "STSys.Core.Data": "1.0.0",
           "STSys.Core.Domain": "1.0.0",
           "STSys.Core.Users.Abstractions": "1.0.0",
           "System.Data.SqlClient": "4.6.1"
@@ -9848,6 +9859,11 @@
       "type": "project",
       "path": "../../3 - Infrastructure/3.2 - CrossCutting/STSys.Core.Cache/STSys.Core.Cache.csproj",
       "msbuildProject": "../../3 - Infrastructure/3.2 - CrossCutting/STSys.Core.Cache/STSys.Core.Cache.csproj"
+    },
+    "STSys.Core.Data/1.0.0": {
+      "type": "project",
+      "path": "../../3 - Infrastructure/3.1 - Data/STSys.Core.Data/STSys.Core.Data.csproj",
+      "msbuildProject": "../../3 - Infrastructure/3.1 - Data/STSys.Core.Data/STSys.Core.Data.csproj"
     },
     "STSys.Core.Data.Context/1.0.0": {
       "type": "project",

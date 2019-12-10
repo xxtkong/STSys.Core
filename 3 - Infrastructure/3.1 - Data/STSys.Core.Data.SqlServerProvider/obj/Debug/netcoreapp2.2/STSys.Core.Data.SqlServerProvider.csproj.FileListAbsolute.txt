@@ -1,0 +1,6 @@
+D:\最新\STSys\3 - Infrastructure\3.1 - Data\STSys.Core.Data.SqlServerProvider\bin\Debug\netcoreapp2.2\STSys.Core.Data.SqlServerProvider.deps.json
+D:\最新\STSys\3 - Infrastructure\3.1 - Data\STSys.Core.Data.SqlServerProvider\bin\Debug\netcoreapp2.2\STSys.Core.Data.SqlServerProvider.dll
+D:\最新\STSys\3 - Infrastructure\3.1 - Data\STSys.Core.Data.SqlServerProvider\obj\Debug\netcoreapp2.2\STSys.Core.Data.SqlServerProvider.csproj.CoreCompileInputs.cache
+D:\最新\STSys\3 - Infrastructure\3.1 - Data\STSys.Core.Data.SqlServerProvider\obj\Debug\netcoreapp2.2\STSys.Core.Data.SqlServerProvider.AssemblyInfoInputs.cache
+D:\最新\STSys\3 - Infrastructure\3.1 - Data\STSys.Core.Data.SqlServerProvider\obj\Debug\netcoreapp2.2\STSys.Core.Data.SqlServerProvider.AssemblyInfo.cs
+D:\最新\STSys\3 - Infrastructure\3.1 - Data\STSys.Core.Data.SqlServerProvider\obj\Debug\netcoreapp2.2\STSys.Core.Data.SqlServerProvider.csprojAssemblyReference.cache

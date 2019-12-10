@@ -14,6 +14,7 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "2.2.6",
           "MongoDB.Driver": "2.8.1",
           "STSys.Core.Admin.Abstractions": "1.0.0",
+          "STSys.Core.Data": "1.0.0",
           "STSys.Core.Domain": "1.0.0",
           "STSys.Core.Users.Abstractions": "1.0.0",
           "System.Data.SqlClient": "4.6.1"
@@ -1520,6 +1521,11 @@
           "STSys.Core.Admin.Abstractions.dll": {}
         }
       },
+      "STSys.Core.Data/1.0.0": {
+        "runtime": {
+          "STSys.Core.Data.dll": {}
+        }
+      },
       "STSys.Core.Domain/1.0.0": {
         "dependencies": {
           "Dapper": "1.60.6",
@@ -2508,6 +2514,11 @@
       "sha512": ""
     },
     "STSys.Core.Admin.Abstractions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "STSys.Core.Data/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

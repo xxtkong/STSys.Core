@@ -2340,6 +2340,11 @@
           "STSys.Core.Cache.dll": {}
         }
       },
+      "STSys.Core.Data/1.0.0": {
+        "runtime": {
+          "STSys.Core.Data.dll": {}
+        }
+      },
       "STSys.Core.Data.Context/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "2.2.6",
@@ -2348,6 +2353,7 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "2.2.6",
           "MongoDB.Driver": "2.8.1",
           "STSys.Core.Admin.Abstractions": "1.0.0",
+          "STSys.Core.Data": "1.0.0",
           "STSys.Core.Domain": "1.0.0",
           "STSys.Core.Users.Abstractions": "1.0.0",
           "System.Data.SqlClient": "4.6.1"
@@ -3801,6 +3807,11 @@
       "sha512": ""
     },
     "STSys.Core.Cache/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "STSys.Core.Data/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

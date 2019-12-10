@@ -7,7 +7,7 @@ using System.Text;
 
 namespace STSys.Core.Data.Context
 {
-    public partial  class STSysContext
+    public partial class STSysContext
     {
         public DbSet<UsersEntities> Users { get; set; }
         public DbSet<ManagerEntities> Manager { get; set; }

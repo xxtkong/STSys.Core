@@ -17,6 +17,11 @@
     <ProjectReference Include="..\..\..\2 - Domain\STSys.Core.Admin.Abstractions\STSys.Core.Admin.Abstractions.csproj" />
     <ProjectReference Include="..\..\..\2 - Domain\STSys.Core.Domain\STSys.Core.Domain.csproj" />
     <ProjectReference Include="..\..\..\2 - Domain\STSys.Core.Users.Abstractions\STSys.Core.Users.Abstractions.csproj" />
+    <ProjectReference Include="..\STSys.Core.Data\STSys.Core.Data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Migrations\" />
   </ItemGroup>
 
 </Project>

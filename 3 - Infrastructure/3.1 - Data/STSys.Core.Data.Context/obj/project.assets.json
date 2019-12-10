@@ -2277,6 +2277,16 @@
           "bin/placeholder/STSys.Core.Admin.Abstractions.dll": {}
         }
       },
+      "STSys.Core.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "compile": {
+          "bin/placeholder/STSys.Core.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/STSys.Core.Data.dll": {}
+        }
+      },
       "STSys.Core.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
@@ -7415,6 +7425,11 @@
       "path": "../../../2 - Domain/STSys.Core.Admin.Abstractions/STSys.Core.Admin.Abstractions.csproj",
       "msbuildProject": "../../../2 - Domain/STSys.Core.Admin.Abstractions/STSys.Core.Admin.Abstractions.csproj"
     },
+    "STSys.Core.Data/1.0.0": {
+      "type": "project",
+      "path": "../STSys.Core.Data/STSys.Core.Data.csproj",
+      "msbuildProject": "../STSys.Core.Data/STSys.Core.Data.csproj"
+    },
     "STSys.Core.Domain/1.0.0": {
       "type": "project",
       "path": "../../../2 - Domain/STSys.Core.Domain/STSys.Core.Domain.csproj",
@@ -7440,6 +7455,7 @@
       "Microsoft.NETCore.App >= 2.2.0",
       "MongoDB.Driver >= 2.8.1",
       "STSys.Core.Admin.Abstractions >= 1.0.0",
+      "STSys.Core.Data >= 1.0.0",
       "STSys.Core.Domain >= 1.0.0",
       "STSys.Core.Users.Abstractions >= 1.0.0",
       "System.Data.SqlClient >= 4.6.1"
@@ -7485,6 +7501,9 @@
             },
             "D:\\最新\\STSys\\2 - Domain\\STSys.Core.Users.Abstractions\\STSys.Core.Users.Abstractions.csproj": {
               "projectPath": "D:\\最新\\STSys\\2 - Domain\\STSys.Core.Users.Abstractions\\STSys.Core.Users.Abstractions.csproj"
+            },
+            "D:\\最新\\STSys\\3 - Infrastructure\\3.1 - Data\\STSys.Core.Data\\STSys.Core.Data.csproj": {
+              "projectPath": "D:\\最新\\STSys\\3 - Infrastructure\\3.1 - Data\\STSys.Core.Data\\STSys.Core.Data.csproj"
             }
           }
         }

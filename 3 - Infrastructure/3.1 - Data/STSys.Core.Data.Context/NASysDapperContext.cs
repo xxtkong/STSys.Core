@@ -17,8 +17,9 @@ namespace STSys.Core.Data.Context
         }
         public DbConnectionFactory DbConnections
         {
-            get {
-                return new DbConnectionFactory(_configuration) ;
+            get
+            {
+                return new DbConnectionFactory(_configuration);
             }
         }
     }
