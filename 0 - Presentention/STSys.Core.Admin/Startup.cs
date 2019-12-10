@@ -41,6 +41,7 @@ namespace STSys.Core.Admin
         {
             ///默认的数据库链接
             services.AddDefaultDbContext(Configuration);
+            services.AddMongoDB(Configuration);
             services.Configure<CookiePolicyOptions>(options =>
             {
                 options.CheckConsentNeeded = context => true;
@@ -93,14 +94,14 @@ namespace STSys.Core.Admin
             app.UseCookiePolicy();
             app.UseAuthentication();
 
-            //var repositoryMongoDB = (IRepositoryMongoDB<QueueInfo>)serviceProvider.GetService(typeof(IRepositoryMongoDB<QueueInfo>));
+            var repositoryMongoDB = (IRepositoryMongoDB<QueueInfo>)serviceProvider.GetService(typeof(IRepositoryMongoDB<QueueInfo>));
 
-            //loggerFactory.AddProvider(new STSysLoggerProvider(new STSysLoggerConfiguration
-            //{
-            //    LogLevel = LogLevel.Error,
-            //    Color = ConsoleColor.Blue,
-            //    repositoryMongoDB = repositoryMongoDB
-            //}));
+            loggerFactory.AddProvider(new STSysLoggerProvider(new STSysLoggerConfiguration
+            {
+                LogLevel = LogLevel.Error,
+                Color = ConsoleColor.Blue,
+                repositoryMongoDB = repositoryMongoDB
+            }));
 
             //loggerFactory.AddProvider(new STSysLoggerProvider(new STSysLoggerConfiguration
             //{

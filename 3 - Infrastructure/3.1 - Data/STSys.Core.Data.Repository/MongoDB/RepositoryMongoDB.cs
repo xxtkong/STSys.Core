@@ -14,8 +14,8 @@ namespace STSys.Core.Data.Repository.MongoDB
 {
     public class RepositoryMongoDB<TEntity> : IRepositoryMongoDB<TEntity> where TEntity : class
     {
-        private readonly DbConnectionFactory _dbConnection;
-        public RepositoryMongoDB(DbConnectionFactory connection)
+        private readonly MongodbFactory _dbConnection;
+        public RepositoryMongoDB(MongodbFactory connection)
         {
             this._dbConnection = connection;
         }

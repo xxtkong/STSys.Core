@@ -59,5 +59,11 @@ namespace STSys.Core.Data.IoC
             //mysql
             //services.AddDbContext<STSysContext>(options => options.UseMySql(Configuration.GetConnectionString("MySqlConnection")));
         }
+        public static IServiceCollection AddMongoDB(this IServiceCollection services, IConfiguration configuration)
+        {
+            var factory = new MongodbFactory(configuration);
+            services.AddSingleton(factory);
+            return services;
+        }
     }
 }

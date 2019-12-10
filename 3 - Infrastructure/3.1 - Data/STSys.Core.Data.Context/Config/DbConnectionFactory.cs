@@ -16,7 +16,6 @@ namespace STSys.Core.Data.Context.Config
     {
         private static IDictionary<string, DbConnection> DbConnection = new Dictionary<string, DbConnection>();
         private readonly string _connectionString, _connectionWriteString;
-        private readonly IMongoDatabase _mongodbDatabase = null;
         private readonly IConfiguration _configuration;
         public DbConnectionFactory(IConfiguration configuration)
         {
@@ -61,22 +60,9 @@ namespace STSys.Core.Data.Context.Config
                     break;
             }
             this._configuration = configuration;
-            var mongodbConfig = _configuration["mongo:connectionString"];
-            if (mongodbConfig != null)
-            {
-                var client = new MongoClient(mongodbConfig);
-                if (client != null)
-                    _mongodbDatabase = client.GetDatabase(configuration["mongo:databaseName"]);
-            }
         }
         
-        public IMongoDatabase GetMongoDatabase
-        {
-            get
-            {
-                return _mongodbDatabase;
-            }
-        }
+        
 
         public DbConnection GetConnection(string index)
         {
