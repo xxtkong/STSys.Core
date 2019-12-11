@@ -19,8 +19,7 @@ namespace STSys.Core.Data.Context.Config
         public DbConnectionFactory(IConfiguration configuration)
         {
             this._configuration = configuration;
-            if (DbConnection.Count == 0)
-                CreateConnection();
+            CreateConnection();
         }
         private  string _connectionString, _connectionWriteString;
         public void CreateConnection()

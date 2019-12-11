@@ -22,3 +22,15 @@ D:\最新\STSys\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.MQMiddleware\ob
 D:\最新\STSys\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.MQMiddleware\obj\Debug\netcoreapp2.2\STSys.Core.MQMiddleware.csproj.CopyComplete
 D:\最新\STSys\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.MQMiddleware\obj\Debug\netcoreapp2.2\STSys.Core.MQMiddleware.dll
 D:\最新\STSys\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.MQMiddleware\obj\Debug\netcoreapp2.2\STSys.Core.MQMiddleware.pdb
+F:\项目集合\github\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.MQMiddleware\bin\Debug\netcoreapp2.2\STSys.Core.MQMiddleware.deps.json
+F:\项目集合\github\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.MQMiddleware\bin\Debug\netcoreapp2.2\STSys.Core.MQMiddleware.dll
+F:\项目集合\github\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.MQMiddleware\bin\Debug\netcoreapp2.2\STSys.Core.MQMiddleware.pdb
+F:\项目集合\github\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.MQMiddleware\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Http.Abstractions.dll
+F:\项目集合\github\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.MQMiddleware\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Http.Abstractions.xml
+F:\项目集合\github\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.MQMiddleware\obj\Debug\netcoreapp2.2\STSys.Core.MQMiddleware.csprojAssemblyReference.cache
+F:\项目集合\github\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.MQMiddleware\obj\Debug\netcoreapp2.2\STSys.Core.MQMiddleware.csproj.CoreCompileInputs.cache
+F:\项目集合\github\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.MQMiddleware\obj\Debug\netcoreapp2.2\STSys.Core.MQMiddleware.AssemblyInfoInputs.cache
+F:\项目集合\github\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.MQMiddleware\obj\Debug\netcoreapp2.2\STSys.Core.MQMiddleware.AssemblyInfo.cs
+F:\项目集合\github\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.MQMiddleware\obj\Debug\netcoreapp2.2\STSys.Core.MQMiddleware.csproj.CopyComplete
+F:\项目集合\github\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.MQMiddleware\obj\Debug\netcoreapp2.2\STSys.Core.MQMiddleware.dll
+F:\项目集合\github\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.MQMiddleware\obj\Debug\netcoreapp2.2\STSys.Core.MQMiddleware.pdb

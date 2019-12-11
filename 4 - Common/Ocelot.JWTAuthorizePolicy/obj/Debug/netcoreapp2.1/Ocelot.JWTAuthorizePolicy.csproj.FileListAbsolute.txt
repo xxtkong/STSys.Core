@@ -25,3 +25,12 @@ D:\最新\STSys\4 - Common\Ocelot.JWTAuthorizePolicy\obj\Debug\netcoreapp2.1\Oce
 D:\最新\STSys\4 - Common\Ocelot.JWTAuthorizePolicy\obj\Debug\netcoreapp2.1\Ocelot.JWTAuthorizePolicy.AssemblyInfo.cs
 D:\最新\STSys\4 - Common\Ocelot.JWTAuthorizePolicy\obj\Debug\netcoreapp2.1\Ocelot.JWTAuthorizePolicy.dll
 D:\最新\STSys\4 - Common\Ocelot.JWTAuthorizePolicy\obj\Debug\netcoreapp2.1\Ocelot.JWTAuthorizePolicy.pdb
+F:\项目集合\github\STSys.Core\4 - Common\Ocelot.JWTAuthorizePolicy\bin\Debug\netcoreapp2.1\Ocelot.JWTAuthorizePolicy.deps.json
+F:\项目集合\github\STSys.Core\4 - Common\Ocelot.JWTAuthorizePolicy\bin\Debug\netcoreapp2.1\Ocelot.JWTAuthorizePolicy.dll
+F:\项目集合\github\STSys.Core\4 - Common\Ocelot.JWTAuthorizePolicy\bin\Debug\netcoreapp2.1\Ocelot.JWTAuthorizePolicy.pdb
+F:\项目集合\github\STSys.Core\4 - Common\Ocelot.JWTAuthorizePolicy\obj\Debug\netcoreapp2.1\Ocelot.JWTAuthorizePolicy.csprojAssemblyReference.cache
+F:\项目集合\github\STSys.Core\4 - Common\Ocelot.JWTAuthorizePolicy\obj\Debug\netcoreapp2.1\Ocelot.JWTAuthorizePolicy.csproj.CoreCompileInputs.cache
+F:\项目集合\github\STSys.Core\4 - Common\Ocelot.JWTAuthorizePolicy\obj\Debug\netcoreapp2.1\Ocelot.JWTAuthorizePolicy.AssemblyInfoInputs.cache
+F:\项目集合\github\STSys.Core\4 - Common\Ocelot.JWTAuthorizePolicy\obj\Debug\netcoreapp2.1\Ocelot.JWTAuthorizePolicy.AssemblyInfo.cs
+F:\项目集合\github\STSys.Core\4 - Common\Ocelot.JWTAuthorizePolicy\obj\Debug\netcoreapp2.1\Ocelot.JWTAuthorizePolicy.dll
+F:\项目集合\github\STSys.Core\4 - Common\Ocelot.JWTAuthorizePolicy\obj\Debug\netcoreapp2.1\Ocelot.JWTAuthorizePolicy.pdb

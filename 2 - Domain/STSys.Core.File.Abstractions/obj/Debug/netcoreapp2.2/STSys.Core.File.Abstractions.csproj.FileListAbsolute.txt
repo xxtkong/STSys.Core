@@ -16,3 +16,12 @@ D:\最新\STSys\2 - Domain\STSys.Core.File.Abstractions\obj\Debug\netcoreapp2.2\
 D:\最新\STSys\2 - Domain\STSys.Core.File.Abstractions\obj\Debug\netcoreapp2.2\STSys.Core.File.Abstractions.dll
 D:\最新\STSys\2 - Domain\STSys.Core.File.Abstractions\obj\Debug\netcoreapp2.2\STSys.Core.File.Abstractions.pdb
 D:\最新\STSys\2 - Domain\STSys.Core.File.Abstractions\obj\Debug\netcoreapp2.2\STSys.Core.File.Abstractions.csprojAssemblyReference.cache
+F:\项目集合\github\STSys.Core\2 - Domain\STSys.Core.File.Abstractions\bin\Debug\netcoreapp2.2\STSys.Core.File.Abstractions.deps.json
+F:\项目集合\github\STSys.Core\2 - Domain\STSys.Core.File.Abstractions\bin\Debug\netcoreapp2.2\STSys.Core.File.Abstractions.dll
+F:\项目集合\github\STSys.Core\2 - Domain\STSys.Core.File.Abstractions\bin\Debug\netcoreapp2.2\STSys.Core.File.Abstractions.pdb
+F:\项目集合\github\STSys.Core\2 - Domain\STSys.Core.File.Abstractions\obj\Debug\netcoreapp2.2\STSys.Core.File.Abstractions.csprojAssemblyReference.cache
+F:\项目集合\github\STSys.Core\2 - Domain\STSys.Core.File.Abstractions\obj\Debug\netcoreapp2.2\STSys.Core.File.Abstractions.csproj.CoreCompileInputs.cache
+F:\项目集合\github\STSys.Core\2 - Domain\STSys.Core.File.Abstractions\obj\Debug\netcoreapp2.2\STSys.Core.File.Abstractions.AssemblyInfoInputs.cache
+F:\项目集合\github\STSys.Core\2 - Domain\STSys.Core.File.Abstractions\obj\Debug\netcoreapp2.2\STSys.Core.File.Abstractions.AssemblyInfo.cs
+F:\项目集合\github\STSys.Core\2 - Domain\STSys.Core.File.Abstractions\obj\Debug\netcoreapp2.2\STSys.Core.File.Abstractions.dll
+F:\项目集合\github\STSys.Core\2 - Domain\STSys.Core.File.Abstractions\obj\Debug\netcoreapp2.2\STSys.Core.File.Abstractions.pdb

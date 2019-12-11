@@ -25,3 +25,12 @@ D:\最新\STSys\3 - Infrastructure\3.3 - Job\STSys.Core.SmsJob\obj\Debug\netcore
 D:\最新\STSys\3 - Infrastructure\3.3 - Job\STSys.Core.SmsJob\obj\Debug\netcoreapp2.2\STSys.Core.SmsJob.dll
 D:\最新\STSys\3 - Infrastructure\3.3 - Job\STSys.Core.SmsJob\obj\Debug\netcoreapp2.2\STSys.Core.SmsJob.pdb
 D:\最新\STSys\3 - Infrastructure\3.3 - Job\STSys.Core.SmsJob\obj\Debug\netcoreapp2.2\STSys.Core.SmsJob.csprojAssemblyReference.cache
+F:\项目集合\github\STSys.Core\3 - Infrastructure\3.3 - Job\STSys.Core.SmsJob\bin\Debug\netcoreapp2.2\STSys.Core.SmsJob.deps.json
+F:\项目集合\github\STSys.Core\3 - Infrastructure\3.3 - Job\STSys.Core.SmsJob\bin\Debug\netcoreapp2.2\STSys.Core.SmsJob.dll
+F:\项目集合\github\STSys.Core\3 - Infrastructure\3.3 - Job\STSys.Core.SmsJob\bin\Debug\netcoreapp2.2\STSys.Core.SmsJob.pdb
+F:\项目集合\github\STSys.Core\3 - Infrastructure\3.3 - Job\STSys.Core.SmsJob\obj\Debug\netcoreapp2.2\STSys.Core.SmsJob.csprojAssemblyReference.cache
+F:\项目集合\github\STSys.Core\3 - Infrastructure\3.3 - Job\STSys.Core.SmsJob\obj\Debug\netcoreapp2.2\STSys.Core.SmsJob.csproj.CoreCompileInputs.cache
+F:\项目集合\github\STSys.Core\3 - Infrastructure\3.3 - Job\STSys.Core.SmsJob\obj\Debug\netcoreapp2.2\STSys.Core.SmsJob.AssemblyInfoInputs.cache
+F:\项目集合\github\STSys.Core\3 - Infrastructure\3.3 - Job\STSys.Core.SmsJob\obj\Debug\netcoreapp2.2\STSys.Core.SmsJob.AssemblyInfo.cs
+F:\项目集合\github\STSys.Core\3 - Infrastructure\3.3 - Job\STSys.Core.SmsJob\obj\Debug\netcoreapp2.2\STSys.Core.SmsJob.dll
+F:\项目集合\github\STSys.Core\3 - Infrastructure\3.3 - Job\STSys.Core.SmsJob\obj\Debug\netcoreapp2.2\STSys.Core.SmsJob.pdb

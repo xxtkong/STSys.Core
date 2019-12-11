@@ -25,3 +25,11 @@ D:\最新\STSys\4 - Common\Common.Utility\obj\Debug\netcoreapp2.2\Common.Utility
 D:\最新\STSys\4 - Common\Common.Utility\obj\Debug\netcoreapp2.2\Common.Utility.dll
 D:\最新\STSys\4 - Common\Common.Utility\obj\Debug\netcoreapp2.2\Common.Utility.pdb
 D:\最新\STSys\4 - Common\Common.Utility\obj\Debug\netcoreapp2.2\Common.Utility.csprojAssemblyReference.cache
+F:\项目集合\github\STSys.Core\4 - Common\Common.Utility\bin\Debug\netcoreapp2.2\Common.Utility.deps.json
+F:\项目集合\github\STSys.Core\4 - Common\Common.Utility\bin\Debug\netcoreapp2.2\Common.Utility.dll
+F:\项目集合\github\STSys.Core\4 - Common\Common.Utility\bin\Debug\netcoreapp2.2\Common.Utility.pdb
+F:\项目集合\github\STSys.Core\4 - Common\Common.Utility\obj\Debug\netcoreapp2.2\Common.Utility.csproj.CoreCompileInputs.cache
+F:\项目集合\github\STSys.Core\4 - Common\Common.Utility\obj\Debug\netcoreapp2.2\Common.Utility.AssemblyInfoInputs.cache
+F:\项目集合\github\STSys.Core\4 - Common\Common.Utility\obj\Debug\netcoreapp2.2\Common.Utility.AssemblyInfo.cs
+F:\项目集合\github\STSys.Core\4 - Common\Common.Utility\obj\Debug\netcoreapp2.2\Common.Utility.dll
+F:\项目集合\github\STSys.Core\4 - Common\Common.Utility\obj\Debug\netcoreapp2.2\Common.Utility.pdb

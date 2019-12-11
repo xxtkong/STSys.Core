@@ -38,3 +38,17 @@ D:\最新\STSys\2 - Domain\STSys.Core.Domain.Core\obj\Debug\netcoreapp2.2\STSys.
 D:\最新\STSys\2 - Domain\STSys.Core.Domain.Core\obj\Debug\netcoreapp2.2\STSys.Core.Domain.Core.csproj.CopyComplete
 D:\最新\STSys\2 - Domain\STSys.Core.Domain.Core\obj\Debug\netcoreapp2.2\STSys.Core.Domain.Core.dll
 D:\最新\STSys\2 - Domain\STSys.Core.Domain.Core\obj\Debug\netcoreapp2.2\STSys.Core.Domain.Core.pdb
+F:\项目集合\github\STSys.Core\2 - Domain\STSys.Core.Domain.Core\bin\Debug\netcoreapp2.2\STSys.Core.Domain.Core.deps.json
+F:\项目集合\github\STSys.Core\2 - Domain\STSys.Core.Domain.Core\bin\Debug\netcoreapp2.2\STSys.Core.Domain.Core.dll
+F:\项目集合\github\STSys.Core\2 - Domain\STSys.Core.Domain.Core\bin\Debug\netcoreapp2.2\STSys.Core.Domain.Core.pdb
+F:\项目集合\github\STSys.Core\2 - Domain\STSys.Core.Domain.Core\bin\Debug\netcoreapp2.2\Common.Utility.dll
+F:\项目集合\github\STSys.Core\2 - Domain\STSys.Core.Domain.Core\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+F:\项目集合\github\STSys.Core\2 - Domain\STSys.Core.Domain.Core\bin\Debug\netcoreapp2.2\Common.Utility.pdb
+F:\项目集合\github\STSys.Core\2 - Domain\STSys.Core.Domain.Core\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Mvc.ViewFeatures.xml
+F:\项目集合\github\STSys.Core\2 - Domain\STSys.Core.Domain.Core\obj\Debug\netcoreapp2.2\STSys.Core.Domain.Core.csprojAssemblyReference.cache
+F:\项目集合\github\STSys.Core\2 - Domain\STSys.Core.Domain.Core\obj\Debug\netcoreapp2.2\STSys.Core.Domain.Core.csproj.CoreCompileInputs.cache
+F:\项目集合\github\STSys.Core\2 - Domain\STSys.Core.Domain.Core\obj\Debug\netcoreapp2.2\STSys.Core.Domain.Core.AssemblyInfoInputs.cache
+F:\项目集合\github\STSys.Core\2 - Domain\STSys.Core.Domain.Core\obj\Debug\netcoreapp2.2\STSys.Core.Domain.Core.AssemblyInfo.cs
+F:\项目集合\github\STSys.Core\2 - Domain\STSys.Core.Domain.Core\obj\Debug\netcoreapp2.2\STSys.Core.Domain.Core.csproj.CopyComplete
+F:\项目集合\github\STSys.Core\2 - Domain\STSys.Core.Domain.Core\obj\Debug\netcoreapp2.2\STSys.Core.Domain.Core.dll
+F:\项目集合\github\STSys.Core\2 - Domain\STSys.Core.Domain.Core\obj\Debug\netcoreapp2.2\STSys.Core.Domain.Core.pdb
