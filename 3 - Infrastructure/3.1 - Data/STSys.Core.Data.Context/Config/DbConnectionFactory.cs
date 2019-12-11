@@ -30,8 +30,8 @@ namespace STSys.Core.Data.Context.Config
                 switch (provider)
                 {
                     case "mssql":
-                        _connectionString = _configuration.GetConnectionString("DefaultConnection");
-                        _connectionWriteString = _configuration.GetConnectionString("DefaultConnectionWrite");
+                        _connectionString = _configuration.GetConnectionString("DapperConnection");
+                        _connectionWriteString = _configuration.GetConnectionString("DapperConnectionWrite");
                         int i = 0, j = 0;
                         foreach (var item in _connectionString.Split('&'))
                         {

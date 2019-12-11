@@ -48,7 +48,7 @@ namespace STSys.Core.Data.IoC
         public static void AddEFDefaultDbContext(this IServiceCollection services, IConfiguration configuration)
         {
             //SqlServer
-            services.AddDbContext<STSysContext>(options => options.UseSqlServer(configuration.GetConnectionString("Connection")));
+            services.AddDbContext<STSysContext>(options => options.UseSqlServer(configuration.GetConnectionString("EFConnection")));
             //mysql
             //services.AddDbContext<STSysContext>(options => options.UseMySql(Configuration.GetConnectionString("MySqlConnection")));
         }
