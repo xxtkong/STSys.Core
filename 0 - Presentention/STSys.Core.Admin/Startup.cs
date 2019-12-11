@@ -41,12 +41,16 @@ namespace STSys.Core.Admin
         {
             ///默认的EF数据库链接
             services.AddEFDefaultDbContext(Configuration);
+            //注册Dapper连接
+            services.AddDapperDefaultDbContext(Configuration);
+            //注册MongoDB
             services.AddMongoDB(Configuration);
             services.Configure<CookiePolicyOptions>(options =>
             {
                 options.CheckConsentNeeded = context => true;
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
+            //引入命名空间。目的去掉DbSet
             services.Configure<AssemblyOptions>(options => {
                 options.DomainAssemblyName = new List<string>() {
                     "STSys.Core.Admin.Abstractions",
