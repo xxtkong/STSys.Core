@@ -40,18 +40,19 @@ namespace STSys.Core.Data.IoC
             .AddScoped<IManagerRepository, ManagerRepository>()
             .AddScoped<IColumnRepository, ColumnRepository>()
             .AddScoped<IRoleRepository, RoleRepository>()
-            .AddScoped<IDbConnectionFactory, DbConnectionFactory>();
+            .AddSingleton<IDbConnectionFactory, DbConnectionFactory>()
+            .AddScoped<IDbContext, NASysDapperContext>()
             //.AddScoped<DbConnectionFactory>()
             //.AddDbConnectionFactory(configuration)
             ;
 
         }
-        public static IServiceCollection AddDbConnectionFactory(this IServiceCollection services, IConfiguration configuration)
-        {
-            var factory = new DbConnectionFactory(configuration);
-            services.AddSingleton(factory);
-            return services;
-        }
+        //public static IServiceCollection AddDbConnectionFactory(this IServiceCollection services, IConfiguration configuration)
+        //{
+        //    var factory = new DbConnectionFactory(configuration);
+        //    services.AddSingleton(factory);
+        //    return services;
+        //}
         public static void AddDefaultDbContext(this IServiceCollection services, IConfiguration configuration)
         {
             //SqlServer
