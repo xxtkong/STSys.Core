@@ -51,3 +51,4 @@ F:\项目集合\github\STSys.Core\2 - Domain\STSys.Core.Users.Abstractions\obj\D
 F:\项目集合\github\STSys.Core\2 - Domain\STSys.Core.Users.Abstractions\obj\Debug\netcoreapp2.2\STSys.Core.Users.Abstractions.csproj.CopyComplete
 F:\项目集合\github\STSys.Core\2 - Domain\STSys.Core.Users.Abstractions\obj\Debug\netcoreapp2.2\STSys.Core.Users.Abstractions.dll
 F:\项目集合\github\STSys.Core\2 - Domain\STSys.Core.Users.Abstractions\obj\Debug\netcoreapp2.2\STSys.Core.Users.Abstractions.pdb
+F:\项目集合\github\STSys.Core\2 - Domain\STSys.Core.Users.Abstractions\obj\Debug\netcoreapp2.2\STSys.Core.Users.Abstractions.csprojAssemblyReference.cache

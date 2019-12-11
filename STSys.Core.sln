@@ -97,6 +97,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "STSys.Core.Quarzt", "5 - Cl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "STSys.Core.Rpc.Webserver", "5 - Client\STSys.Core.Rpc.Webserver\STSys.Core.Rpc.Webserver.csproj", "{3158490D-7397-47ED-8167-184B7ADCCE6F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "5 - Client\Test\Test.csproj", "{D45783AD-EE93-4897-B825-5229BF55AA7D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -255,6 +257,10 @@ Global
 		{3158490D-7397-47ED-8167-184B7ADCCE6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3158490D-7397-47ED-8167-184B7ADCCE6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3158490D-7397-47ED-8167-184B7ADCCE6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D45783AD-EE93-4897-B825-5229BF55AA7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D45783AD-EE93-4897-B825-5229BF55AA7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D45783AD-EE93-4897-B825-5229BF55AA7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D45783AD-EE93-4897-B825-5229BF55AA7D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -301,6 +307,7 @@ Global
 		{666802DF-DF1D-4DE1-9DE2-056F61E7E8F8} = {0A6123B4-C7E7-4BE0-BDB9-D01DFC49BDC4}
 		{7436747F-D337-4104-AAE0-47538482030D} = {0A6123B4-C7E7-4BE0-BDB9-D01DFC49BDC4}
 		{3158490D-7397-47ED-8167-184B7ADCCE6F} = {0A6123B4-C7E7-4BE0-BDB9-D01DFC49BDC4}
+		{D45783AD-EE93-4897-B825-5229BF55AA7D} = {0A6123B4-C7E7-4BE0-BDB9-D01DFC49BDC4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F6423D7A-D8B5-4439-84E8-EA9880F1911C}

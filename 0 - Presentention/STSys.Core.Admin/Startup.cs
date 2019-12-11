@@ -39,8 +39,8 @@ namespace STSys.Core.Admin
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            ///默认的数据库链接
-            services.AddDefaultDbContext(Configuration);
+            ///默认的EF数据库链接
+            services.AddEFDefaultDbContext(Configuration);
             services.AddMongoDB(Configuration);
             services.Configure<CookiePolicyOptions>(options =>
             {
