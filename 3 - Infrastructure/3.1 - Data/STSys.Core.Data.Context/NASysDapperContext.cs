@@ -21,7 +21,9 @@ namespace STSys.Core.Data.Context
         {
             get
             {
-                return new DbConnectionFactory(_configuration);
+                var factory = new DbConnectionFactory(_configuration);
+                factory.CreateConnection();
+                return factory;
             }
         }
 
