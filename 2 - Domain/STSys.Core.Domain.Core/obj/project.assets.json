@@ -349,7 +349,7 @@
   },
   "libraries": {
     "FluentValidation/8.4.0": {
-      "sha512": "HGWLOCywqku5v8tWe6YfK/9XCgZbMDGtKq6fCHo2cn+dyTkN5Ibcx41NBWp/RgV7/cp5fmBUeeqiASvGiCTjWQ==",
+      "sha512": "/VApywgD2sqD3aB1tzub6SIItmwxXN0D5yAiP3kuFHmjYO1W+Ryi531/m4O03/hlfcYrBgewDJn7Jd1Xk0vTdw==",
       "type": "package",
       "path": "fluentvalidation/8.4.0",
       "files": [
@@ -368,7 +368,7 @@
       ]
     },
     "MediatR/7.0.0": {
-      "sha512": "YGFwy3pCM13K+s3nrSDjC/wP4AYSUt7+HLtgiPPRBe2bG1joeFdOq17YZ2Y1lc4lg+m9ew0dMcQHVn5yGH7uDA==",
+      "sha512": "sgfHxkBsmMlHOD564SnLqTvSbAuGlFiZfc6ybxBSI1wYV/2u+Y5TXtFoIhCISFg5/s/6aMvB338QC2JseHsjTA==",
       "type": "package",
       "path": "mediatr/7.0.0",
       "files": [
@@ -381,7 +381,7 @@
       ]
     },
     "Microsoft.Extensions.Configuration.Abstractions/2.2.0": {
-      "sha512": "M6u4cMWXxPtqyJJ03oezyqTORmSgTPpa2gZRKkEGCXXHhyGnM1cHjPTzq5sevYS1VJEMb2TZj60mAc+hDoPPcQ==",
+      "sha512": "HT/cMUOHvJ29Z5VIlWp6Zd1F63k5CbpGisNk8ayP35GwKwX5IDsJL8hWMoBesz5WPK8ZfW4f47kyVAhfCD/PAw==",
       "type": "package",
       "path": "microsoft.extensions.configuration.abstractions/2.2.0",
       "files": [
@@ -746,7 +746,7 @@
       ]
     },
     "Microsoft.Win32.SystemEvents/4.5.0": {
-      "sha512": "aXrCxI6PdEEJkqIDRYCe2oBRZ1gto5Ac1Y/WuahG/CD+PB5rAVFU7VpkBILBUQQG/NBtxbIRM0Q61m5uJQLTPw==",
+      "sha512": "LuI1oG+24TUj1ZRQQjM5Ew73BKnZE5NZ/7eAdh1o8ST5dPhUnJvIkiIn2re3MwnkRy6ELRnvEbBxHP8uALKhJw==",
       "type": "package",
       "path": "microsoft.win32.systemevents/4.5.0",
       "files": [
@@ -1006,7 +1006,7 @@
       ]
     },
     "System.Drawing.Common/4.5.1": {
-      "sha512": "m3c7Fe/CS/jZ/nLBrxCCh52dYiC33GPbGfcF4CiVukb8+p121XUTHxs6sYKbWfvDVD8JssHcM+HVFLtzl3X3Xw==",
+      "sha512": "GiyeGi/v4xYDz1vCNFwFvhz9k1XddOG7VD3jxRqzRBCbTHji+s3HxxbxtoymuK4OadEpgotI8zQ5+GEEH9sUEQ==",
       "type": "package",
       "path": "system.drawing.common/4.5.1",
       "files": [
@@ -1039,7 +1039,7 @@
       ]
     },
     "System.Memory/4.5.1": {
-      "sha512": "vcG3/MbfpxznMkkkaAblJi7RHOmuP7kawQMhDgLSuA1tRpRQYsFSCTxRSINDUgn2QNn2jWeLxv8er5BXbyACkw==",
+      "sha512": "sDJYJpGtTgx+23Ayu5euxG5mAXWdkDb4+b0rD0Cab0M1oQS9H0HXGPriKcqpXuiJDTV7fTp/d+fMDJmnr6sNvA==",
       "type": "package",
       "path": "system.memory/4.5.1",
       "files": [
@@ -1064,10 +1064,11 @@
       ]
     },
     "System.Runtime.CompilerServices.Unsafe/4.5.1": {
-      "sha512": "qUJMNWhbm9oZ3XaMFiEMiYmRPszbnXIkRIi7+4b2Md2xZ6JUOepf0/kY3S85qistRohl9OdMe4PsO+RdG2kTIQ==",
+      "sha512": "Zh8t8oqolRaFa9vmOZfdQm/qKejdqz0J9kr7o2Fu0vPeoH3BL1EOXipKWwkWtLT1JPzjByrF19fGuFlNbmPpiw==",
       "type": "package",
       "path": "system.runtime.compilerservices.unsafe/4.5.1",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
@@ -1103,23 +1104,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\admin\\.nuget\\packages\\": {},
+    "C:\\Users\\Administrator\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\最新\\STSys.Core\\2 - Domain\\STSys.Core.Domain.Core\\STSys.Core.Domain.Core.csproj",
+      "projectUniqueName": "F:\\项目集合\\github\\STSys.Core\\2 - Domain\\STSys.Core.Domain.Core\\STSys.Core.Domain.Core.csproj",
       "projectName": "STSys.Core.Domain.Core",
-      "projectPath": "D:\\最新\\STSys.Core\\2 - Domain\\STSys.Core.Domain.Core\\STSys.Core.Domain.Core.csproj",
-      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "D:\\最新\\STSys.Core\\2 - Domain\\STSys.Core.Domain.Core\\obj\\",
+      "projectPath": "F:\\项目集合\\github\\STSys.Core\\2 - Domain\\STSys.Core.Domain.Core\\STSys.Core.Domain.Core.csproj",
+      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+      "outputPath": "F:\\项目集合\\github\\STSys.Core\\2 - Domain\\STSys.Core.Domain.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1127,15 +1128,13 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://120.78.183.134:6789/nuget": {},
-        "http://localhost:1000/nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "D:\\最新\\STSys.Core\\4 - Common\\Common.Utility\\Common.Utility.csproj": {
-              "projectPath": "D:\\最新\\STSys.Core\\4 - Common\\Common.Utility\\Common.Utility.csproj"
+            "F:\\项目集合\\github\\STSys.Core\\4 - Common\\Common.Utility\\Common.Utility.csproj": {
+              "projectPath": "F:\\项目集合\\github\\STSys.Core\\4 - Common\\Common.Utility\\Common.Utility.csproj"
             }
           }
         }
