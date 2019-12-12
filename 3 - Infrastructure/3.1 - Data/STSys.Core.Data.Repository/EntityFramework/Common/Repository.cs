@@ -3,6 +3,7 @@ using STSys.Core.Data.Context;
 using STSys.Core.Data.Repository.Dapper.Common;
 using STSys.Core.Domain.Extensions;
 using STSys.Core.Domain.Interfaces.Repository;
+using STSys.Core.Domain.Interfaces.Specification;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -134,6 +135,35 @@ namespace STSys.Core.Data.Repository.EntityFramework.Common
         public IQueryable<TEntity> GetMany(string sql)
         {
             return _dbSet.FromSql(sql);
+        }
+
+        public IQueryable<TEntity> GetMany(ISpecification<TEntity> spec)
+        {
+            // 获取包含所有基于表达式的包含的可查询项
+            var queryableResultWithIncludes = spec.Includes
+                .Aggregate(_dbContext.Set<TEntity>().AsQueryable(),
+                    (current, include) => current.Include(include));
+
+            // 获取包含所有基于表达式的include的可查询项，修改可查询项以包含任何基于字符串的include语句
+            var secondaryResult = spec.IncludeStrings
+                .Aggregate(queryableResultWithIncludes,
+                    (current, include) => current.Include(include));
+            // 使用规范的条件表达式返回查询的结果
+            return secondaryResult
+                            .Where(spec.Criteria)
+                            ;
+        }
+        public async Task<List<TEntity>> GetManyAsync(ISpecification<TEntity> spec)
+        {
+            var queryableResultWithIncludes = spec.Includes
+                .Aggregate(_dbContext.Set<TEntity>().AsQueryable(),
+                    (current, include) => current.Include(include));
+            var secondaryResult = spec.IncludeStrings
+                .Aggregate(queryableResultWithIncludes,
+                    (current, include) => current.Include(include));
+            return await secondaryResult
+                            .Where(spec.Criteria)
+                            .ToListAsync();
         }
 
 

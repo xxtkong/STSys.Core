@@ -10,6 +10,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using STSys.Core.Data.IoC;
+using STSys.Core.Domain.Core.Common;
 
 namespace STSys.Core.ProductApi
 {
@@ -26,6 +28,17 @@ namespace STSys.Core.ProductApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            //采用EF绑定数据库
+            services.AddEFDefaultDbContext(Configuration);
+            //绑定命名空间
+            services.Configure<AssemblyOptions>(options => {
+                options.DomainAssemblyName = new List<string>() {
+                    "STSys.Core.Product.Abstractions",
+                };
+            });
+            //注册基础IOC
+            services.AddNativeInjectorBootStrapper(Configuration);
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -10,4 +10,9 @@
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\2 - Domain\STSys.Core.Product.Abstractions\STSys.Core.Product.Abstractions.csproj" />
+    <ProjectReference Include="..\..\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.Data.IoC\STSys.Core.Data.IoC.csproj" />
+  </ItemGroup>
+
 </Project>

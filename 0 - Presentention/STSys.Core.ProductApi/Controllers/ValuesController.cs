@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using STSys.Core.Domain.Interfaces.Repository;
+using STSys.Core.Product.Abstractions.Entities;
+using STSys.Core.Product.Abstractions.Specifications;
 
 namespace STSys.Core.ProductApi.Controllers
 {
@@ -10,36 +13,20 @@ namespace STSys.Core.ProductApi.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
+        private readonly IRepositoryEF<ProductEntities> _repository;
+        public ValuesController(IRepositoryEF<ProductEntities> repository)
+        {
+            _repository = repository;
+        }
         // GET api/values
         [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
+        public IActionResult Get()
         {
-            return new string[] { "value1", "value2" };
+            var many = _repository.GetAll();
+            //var basketSpec = new ProductItemSpecification(Guid.Parse("8DF48AC2-375D-4830-4016-08D7584F725A"));
+            //var many = _repository.GetMany(basketSpec);
+            return Ok(many.First().Title);
         }
 
-        // GET api/values/5
-        [HttpGet("{id}")]
-        public ActionResult<string> Get(int id)
-        {
-            return "value";
-        }
-
-        // POST api/values
-        [HttpPost]
-        public void Post([FromBody] string value)
-        {
-        }
-
-        // PUT api/values/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
-
-        // DELETE api/values/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-        }
     }
 }

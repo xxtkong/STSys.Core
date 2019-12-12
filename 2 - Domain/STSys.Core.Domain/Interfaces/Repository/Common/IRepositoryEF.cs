@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using STSys.Core.Domain.Extensions;
+using STSys.Core.Domain.Interfaces.Specification;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -40,5 +41,9 @@ namespace STSys.Core.Domain.Interfaces.Repository
         IQueryable<TEntity> GetMany(Expression<Func<TEntity, bool>> where, Order orderBy, string orderFile);
         IQueryable<TEntity> GetMany(Expression<Func<TEntity, bool>> where);
         IQueryable<TEntity> GetMany(string sql);
+        IQueryable<TEntity> GetMany(ISpecification<TEntity> spec);
+        Task<List<TEntity>> GetManyAsync(ISpecification<TEntity> spec);
+      
+
     }
 }

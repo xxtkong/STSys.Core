@@ -1,0 +1,16 @@
+﻿using STSys.Core.Domain.Core.Models;
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace STSys.Core.Product.Abstractions.Entities
+{
+    public class ProductItemEntities : Entity
+    {
+        public Guid ProductId { get; set; }
+        public string Key { get; set; }
+        public string Value { get; set; }
+
+        public ProductEntities productEntities { get; set; }
+    }
+}

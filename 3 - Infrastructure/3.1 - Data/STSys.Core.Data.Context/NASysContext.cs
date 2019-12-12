@@ -69,13 +69,13 @@ namespace STSys.Core.Data.Context
             });
         }
         /// <summary>
-        /// 配置EFCore 贪婪加载
+        /// 配置EFCore 贪婪加载，必须加virtual...注释后用 ISpecification
         /// </summary>
         /// <param name="optionsBuilder"></param>
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            optionsBuilder.UseLazyLoadingProxies();
-        }
+        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        //{
+        //    optionsBuilder.UseLazyLoadingProxies();
+        //}
 
         //public void Dispose()
         //{

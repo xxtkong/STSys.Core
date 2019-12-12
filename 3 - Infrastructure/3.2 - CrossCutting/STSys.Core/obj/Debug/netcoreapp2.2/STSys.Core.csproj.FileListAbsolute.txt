@@ -33,3 +33,15 @@ D:\最新\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core\obj\Debug\
 D:\最新\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core\obj\Debug\netcoreapp2.2\STSys.Core.csproj.CopyComplete
 D:\最新\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core\obj\Debug\netcoreapp2.2\STSys.Core.dll
 D:\最新\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core\obj\Debug\netcoreapp2.2\STSys.Core.pdb
+F:\项目集合\github\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core\bin\Debug\netcoreapp2.2\STSys.Core.deps.json
+F:\项目集合\github\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core\bin\Debug\netcoreapp2.2\STSys.Core.dll
+F:\项目集合\github\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core\bin\Debug\netcoreapp2.2\STSys.Core.pdb
+F:\项目集合\github\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Http.Abstractions.dll
+F:\项目集合\github\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Http.Abstractions.xml
+F:\项目集合\github\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core\obj\Debug\netcoreapp2.2\STSys.Core.csprojAssemblyReference.cache
+F:\项目集合\github\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core\obj\Debug\netcoreapp2.2\STSys.Core.csproj.CoreCompileInputs.cache
+F:\项目集合\github\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core\obj\Debug\netcoreapp2.2\STSys.Core.AssemblyInfoInputs.cache
+F:\项目集合\github\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core\obj\Debug\netcoreapp2.2\STSys.Core.AssemblyInfo.cs
+F:\项目集合\github\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core\obj\Debug\netcoreapp2.2\STSys.Core.csproj.CopyComplete
+F:\项目集合\github\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core\obj\Debug\netcoreapp2.2\STSys.Core.dll
+F:\项目集合\github\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core\obj\Debug\netcoreapp2.2\STSys.Core.pdb

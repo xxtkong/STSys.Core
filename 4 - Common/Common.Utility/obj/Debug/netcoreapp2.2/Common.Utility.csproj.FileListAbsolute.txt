@@ -41,3 +41,4 @@ D:\最新\STSys.Core\4 - Common\Common.Utility\obj\Debug\netcoreapp2.2\Common.Ut
 D:\最新\STSys.Core\4 - Common\Common.Utility\obj\Debug\netcoreapp2.2\Common.Utility.AssemblyInfo.cs
 D:\最新\STSys.Core\4 - Common\Common.Utility\obj\Debug\netcoreapp2.2\Common.Utility.dll
 D:\最新\STSys.Core\4 - Common\Common.Utility\obj\Debug\netcoreapp2.2\Common.Utility.pdb
+F:\项目集合\github\STSys.Core\4 - Common\Common.Utility\obj\Debug\netcoreapp2.2\Common.Utility.csprojAssemblyReference.cache

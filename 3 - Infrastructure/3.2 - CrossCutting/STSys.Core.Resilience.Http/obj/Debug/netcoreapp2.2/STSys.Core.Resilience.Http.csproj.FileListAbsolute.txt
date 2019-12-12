@@ -25,3 +25,12 @@ D:\最新\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.Resilience
 D:\最新\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.Resilience.Http\obj\Debug\netcoreapp2.2\STSys.Core.Resilience.Http.AssemblyInfo.cs
 D:\最新\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.Resilience.Http\obj\Debug\netcoreapp2.2\STSys.Core.Resilience.Http.dll
 D:\最新\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.Resilience.Http\obj\Debug\netcoreapp2.2\STSys.Core.Resilience.Http.pdb
+F:\项目集合\github\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.Resilience.Http\bin\Debug\netcoreapp2.2\STSys.Core.Resilience.Http.deps.json
+F:\项目集合\github\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.Resilience.Http\bin\Debug\netcoreapp2.2\STSys.Core.Resilience.Http.dll
+F:\项目集合\github\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.Resilience.Http\bin\Debug\netcoreapp2.2\STSys.Core.Resilience.Http.pdb
+F:\项目集合\github\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.Resilience.Http\obj\Debug\netcoreapp2.2\STSys.Core.Resilience.Http.csprojAssemblyReference.cache
+F:\项目集合\github\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.Resilience.Http\obj\Debug\netcoreapp2.2\STSys.Core.Resilience.Http.csproj.CoreCompileInputs.cache
+F:\项目集合\github\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.Resilience.Http\obj\Debug\netcoreapp2.2\STSys.Core.Resilience.Http.AssemblyInfoInputs.cache
+F:\项目集合\github\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.Resilience.Http\obj\Debug\netcoreapp2.2\STSys.Core.Resilience.Http.AssemblyInfo.cs
+F:\项目集合\github\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.Resilience.Http\obj\Debug\netcoreapp2.2\STSys.Core.Resilience.Http.dll
+F:\项目集合\github\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.Resilience.Http\obj\Debug\netcoreapp2.2\STSys.Core.Resilience.Http.pdb

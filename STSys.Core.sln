@@ -99,7 +99,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "STSys.Core.Rpc.Webserver", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test", "5 - Client\Test\Test.csproj", "{D45783AD-EE93-4897-B825-5229BF55AA7D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STSys.Core.ProductApi", "0 - Presentention\STSys.Core.ProductApi\STSys.Core.ProductApi.csproj", "{A22A4413-922F-46F5-8E55-C54675C91678}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "STSys.Core.ProductApi", "0 - Presentention\STSys.Core.ProductApi\STSys.Core.ProductApi.csproj", "{A22A4413-922F-46F5-8E55-C54675C91678}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "STSys.Core", "3 - Infrastructure\3.2 - CrossCutting\STSys.Core\STSys.Core.csproj", "{D530F915-ACDA-4D3D-839B-BEDEAA5725AC}"
 EndProject
@@ -110,6 +110,10 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "STSys.Core.ConsulRegistry", "3 - Infrastructure\3.2 - CrossCutting\STSys.Core.ConsulRegistry\STSys.Core.ConsulRegistry.csproj", "{54EFA0DB-462C-4476-A2F6-DA492171295A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "STSys.Core.Resilience.Http", "3 - Infrastructure\3.2 - CrossCutting\STSys.Core.Resilience.Http\STSys.Core.Resilience.Http.csproj", "{3AC5BBA7-7767-4934-880E-67EC3FDBF41A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STSys.Core.Product.Abstractions", "2 - Domain\STSys.Core.Product.Abstractions\STSys.Core.Product.Abstractions.csproj", "{BC24500B-8876-481D-A19C-77A4282C1FBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STSys.Core.Products", "2 - Domain\STSys.Core.Products\STSys.Core.Products.csproj", "{39065B5D-BF28-49BF-AD28-D32E813C6357}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -297,6 +301,14 @@ Global
 		{3AC5BBA7-7767-4934-880E-67EC3FDBF41A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3AC5BBA7-7767-4934-880E-67EC3FDBF41A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3AC5BBA7-7767-4934-880E-67EC3FDBF41A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC24500B-8876-481D-A19C-77A4282C1FBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC24500B-8876-481D-A19C-77A4282C1FBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC24500B-8876-481D-A19C-77A4282C1FBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC24500B-8876-481D-A19C-77A4282C1FBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39065B5D-BF28-49BF-AD28-D32E813C6357}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39065B5D-BF28-49BF-AD28-D32E813C6357}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39065B5D-BF28-49BF-AD28-D32E813C6357}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39065B5D-BF28-49BF-AD28-D32E813C6357}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -350,6 +362,8 @@ Global
 		{00419F2B-D464-4F95-AA8D-2145066FC5A3} = {D29A5A8C-9031-4581-9F4B-11FA2D399EB9}
 		{54EFA0DB-462C-4476-A2F6-DA492171295A} = {D29A5A8C-9031-4581-9F4B-11FA2D399EB9}
 		{3AC5BBA7-7767-4934-880E-67EC3FDBF41A} = {D29A5A8C-9031-4581-9F4B-11FA2D399EB9}
+		{BC24500B-8876-481D-A19C-77A4282C1FBC} = {2F86841D-621E-4BF1-9FA8-5214A4A30EF4}
+		{39065B5D-BF28-49BF-AD28-D32E813C6357} = {2F86841D-621E-4BF1-9FA8-5214A4A30EF4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F6423D7A-D8B5-4439-84E8-EA9880F1911C}
