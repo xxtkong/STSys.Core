@@ -34,3 +34,15 @@ F:\项目集合\github\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Co
 F:\项目集合\github\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.HotlinkingPreventionMiddleware\obj\Debug\netcoreapp2.2\STSys.Core.HotlinkingPreventionMiddleware.csproj.CopyComplete
 F:\项目集合\github\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.HotlinkingPreventionMiddleware\obj\Debug\netcoreapp2.2\STSys.Core.HotlinkingPreventionMiddleware.dll
 F:\项目集合\github\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.HotlinkingPreventionMiddleware\obj\Debug\netcoreapp2.2\STSys.Core.HotlinkingPreventionMiddleware.pdb
+D:\最新\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.HotlinkingPreventionMiddleware\bin\Debug\netcoreapp2.2\STSys.Core.HotlinkingPreventionMiddleware.deps.json
+D:\最新\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.HotlinkingPreventionMiddleware\bin\Debug\netcoreapp2.2\STSys.Core.HotlinkingPreventionMiddleware.dll
+D:\最新\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.HotlinkingPreventionMiddleware\bin\Debug\netcoreapp2.2\STSys.Core.HotlinkingPreventionMiddleware.pdb
+D:\最新\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.HotlinkingPreventionMiddleware\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\最新\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.HotlinkingPreventionMiddleware\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Hosting.Abstractions.xml
+D:\最新\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.HotlinkingPreventionMiddleware\obj\Debug\netcoreapp2.2\STSys.Core.HotlinkingPreventionMiddleware.csprojAssemblyReference.cache
+D:\最新\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.HotlinkingPreventionMiddleware\obj\Debug\netcoreapp2.2\STSys.Core.HotlinkingPreventionMiddleware.csproj.CoreCompileInputs.cache
+D:\最新\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.HotlinkingPreventionMiddleware\obj\Debug\netcoreapp2.2\STSys.Core.HotlinkingPreventionMiddleware.AssemblyInfoInputs.cache
+D:\最新\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.HotlinkingPreventionMiddleware\obj\Debug\netcoreapp2.2\STSys.Core.HotlinkingPreventionMiddleware.AssemblyInfo.cs
+D:\最新\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.HotlinkingPreventionMiddleware\obj\Debug\netcoreapp2.2\STSys.Core.HotlinkingPreventionMiddleware.csproj.CopyComplete
+D:\最新\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.HotlinkingPreventionMiddleware\obj\Debug\netcoreapp2.2\STSys.Core.HotlinkingPreventionMiddleware.dll
+D:\最新\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.HotlinkingPreventionMiddleware\obj\Debug\netcoreapp2.2\STSys.Core.HotlinkingPreventionMiddleware.pdb

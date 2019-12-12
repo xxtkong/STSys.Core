@@ -33,3 +33,11 @@ F:\项目集合\github\STSys.Core\4 - Common\Common.Utility\obj\Debug\netcoreapp
 F:\项目集合\github\STSys.Core\4 - Common\Common.Utility\obj\Debug\netcoreapp2.2\Common.Utility.AssemblyInfo.cs
 F:\项目集合\github\STSys.Core\4 - Common\Common.Utility\obj\Debug\netcoreapp2.2\Common.Utility.dll
 F:\项目集合\github\STSys.Core\4 - Common\Common.Utility\obj\Debug\netcoreapp2.2\Common.Utility.pdb
+D:\最新\STSys.Core\4 - Common\Common.Utility\bin\Debug\netcoreapp2.2\Common.Utility.deps.json
+D:\最新\STSys.Core\4 - Common\Common.Utility\bin\Debug\netcoreapp2.2\Common.Utility.dll
+D:\最新\STSys.Core\4 - Common\Common.Utility\bin\Debug\netcoreapp2.2\Common.Utility.pdb
+D:\最新\STSys.Core\4 - Common\Common.Utility\obj\Debug\netcoreapp2.2\Common.Utility.csproj.CoreCompileInputs.cache
+D:\最新\STSys.Core\4 - Common\Common.Utility\obj\Debug\netcoreapp2.2\Common.Utility.AssemblyInfoInputs.cache
+D:\最新\STSys.Core\4 - Common\Common.Utility\obj\Debug\netcoreapp2.2\Common.Utility.AssemblyInfo.cs
+D:\最新\STSys.Core\4 - Common\Common.Utility\obj\Debug\netcoreapp2.2\Common.Utility.dll
+D:\最新\STSys.Core\4 - Common\Common.Utility\obj\Debug\netcoreapp2.2\Common.Utility.pdb

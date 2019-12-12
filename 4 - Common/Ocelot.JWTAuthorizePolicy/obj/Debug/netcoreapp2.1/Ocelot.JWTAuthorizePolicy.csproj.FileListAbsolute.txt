@@ -34,3 +34,11 @@ F:\项目集合\github\STSys.Core\4 - Common\Ocelot.JWTAuthorizePolicy\obj\Debug
 F:\项目集合\github\STSys.Core\4 - Common\Ocelot.JWTAuthorizePolicy\obj\Debug\netcoreapp2.1\Ocelot.JWTAuthorizePolicy.AssemblyInfo.cs
 F:\项目集合\github\STSys.Core\4 - Common\Ocelot.JWTAuthorizePolicy\obj\Debug\netcoreapp2.1\Ocelot.JWTAuthorizePolicy.dll
 F:\项目集合\github\STSys.Core\4 - Common\Ocelot.JWTAuthorizePolicy\obj\Debug\netcoreapp2.1\Ocelot.JWTAuthorizePolicy.pdb
+D:\最新\STSys.Core\4 - Common\Ocelot.JWTAuthorizePolicy\bin\Debug\netcoreapp2.1\Ocelot.JWTAuthorizePolicy.deps.json
+D:\最新\STSys.Core\4 - Common\Ocelot.JWTAuthorizePolicy\bin\Debug\netcoreapp2.1\Ocelot.JWTAuthorizePolicy.dll
+D:\最新\STSys.Core\4 - Common\Ocelot.JWTAuthorizePolicy\bin\Debug\netcoreapp2.1\Ocelot.JWTAuthorizePolicy.pdb
+D:\最新\STSys.Core\4 - Common\Ocelot.JWTAuthorizePolicy\obj\Debug\netcoreapp2.1\Ocelot.JWTAuthorizePolicy.csproj.CoreCompileInputs.cache
+D:\最新\STSys.Core\4 - Common\Ocelot.JWTAuthorizePolicy\obj\Debug\netcoreapp2.1\Ocelot.JWTAuthorizePolicy.AssemblyInfoInputs.cache
+D:\最新\STSys.Core\4 - Common\Ocelot.JWTAuthorizePolicy\obj\Debug\netcoreapp2.1\Ocelot.JWTAuthorizePolicy.AssemblyInfo.cs
+D:\最新\STSys.Core\4 - Common\Ocelot.JWTAuthorizePolicy\obj\Debug\netcoreapp2.1\Ocelot.JWTAuthorizePolicy.dll
+D:\最新\STSys.Core\4 - Common\Ocelot.JWTAuthorizePolicy\obj\Debug\netcoreapp2.1\Ocelot.JWTAuthorizePolicy.pdb

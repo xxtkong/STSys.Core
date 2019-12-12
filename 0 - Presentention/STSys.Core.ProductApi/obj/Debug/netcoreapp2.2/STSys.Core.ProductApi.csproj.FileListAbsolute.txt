@@ -1,0 +1,13 @@
+D:\最新\STSys.Core\0 - Presentention\STSys.Core.ProductApi\bin\Debug\netcoreapp2.2\STSys.Core.ProductApi.deps.json
+D:\最新\STSys.Core\0 - Presentention\STSys.Core.ProductApi\bin\Debug\netcoreapp2.2\STSys.Core.ProductApi.runtimeconfig.json
+D:\最新\STSys.Core\0 - Presentention\STSys.Core.ProductApi\bin\Debug\netcoreapp2.2\STSys.Core.ProductApi.runtimeconfig.dev.json
+D:\最新\STSys.Core\0 - Presentention\STSys.Core.ProductApi\bin\Debug\netcoreapp2.2\STSys.Core.ProductApi.dll
+D:\最新\STSys.Core\0 - Presentention\STSys.Core.ProductApi\bin\Debug\netcoreapp2.2\STSys.Core.ProductApi.pdb
+D:\最新\STSys.Core\0 - Presentention\STSys.Core.ProductApi\obj\Debug\netcoreapp2.2\STSys.Core.ProductApi.csproj.CoreCompileInputs.cache
+D:\最新\STSys.Core\0 - Presentention\STSys.Core.ProductApi\obj\Debug\netcoreapp2.2\STSys.Core.ProductApi.RazorAssemblyInfo.cache
+D:\最新\STSys.Core\0 - Presentention\STSys.Core.ProductApi\obj\Debug\netcoreapp2.2\STSys.Core.ProductApi.RazorAssemblyInfo.cs
+D:\最新\STSys.Core\0 - Presentention\STSys.Core.ProductApi\obj\Debug\netcoreapp2.2\STSys.Core.ProductApi.AssemblyInfoInputs.cache
+D:\最新\STSys.Core\0 - Presentention\STSys.Core.ProductApi\obj\Debug\netcoreapp2.2\STSys.Core.ProductApi.AssemblyInfo.cs
+D:\最新\STSys.Core\0 - Presentention\STSys.Core.ProductApi\obj\Debug\netcoreapp2.2\STSys.Core.ProductApi.RazorTargetAssemblyInfo.cache
+D:\最新\STSys.Core\0 - Presentention\STSys.Core.ProductApi\obj\Debug\netcoreapp2.2\STSys.Core.ProductApi.dll
+D:\最新\STSys.Core\0 - Presentention\STSys.Core.ProductApi\obj\Debug\netcoreapp2.2\STSys.Core.ProductApi.pdb

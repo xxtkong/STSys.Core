@@ -12,9 +12,9 @@ namespace Test.Controllers
 {
     public class HomeController : Controller
     {
-        //private readonly IRepositoryEF<ManagerEntities> _repository;
-       private readonly IRepository<ManagerEntities> _repository;
-        public HomeController(IRepository<ManagerEntities> repository)
+        private readonly IRepositoryEF<ManagerEntities> _repository;
+        //private readonly IRepository<ManagerEntities> _repository;
+        public HomeController(IRepositoryEF<ManagerEntities> repository)
         {
             _repository = repository;
         }
