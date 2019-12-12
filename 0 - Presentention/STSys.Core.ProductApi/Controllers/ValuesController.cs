@@ -22,9 +22,13 @@ namespace STSys.Core.ProductApi.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            var many = _repository.GetAll();
-            //var basketSpec = new ProductItemSpecification(Guid.Parse("8DF48AC2-375D-4830-4016-08D7584F725A"));
-            //var many = _repository.GetMany(basketSpec);
+            //var many = _repository.GetAll();
+            var basketSpec = new ProductItemSpecification(Guid.Parse("8DF48AC2-375D-4830-4016-08D7584F725A"));
+            var Criteria = basketSpec.Criteria;
+            var Includes = basketSpec.Includes;
+            var IncludeStrings = basketSpec.IncludeStrings;
+
+            var many = _repository.GetMany(basketSpec);
             return Ok(many.First().Title);
         }
 

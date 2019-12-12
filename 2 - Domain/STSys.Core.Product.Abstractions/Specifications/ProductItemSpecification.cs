@@ -11,6 +11,7 @@ namespace STSys.Core.Product.Abstractions.Specifications
         public ProductItemSpecification(Guid productId) : base(b => b.Id == productId)
         {
             AddInclude(b => b.Items);
+            //AddInclude($"{nameof(ProductEntities.Items)}.{nameof(ProductItemEntities.productEntities)}");
         }
     }
 }

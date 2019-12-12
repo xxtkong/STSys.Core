@@ -141,8 +141,7 @@ namespace STSys.Core.Data.Repository.EntityFramework.Common
         {
             // 获取包含所有基于表达式的包含的可查询项
             var queryableResultWithIncludes = spec.Includes
-                .Aggregate(_dbContext.Set<TEntity>().AsQueryable(),
-                    (current, include) => current.Include(include));
+                .Aggregate(_dbContext.Set<TEntity>().AsQueryable(),(current, include) => current.Include(include));
 
             // 获取包含所有基于表达式的include的可查询项，修改可查询项以包含任何基于字符串的include语句
             var secondaryResult = spec.IncludeStrings

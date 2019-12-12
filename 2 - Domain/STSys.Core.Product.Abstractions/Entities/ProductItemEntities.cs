@@ -1,6 +1,7 @@
 ﻿using STSys.Core.Domain.Core.Models;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
 namespace STSys.Core.Product.Abstractions.Entities
