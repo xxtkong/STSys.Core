@@ -33,3 +33,11 @@ F:\项目集合\github\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.
 F:\项目集合\github\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Jobs.Core\obj\Debug\netcoreapp2.2\STSys.Core.Data.Jobs.AssemblyInfo.cs
 F:\项目集合\github\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Jobs.Core\obj\Debug\netcoreapp2.2\STSys.Core.Data.Jobs.dll
 F:\项目集合\github\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Jobs.Core\obj\Debug\netcoreapp2.2\STSys.Core.Data.Jobs.pdb
+D:\最新\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Jobs.Core\bin\Debug\netcoreapp2.2\STSys.Core.Data.Jobs.deps.json
+D:\最新\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Jobs.Core\bin\Debug\netcoreapp2.2\STSys.Core.Data.Jobs.dll
+D:\最新\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Jobs.Core\bin\Debug\netcoreapp2.2\STSys.Core.Data.Jobs.pdb
+D:\最新\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Jobs.Core\obj\Debug\netcoreapp2.2\STSys.Core.Data.Jobs.csproj.CoreCompileInputs.cache
+D:\最新\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Jobs.Core\obj\Debug\netcoreapp2.2\STSys.Core.Data.Jobs.AssemblyInfoInputs.cache
+D:\最新\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Jobs.Core\obj\Debug\netcoreapp2.2\STSys.Core.Data.Jobs.AssemblyInfo.cs
+D:\最新\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Jobs.Core\obj\Debug\netcoreapp2.2\STSys.Core.Data.Jobs.dll
+D:\最新\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Jobs.Core\obj\Debug\netcoreapp2.2\STSys.Core.Data.Jobs.pdb

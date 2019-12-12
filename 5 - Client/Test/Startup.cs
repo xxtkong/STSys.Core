@@ -40,9 +40,9 @@ namespace Test
                 };
             });
             //注册EF
-            //services.AddEFDefaultDbContext(Configuration);
+            services.AddEFDefaultDbContext(Configuration);
             //注册Dapper
-            services.AddDapperDefaultDbContext(Configuration);
+            //services.AddDapperDefaultDbContext(Configuration);
 
             services.AddNativeInjectorBootStrapper(Configuration);
             services.TryAddSingleton<IHttpContextAccessor, HttpContextAccessor>();
