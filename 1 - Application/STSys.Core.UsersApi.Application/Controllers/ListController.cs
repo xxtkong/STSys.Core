@@ -12,16 +12,16 @@ namespace STSys.Core.UsersApi.Application.Controllers
     [ApiController]
     public class ListController: ControllerBase
     {
-        private readonly IRepository<Product> _repository;
-        public ListController(IRepository<Product> repository)
-        {
-            this._repository = repository;
-        }
-        [HttpGet]
-        [Route("lists")]
-        public IEnumerable<ListViewModel> Lists()
-        {
-            return null;
-        }
+        //private readonly IRepository<Product> _repository;
+        //public ListController(IRepository<Product> repository)
+        //{
+        //    this._repository = repository;
+        //}
+        //[HttpGet]
+        //[Route("lists")]
+        //public IEnumerable<ListViewModel> Lists()
+        //{
+        //    return null;
+        //}
     }
 }

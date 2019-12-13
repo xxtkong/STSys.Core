@@ -29,6 +29,7 @@ namespace STSys.Core.ProductApi.Controllers
             var IncludeStrings = basketSpec.IncludeStrings;
 
             var many = _repository.GetMany(basketSpec);
+            var c = many.First().Items.Count();
             return Ok(many.First().Title);
         }
 

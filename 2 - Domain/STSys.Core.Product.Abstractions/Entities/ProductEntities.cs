@@ -11,6 +11,7 @@ namespace STSys.Core.Product.Abstractions.Entities
         public decimal Price { get; set; }
         public string Images { get; set; }
 
+
         private readonly List<ProductItemEntities> _items = new List<ProductItemEntities>();
         public IReadOnlyCollection<ProductItemEntities> Items => _items.AsReadOnly();
         public void AddItem(Guid productId, string key,string value)

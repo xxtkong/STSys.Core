@@ -110,3 +110,5 @@ D:\最新\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Repository.Ad
 D:\最新\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Repository.Admin\obj\Debug\netcoreapp2.2\STSys.Core.Data.Repository.Admin.csproj.CopyComplete
 D:\最新\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Repository.Admin\obj\Debug\netcoreapp2.2\STSys.Core.Data.Repository.Admin.dll
 D:\最新\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Repository.Admin\obj\Debug\netcoreapp2.2\STSys.Core.Data.Repository.Admin.pdb
+F:\项目集合\github\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Repository.Admin\bin\Debug\netcoreapp2.2\STSys.Core.Product.Abstractions.dll
+F:\项目集合\github\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Repository.Admin\bin\Debug\netcoreapp2.2\STSys.Core.Product.Abstractions.pdb

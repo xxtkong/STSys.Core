@@ -7,6 +7,6 @@ namespace STSys.Core.UsersApi.Application.ViewModels
 {
     public class ListViewModel
     {
-        public IEnumerable<Product> products { get; set; }
+        //public IEnumerable<Product> products { get; set; }
     }
 }

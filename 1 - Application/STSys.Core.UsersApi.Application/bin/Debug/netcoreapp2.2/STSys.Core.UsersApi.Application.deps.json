@@ -1726,6 +1726,7 @@
           "STSys.Core.Data.Context": "1.0.0",
           "STSys.Core.Domain": "1.0.0",
           "STSys.Core.Domain.Catalog": "1.0.0",
+          "STSys.Core.Product.Abstractions": "1.0.0",
           "System.Data.SqlClient": "4.6.1"
         },
         "runtime": {
@@ -1764,6 +1765,16 @@
         },
         "runtime": {
           "STSys.Core.Domain.Core.dll": {}
+        }
+      },
+      "STSys.Core.Product.Abstractions/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational": "2.2.6",
+          "STSys.Core.Domain": "1.0.0",
+          "STSys.Core.Domain.Core": "1.0.0"
+        },
+        "runtime": {
+          "STSys.Core.Product.Abstractions.dll": {}
         }
       },
       "STSys.Core.Users.Abstractions/1.0.0": {
@@ -2887,6 +2898,11 @@
       "sha512": ""
     },
     "STSys.Core.Domain.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "STSys.Core.Product.Abstractions/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

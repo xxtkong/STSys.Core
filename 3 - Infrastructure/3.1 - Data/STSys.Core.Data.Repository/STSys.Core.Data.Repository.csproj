@@ -16,6 +16,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\..\2 - Domain\STSys.Core.Domain.Catalog\STSys.Core.Domain.Catalog.csproj" />
     <ProjectReference Include="..\..\..\2 - Domain\STSys.Core.Domain\STSys.Core.Domain.csproj" />
+    <ProjectReference Include="..\..\..\2 - Domain\STSys.Core.Product.Abstractions\STSys.Core.Product.Abstractions.csproj" />
     <ProjectReference Include="..\STSys.Core.Data.Context\STSys.Core.Data.Context.csproj" />
   </ItemGroup>
 

@@ -191,3 +191,5 @@ D:\最新\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.Data.IoC\o
 D:\最新\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.Data.IoC\obj\Debug\netcoreapp2.2\STSys.Core.Data.IoC.csproj.CopyComplete
 D:\最新\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.Data.IoC\obj\Debug\netcoreapp2.2\STSys.Core.Data.IoC.dll
 D:\最新\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.Data.IoC\obj\Debug\netcoreapp2.2\STSys.Core.Data.IoC.pdb
+F:\项目集合\github\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.Data.IoC\bin\Debug\netcoreapp2.2\STSys.Core.Product.Abstractions.dll
+F:\项目集合\github\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.Data.IoC\bin\Debug\netcoreapp2.2\STSys.Core.Product.Abstractions.pdb
