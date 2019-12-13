@@ -141,7 +141,7 @@ namespace STSys.Core.Data.Repository.EntityFramework.Common
         public IQueryable<TEntity> GetMany(ISpecification<TEntity> spec)
         {
 
-            //var p = _dbContext.Set<ProductEntities>().Include("Items").ToList();
+            var p = _dbContext.productEntities.Include("Items").ToList();
 
 
             // 获取包含所有基于表达式的包含的可查询项

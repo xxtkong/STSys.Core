@@ -7,10 +7,8 @@ using System.Text;
 
 namespace STSys.Core.Product.Abstractions.Entities
 {
-    public class ProductItemEntities
+    public class ProductItemEntities:Entity
     {
-        [Key]
-        public Guid Id { get; set; }
         public Guid ProductId { get; set; }
         public string Key { get; set; }
         public string Value { get; set; }

@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using STSys.Core.Admin.Abstractions.Entities;
+using STSys.Core.Product.Abstractions.Entities;
 using STSys.Core.Users.Abstractions.Entities;
 using System;
 using System.Collections.Generic;
@@ -18,5 +19,7 @@ namespace STSys.Core.Data.Context
         public DbSet<RelevanceRoleEntity> RelevanceRole { get; set; }
         public DbSet<ModuleElementEntity> ModuleElement { get; set; }
         public DbSet<RelevanceElementEntity> RelevanceElement { get; set; }
+        public DbSet<ProductEntities> productEntities { get; set; }
+        public DbSet<ProductItemEntities> productItemEntities { get; set; }
     }
 }

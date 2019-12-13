@@ -5277,6 +5277,7 @@
           "Pomelo.EntityFrameworkCore.MySql": "2.2.6",
           "STSys.Core.Admin.Abstractions": "1.0.0",
           "STSys.Core.Domain": "1.0.0",
+          "STSys.Core.Product.Abstractions": "1.0.0",
           "STSys.Core.Users.Abstractions": "1.0.0",
           "System.Data.SqlClient": "4.6.1"
         },

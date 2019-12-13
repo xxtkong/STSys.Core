@@ -2356,6 +2356,21 @@
           "bin/placeholder/STSys.Core.Domain.Core.dll": {}
         }
       },
+      "STSys.Core.Product.Abstractions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational": "2.2.0",
+          "STSys.Core.Domain": "1.0.0",
+          "STSys.Core.Domain.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/STSys.Core.Product.Abstractions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/STSys.Core.Product.Abstractions.dll": {}
+        }
+      },
       "STSys.Core.Users.Abstractions/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
@@ -7691,6 +7706,11 @@
       "path": "../../../2 - Domain/STSys.Core.Domain.Core/STSys.Core.Domain.Core.csproj",
       "msbuildProject": "../../../2 - Domain/STSys.Core.Domain.Core/STSys.Core.Domain.Core.csproj"
     },
+    "STSys.Core.Product.Abstractions/1.0.0": {
+      "type": "project",
+      "path": "../../../2 - Domain/STSys.Core.Product.Abstractions/STSys.Core.Product.Abstractions.csproj",
+      "msbuildProject": "../../../2 - Domain/STSys.Core.Product.Abstractions/STSys.Core.Product.Abstractions.csproj"
+    },
     "STSys.Core.Users.Abstractions/1.0.0": {
       "type": "project",
       "path": "../../../2 - Domain/STSys.Core.Users.Abstractions/STSys.Core.Users.Abstractions.csproj",
@@ -7708,6 +7728,7 @@
       "Pomelo.EntityFrameworkCore.MySql >= 2.2.6",
       "STSys.Core.Admin.Abstractions >= 1.0.0",
       "STSys.Core.Domain >= 1.0.0",
+      "STSys.Core.Product.Abstractions >= 1.0.0",
       "STSys.Core.Users.Abstractions >= 1.0.0",
       "System.Data.SqlClient >= 4.6.1"
     ]
@@ -7747,6 +7768,9 @@
             },
             "F:\\项目集合\\github\\STSys.Core\\2 - Domain\\STSys.Core.Domain\\STSys.Core.Domain.csproj": {
               "projectPath": "F:\\项目集合\\github\\STSys.Core\\2 - Domain\\STSys.Core.Domain\\STSys.Core.Domain.csproj"
+            },
+            "F:\\项目集合\\github\\STSys.Core\\2 - Domain\\STSys.Core.Product.Abstractions\\STSys.Core.Product.Abstractions.csproj": {
+              "projectPath": "F:\\项目集合\\github\\STSys.Core\\2 - Domain\\STSys.Core.Product.Abstractions\\STSys.Core.Product.Abstractions.csproj"
             },
             "F:\\项目集合\\github\\STSys.Core\\2 - Domain\\STSys.Core.Users.Abstractions\\STSys.Core.Users.Abstractions.csproj": {
               "projectPath": "F:\\项目集合\\github\\STSys.Core\\2 - Domain\\STSys.Core.Users.Abstractions\\STSys.Core.Users.Abstractions.csproj"

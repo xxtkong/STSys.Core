@@ -3286,6 +3286,7 @@
           "Pomelo.EntityFrameworkCore.MySql": "2.2.6",
           "STSys.Core.Admin.Abstractions": "1.0.0",
           "STSys.Core.Domain": "1.0.0",
+          "STSys.Core.Product.Abstractions": "1.0.0",
           "STSys.Core.Users.Abstractions": "1.0.0",
           "System.Data.SqlClient": "4.6.1"
         },
@@ -3358,6 +3359,21 @@
         },
         "runtime": {
           "bin/placeholder/STSys.Core.File.Abstractions.dll": {}
+        }
+      },
+      "STSys.Core.Product.Abstractions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational": "2.2.0",
+          "STSys.Core.Domain": "1.0.0",
+          "STSys.Core.Domain.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/STSys.Core.Product.Abstractions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/STSys.Core.Product.Abstractions.dll": {}
         }
       },
       "STSys.Core.Users.Abstractions/1.0.0": {
@@ -9975,6 +9991,11 @@
       "type": "project",
       "path": "../../2 - Domain/STSys.Core.File.Abstractions/STSys.Core.File.Abstractions.csproj",
       "msbuildProject": "../../2 - Domain/STSys.Core.File.Abstractions/STSys.Core.File.Abstractions.csproj"
+    },
+    "STSys.Core.Product.Abstractions/1.0.0": {
+      "type": "project",
+      "path": "../../2 - Domain/STSys.Core.Product.Abstractions/STSys.Core.Product.Abstractions.csproj",
+      "msbuildProject": "../../2 - Domain/STSys.Core.Product.Abstractions/STSys.Core.Product.Abstractions.csproj"
     },
     "STSys.Core.Users.Abstractions/1.0.0": {
       "type": "project",
