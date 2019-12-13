@@ -75,7 +75,6 @@ F:\项目集合\github\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.
 F:\项目集合\github\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Repository.Admin\bin\Debug\netcoreapp2.2\STSys.Core.Domain.Core.pdb
 F:\项目集合\github\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Repository.Admin\bin\Debug\netcoreapp2.2\STSys.Core.Users.Abstractions.pdb
 F:\项目集合\github\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Repository.Admin\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Mvc.ViewFeatures.xml
-F:\项目集合\github\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Repository.Admin\obj\Debug\netcoreapp2.2\STSys.Core.Data.Repository.Admin.csprojAssemblyReference.cache
 F:\项目集合\github\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Repository.Admin\obj\Debug\netcoreapp2.2\STSys.Core.Data.Repository.Admin.csproj.CoreCompileInputs.cache
 F:\项目集合\github\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Repository.Admin\obj\Debug\netcoreapp2.2\STSys.Core.Data.Repository.Admin.AssemblyInfoInputs.cache
 F:\项目集合\github\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Repository.Admin\obj\Debug\netcoreapp2.2\STSys.Core.Data.Repository.Admin.AssemblyInfo.cs

@@ -120,3 +120,5 @@ D:\最新\STSys.Core\2 - Domain\STSys.Core.Files\obj\Debug\netcoreapp2.2\STSys.C
 D:\最新\STSys.Core\2 - Domain\STSys.Core.Files\obj\Debug\netcoreapp2.2\STSys.Core.Files.pdb
 D:\最新\STSys.Core\2 - Domain\STSys.Core.Files\bin\Debug\netcoreapp2.2\STSys.Core.Product.Abstractions.dll
 D:\最新\STSys.Core\2 - Domain\STSys.Core.Files\bin\Debug\netcoreapp2.2\STSys.Core.Product.Abstractions.pdb
+F:\项目集合\github\STSys.Core\2 - Domain\STSys.Core.Files\bin\Debug\netcoreapp2.2\STSys.Core.Product.Abstractions.dll
+F:\项目集合\github\STSys.Core\2 - Domain\STSys.Core.Files\bin\Debug\netcoreapp2.2\STSys.Core.Product.Abstractions.pdb

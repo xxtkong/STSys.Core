@@ -404,3 +404,5 @@ D:\最新\STSys.Core\0 - Presentention\STSys.Core.Admin\obj\Debug\netcoreapp2.2\
 D:\最新\STSys.Core\0 - Presentention\STSys.Core.Admin\obj\Debug\netcoreapp2.2\STSys.Core.Admin.pdb
 D:\最新\STSys.Core\0 - Presentention\STSys.Core.Admin\bin\Debug\netcoreapp2.2\STSys.Core.Product.Abstractions.dll
 D:\最新\STSys.Core\0 - Presentention\STSys.Core.Admin\bin\Debug\netcoreapp2.2\STSys.Core.Product.Abstractions.pdb
+F:\项目集合\github\STSys.Core\0 - Presentention\STSys.Core.Admin\bin\Debug\netcoreapp2.2\STSys.Core.Product.Abstractions.dll
+F:\项目集合\github\STSys.Core\0 - Presentention\STSys.Core.Admin\bin\Debug\netcoreapp2.2\STSys.Core.Product.Abstractions.pdb

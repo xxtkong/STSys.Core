@@ -54,7 +54,6 @@ F:\项目集合\github\STSys.Core\0 - Presentention\STSys.Core.ProductApi\bin\De
 F:\项目集合\github\STSys.Core\0 - Presentention\STSys.Core.ProductApi\bin\Debug\netcoreapp2.2\STSys.Core.Domain.Core.pdb
 F:\项目集合\github\STSys.Core\0 - Presentention\STSys.Core.ProductApi\bin\Debug\netcoreapp2.2\STSys.Core.Users.Abstractions.pdb
 F:\项目集合\github\STSys.Core\0 - Presentention\STSys.Core.ProductApi\bin\Debug\netcoreapp2.2\STSys.Core.UsersApi.Application.pdb
-F:\项目集合\github\STSys.Core\0 - Presentention\STSys.Core.ProductApi\obj\Debug\netcoreapp2.2\STSys.Core.ProductApi.csprojAssemblyReference.cache
 F:\项目集合\github\STSys.Core\0 - Presentention\STSys.Core.ProductApi\obj\Debug\netcoreapp2.2\STSys.Core.ProductApi.csproj.CopyComplete
 D:\最新\STSys.Core\0 - Presentention\STSys.Core.ProductApi\bin\Debug\netcoreapp2.2\Common.Utility.dll
 D:\最新\STSys.Core\0 - Presentention\STSys.Core.ProductApi\bin\Debug\netcoreapp2.2\STSys.Core.Admin.Abstractions.dll

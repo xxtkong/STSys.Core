@@ -116,3 +116,5 @@ D:\最新\STSys.Core\5 - Client\Test\obj\Debug\netcoreapp2.2\Test.pdb
 D:\最新\STSys.Core\5 - Client\Test\bin\Debug\netcoreapp2.2\STSys.Core.Product.Abstractions.dll
 D:\最新\STSys.Core\5 - Client\Test\bin\Debug\netcoreapp2.2\STSys.Core.Product.Abstractions.pdb
 D:\最新\STSys.Core\5 - Client\Test\obj\Debug\netcoreapp2.2\Test.csprojAssemblyReference.cache
+F:\项目集合\github\STSys.Core\5 - Client\Test\bin\Debug\netcoreapp2.2\STSys.Core.Product.Abstractions.dll
+F:\项目集合\github\STSys.Core\5 - Client\Test\bin\Debug\netcoreapp2.2\STSys.Core.Product.Abstractions.pdb
