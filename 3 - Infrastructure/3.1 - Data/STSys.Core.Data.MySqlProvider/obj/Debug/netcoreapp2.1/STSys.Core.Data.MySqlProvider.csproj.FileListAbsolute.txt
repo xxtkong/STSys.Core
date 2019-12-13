@@ -1,9 +1,0 @@
-D:\最新\STSys\3 - Infrastructure\3.1 - Data\STSys.Core.Data.MySqlProvider\bin\Debug\netcoreapp2.1\STSys.Core.Data.MySqlProvider.deps.json
-D:\最新\STSys\3 - Infrastructure\3.1 - Data\STSys.Core.Data.MySqlProvider\bin\Debug\netcoreapp2.1\STSys.Core.Data.MySqlProvider.dll
-D:\最新\STSys\3 - Infrastructure\3.1 - Data\STSys.Core.Data.MySqlProvider\bin\Debug\netcoreapp2.1\Microsoft.EntityFrameworkCore.dll
-D:\最新\STSys\3 - Infrastructure\3.1 - Data\STSys.Core.Data.MySqlProvider\bin\Debug\netcoreapp2.1\Microsoft.EntityFrameworkCore.xml
-D:\最新\STSys\3 - Infrastructure\3.1 - Data\STSys.Core.Data.MySqlProvider\obj\Debug\netcoreapp2.1\STSys.Core.Data.MySqlProvider.csprojAssemblyReference.cache
-D:\最新\STSys\3 - Infrastructure\3.1 - Data\STSys.Core.Data.MySqlProvider\obj\Debug\netcoreapp2.1\STSys.Core.Data.MySqlProvider.csproj.CoreCompileInputs.cache
-D:\最新\STSys\3 - Infrastructure\3.1 - Data\STSys.Core.Data.MySqlProvider\obj\Debug\netcoreapp2.1\STSys.Core.Data.MySqlProvider.AssemblyInfoInputs.cache
-D:\最新\STSys\3 - Infrastructure\3.1 - Data\STSys.Core.Data.MySqlProvider\obj\Debug\netcoreapp2.1\STSys.Core.Data.MySqlProvider.AssemblyInfo.cs
-D:\最新\STSys\3 - Infrastructure\3.1 - Data\STSys.Core.Data.MySqlProvider\obj\Debug\netcoreapp2.1\STSys.Core.Data.MySqlProvider.csproj.CopyComplete

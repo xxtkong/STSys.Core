@@ -1,9 +1,0 @@
-D:\项目\NASys\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.DotNettyRPC\bin\Release\netcoreapp2.1\STSys.Core.DotNettyRPC.deps.json
-D:\项目\NASys\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.DotNettyRPC\bin\Release\netcoreapp2.1\STSys.Core.DotNettyRPC.dll
-D:\项目\NASys\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.DotNettyRPC\bin\Release\netcoreapp2.1\STSys.Core.DotNettyRPC.pdb
-D:\项目\NASys\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.DotNettyRPC\obj\Release\netcoreapp2.1\STSys.Core.DotNettyRPC.csprojAssemblyReference.cache
-D:\项目\NASys\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.DotNettyRPC\obj\Release\netcoreapp2.1\STSys.Core.DotNettyRPC.csproj.CoreCompileInputs.cache
-D:\项目\NASys\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.DotNettyRPC\obj\Release\netcoreapp2.1\STSys.Core.DotNettyRPC.AssemblyInfoInputs.cache
-D:\项目\NASys\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.DotNettyRPC\obj\Release\netcoreapp2.1\STSys.Core.DotNettyRPC.AssemblyInfo.cs
-D:\项目\NASys\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.DotNettyRPC\obj\Release\netcoreapp2.1\STSys.Core.DotNettyRPC.dll
-D:\项目\NASys\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.DotNettyRPC\obj\Release\netcoreapp2.1\STSys.Core.DotNettyRPC.pdb

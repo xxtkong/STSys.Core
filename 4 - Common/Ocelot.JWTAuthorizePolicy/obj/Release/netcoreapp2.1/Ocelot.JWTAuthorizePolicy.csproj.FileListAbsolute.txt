@@ -1,9 +1,0 @@
-D:\公司项目\STSys.Core\trunk\STSys.Core\4 - Common\Ocelot.JWTAuthorizePolicy\bin\Release\netcoreapp2.1\Ocelot.JWTAuthorizePolicy.deps.json
-D:\公司项目\STSys.Core\trunk\STSys.Core\4 - Common\Ocelot.JWTAuthorizePolicy\bin\Release\netcoreapp2.1\Ocelot.JWTAuthorizePolicy.dll
-D:\公司项目\STSys.Core\trunk\STSys.Core\4 - Common\Ocelot.JWTAuthorizePolicy\bin\Release\netcoreapp2.1\Ocelot.JWTAuthorizePolicy.pdb
-D:\公司项目\STSys.Core\trunk\STSys.Core\4 - Common\Ocelot.JWTAuthorizePolicy\obj\Release\netcoreapp2.1\Ocelot.JWTAuthorizePolicy.csprojAssemblyReference.cache
-D:\公司项目\STSys.Core\trunk\STSys.Core\4 - Common\Ocelot.JWTAuthorizePolicy\obj\Release\netcoreapp2.1\Ocelot.JWTAuthorizePolicy.csproj.CoreCompileInputs.cache
-D:\公司项目\STSys.Core\trunk\STSys.Core\4 - Common\Ocelot.JWTAuthorizePolicy\obj\Release\netcoreapp2.1\Ocelot.JWTAuthorizePolicy.AssemblyInfoInputs.cache
-D:\公司项目\STSys.Core\trunk\STSys.Core\4 - Common\Ocelot.JWTAuthorizePolicy\obj\Release\netcoreapp2.1\Ocelot.JWTAuthorizePolicy.AssemblyInfo.cs
-D:\公司项目\STSys.Core\trunk\STSys.Core\4 - Common\Ocelot.JWTAuthorizePolicy\obj\Release\netcoreapp2.1\Ocelot.JWTAuthorizePolicy.dll
-D:\公司项目\STSys.Core\trunk\STSys.Core\4 - Common\Ocelot.JWTAuthorizePolicy\obj\Release\netcoreapp2.1\Ocelot.JWTAuthorizePolicy.pdb
