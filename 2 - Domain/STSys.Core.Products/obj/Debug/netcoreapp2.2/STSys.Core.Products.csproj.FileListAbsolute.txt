@@ -1,0 +1,8 @@
+D:\最新\STSys.Core\2 - Domain\STSys.Core.Products\bin\Debug\netcoreapp2.2\STSys.Core.Products.deps.json
+D:\最新\STSys.Core\2 - Domain\STSys.Core.Products\bin\Debug\netcoreapp2.2\STSys.Core.Products.dll
+D:\最新\STSys.Core\2 - Domain\STSys.Core.Products\bin\Debug\netcoreapp2.2\STSys.Core.Products.pdb
+D:\最新\STSys.Core\2 - Domain\STSys.Core.Products\obj\Debug\netcoreapp2.2\STSys.Core.Products.csproj.CoreCompileInputs.cache
+D:\最新\STSys.Core\2 - Domain\STSys.Core.Products\obj\Debug\netcoreapp2.2\STSys.Core.Products.AssemblyInfoInputs.cache
+D:\最新\STSys.Core\2 - Domain\STSys.Core.Products\obj\Debug\netcoreapp2.2\STSys.Core.Products.AssemblyInfo.cs
+D:\最新\STSys.Core\2 - Domain\STSys.Core.Products\obj\Debug\netcoreapp2.2\STSys.Core.Products.dll
+D:\最新\STSys.Core\2 - Domain\STSys.Core.Products\obj\Debug\netcoreapp2.2\STSys.Core.Products.pdb

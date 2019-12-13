@@ -45,3 +45,4 @@ F:\项目集合\github\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Co
 F:\项目集合\github\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core\obj\Debug\netcoreapp2.2\STSys.Core.csproj.CopyComplete
 F:\项目集合\github\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core\obj\Debug\netcoreapp2.2\STSys.Core.dll
 F:\项目集合\github\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core\obj\Debug\netcoreapp2.2\STSys.Core.pdb
+D:\最新\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core\obj\Debug\netcoreapp2.2\STSys.Core.csprojAssemblyReference.cache

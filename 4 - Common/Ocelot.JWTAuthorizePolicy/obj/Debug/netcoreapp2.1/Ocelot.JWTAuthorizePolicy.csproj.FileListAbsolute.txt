@@ -42,3 +42,4 @@ D:\最新\STSys.Core\4 - Common\Ocelot.JWTAuthorizePolicy\obj\Debug\netcoreapp2.
 D:\最新\STSys.Core\4 - Common\Ocelot.JWTAuthorizePolicy\obj\Debug\netcoreapp2.1\Ocelot.JWTAuthorizePolicy.AssemblyInfo.cs
 D:\最新\STSys.Core\4 - Common\Ocelot.JWTAuthorizePolicy\obj\Debug\netcoreapp2.1\Ocelot.JWTAuthorizePolicy.dll
 D:\最新\STSys.Core\4 - Common\Ocelot.JWTAuthorizePolicy\obj\Debug\netcoreapp2.1\Ocelot.JWTAuthorizePolicy.pdb
+D:\最新\STSys.Core\4 - Common\Ocelot.JWTAuthorizePolicy\obj\Debug\netcoreapp2.1\Ocelot.JWTAuthorizePolicy.csprojAssemblyReference.cache

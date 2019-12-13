@@ -146,3 +146,5 @@ D:\最新\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.UpLoad\obj
 D:\最新\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.UpLoad\obj\Debug\netcoreapp2.2\STSys.Core.UpLoad.csproj.CopyComplete
 D:\最新\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.UpLoad\obj\Debug\netcoreapp2.2\STSys.Core.UpLoad.dll
 D:\最新\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.UpLoad\obj\Debug\netcoreapp2.2\STSys.Core.UpLoad.pdb
+D:\最新\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.UpLoad\bin\Debug\netcoreapp2.2\STSys.Core.Product.Abstractions.dll
+D:\最新\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.UpLoad\bin\Debug\netcoreapp2.2\STSys.Core.Product.Abstractions.pdb

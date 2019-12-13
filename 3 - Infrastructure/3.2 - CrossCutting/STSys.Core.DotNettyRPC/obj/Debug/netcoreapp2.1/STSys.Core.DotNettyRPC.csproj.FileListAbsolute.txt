@@ -33,3 +33,4 @@ D:\最新\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.DotNettyRP
 D:\最新\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.DotNettyRPC\obj\Debug\netcoreapp2.1\STSys.Core.DotNettyRPC.AssemblyInfo.cs
 D:\最新\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.DotNettyRPC\obj\Debug\netcoreapp2.1\STSys.Core.DotNettyRPC.dll
 D:\最新\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.DotNettyRPC\obj\Debug\netcoreapp2.1\STSys.Core.DotNettyRPC.pdb
+D:\最新\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.DotNettyRPC\obj\Debug\netcoreapp2.1\STSys.Core.DotNettyRPC.csprojAssemblyReference.cache

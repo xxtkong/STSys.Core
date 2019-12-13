@@ -51,3 +51,4 @@ D:\最新\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.MySqlProvider
 D:\最新\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.MySqlProvider\obj\Debug\netcoreapp2.2\STSys.Core.Data.MySqlProvider.csproj.CopyComplete
 D:\最新\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.MySqlProvider\obj\Debug\netcoreapp2.2\STSys.Core.Data.MySqlProvider.dll
 D:\最新\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.MySqlProvider\obj\Debug\netcoreapp2.2\STSys.Core.Data.MySqlProvider.pdb
+D:\最新\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.MySqlProvider\obj\Debug\netcoreapp2.2\STSys.Core.Data.MySqlProvider.csprojAssemblyReference.cache

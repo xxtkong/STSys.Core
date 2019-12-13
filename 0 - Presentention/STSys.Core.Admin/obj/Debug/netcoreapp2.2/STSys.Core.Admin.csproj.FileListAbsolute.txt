@@ -402,3 +402,5 @@ D:\最新\STSys.Core\0 - Presentention\STSys.Core.Admin\obj\Debug\netcoreapp2.2\
 D:\最新\STSys.Core\0 - Presentention\STSys.Core.Admin\obj\Debug\netcoreapp2.2\STSys.Core.Admin.csproj.CopyComplete
 D:\最新\STSys.Core\0 - Presentention\STSys.Core.Admin\obj\Debug\netcoreapp2.2\STSys.Core.Admin.dll
 D:\最新\STSys.Core\0 - Presentention\STSys.Core.Admin\obj\Debug\netcoreapp2.2\STSys.Core.Admin.pdb
+D:\最新\STSys.Core\0 - Presentention\STSys.Core.Admin\bin\Debug\netcoreapp2.2\STSys.Core.Product.Abstractions.dll
+D:\最新\STSys.Core\0 - Presentention\STSys.Core.Admin\bin\Debug\netcoreapp2.2\STSys.Core.Product.Abstractions.pdb

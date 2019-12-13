@@ -254,3 +254,5 @@ D:\最新\STSys.Core\5 - Client\STSys.Core.FileWeb\obj\Debug\netcoreapp2.2\STSys
 D:\最新\STSys.Core\5 - Client\STSys.Core.FileWeb\obj\Debug\netcoreapp2.2\STSys.Core.FileWeb.csproj.CopyComplete
 D:\最新\STSys.Core\5 - Client\STSys.Core.FileWeb\obj\Debug\netcoreapp2.2\STSys.Core.FileWeb.dll
 D:\最新\STSys.Core\5 - Client\STSys.Core.FileWeb\obj\Debug\netcoreapp2.2\STSys.Core.FileWeb.pdb
+D:\最新\STSys.Core\5 - Client\STSys.Core.FileWeb\bin\Debug\netcoreapp2.2\STSys.Core.Product.Abstractions.dll
+D:\最新\STSys.Core\5 - Client\STSys.Core.FileWeb\bin\Debug\netcoreapp2.2\STSys.Core.Product.Abstractions.pdb

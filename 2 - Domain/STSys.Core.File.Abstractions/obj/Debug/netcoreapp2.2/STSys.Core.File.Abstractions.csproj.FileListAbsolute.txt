@@ -28,7 +28,6 @@ F:\项目集合\github\STSys.Core\2 - Domain\STSys.Core.File.Abstractions\obj\De
 D:\最新\STSys.Core\2 - Domain\STSys.Core.File.Abstractions\bin\Debug\netcoreapp2.2\STSys.Core.File.Abstractions.deps.json
 D:\最新\STSys.Core\2 - Domain\STSys.Core.File.Abstractions\bin\Debug\netcoreapp2.2\STSys.Core.File.Abstractions.dll
 D:\最新\STSys.Core\2 - Domain\STSys.Core.File.Abstractions\bin\Debug\netcoreapp2.2\STSys.Core.File.Abstractions.pdb
-D:\最新\STSys.Core\2 - Domain\STSys.Core.File.Abstractions\obj\Debug\netcoreapp2.2\STSys.Core.File.Abstractions.csprojAssemblyReference.cache
 D:\最新\STSys.Core\2 - Domain\STSys.Core.File.Abstractions\obj\Debug\netcoreapp2.2\STSys.Core.File.Abstractions.csproj.CoreCompileInputs.cache
 D:\最新\STSys.Core\2 - Domain\STSys.Core.File.Abstractions\obj\Debug\netcoreapp2.2\STSys.Core.File.Abstractions.AssemblyInfoInputs.cache
 D:\最新\STSys.Core\2 - Domain\STSys.Core.File.Abstractions\obj\Debug\netcoreapp2.2\STSys.Core.File.Abstractions.AssemblyInfo.cs

@@ -213,3 +213,5 @@ D:\最新\STSys.Core\0 - Presentention\STSys.Core.UsersApi\obj\Debug\netcoreapp2
 D:\最新\STSys.Core\0 - Presentention\STSys.Core.UsersApi\obj\Debug\netcoreapp2.2\STSys.Core.UsersApi.csproj.CopyComplete
 D:\最新\STSys.Core\0 - Presentention\STSys.Core.UsersApi\obj\Debug\netcoreapp2.2\STSys.Core.UsersApi.dll
 D:\最新\STSys.Core\0 - Presentention\STSys.Core.UsersApi\obj\Debug\netcoreapp2.2\STSys.Core.UsersApi.pdb
+D:\最新\STSys.Core\0 - Presentention\STSys.Core.UsersApi\bin\Debug\netcoreapp2.2\netcoreapp2.2\STSys.Core.Product.Abstractions.dll
+D:\最新\STSys.Core\0 - Presentention\STSys.Core.UsersApi\bin\Debug\netcoreapp2.2\netcoreapp2.2\STSys.Core.Product.Abstractions.pdb

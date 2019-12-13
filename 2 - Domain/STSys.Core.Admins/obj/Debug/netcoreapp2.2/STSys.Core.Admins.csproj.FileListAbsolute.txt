@@ -30,3 +30,4 @@ D:\最新\STSys.Core\2 - Domain\STSys.Core.Admins\obj\Debug\netcoreapp2.2\STSys.
 D:\最新\STSys.Core\2 - Domain\STSys.Core.Admins\obj\Debug\netcoreapp2.2\STSys.Core.Admins.AssemblyInfo.cs
 D:\最新\STSys.Core\2 - Domain\STSys.Core.Admins\obj\Debug\netcoreapp2.2\STSys.Core.Admins.dll
 D:\最新\STSys.Core\2 - Domain\STSys.Core.Admins\obj\Debug\netcoreapp2.2\STSys.Core.Admins.pdb
+D:\最新\STSys.Core\2 - Domain\STSys.Core.Admins\obj\Debug\netcoreapp2.2\STSys.Core.Admins.csprojAssemblyReference.cache

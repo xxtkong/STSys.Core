@@ -313,3 +313,5 @@ D:\最新\STSys.Core\0 - Presentention\STSys.Core.IdentityProvider\obj\Debug\net
 D:\最新\STSys.Core\0 - Presentention\STSys.Core.IdentityProvider\obj\Debug\netcoreapp2.2\STSys.Core.IdentityProvider.csproj.CopyComplete
 D:\最新\STSys.Core\0 - Presentention\STSys.Core.IdentityProvider\obj\Debug\netcoreapp2.2\STSys.Core.IdentityProvider.dll
 D:\最新\STSys.Core\0 - Presentention\STSys.Core.IdentityProvider\obj\Debug\netcoreapp2.2\STSys.Core.IdentityProvider.pdb
+D:\最新\STSys.Core\0 - Presentention\STSys.Core.IdentityProvider\bin\Debug\netcoreapp2.2\STSys.Core.Product.Abstractions.dll
+D:\最新\STSys.Core\0 - Presentention\STSys.Core.IdentityProvider\bin\Debug\netcoreapp2.2\STSys.Core.Product.Abstractions.pdb

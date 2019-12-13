@@ -104,3 +104,5 @@ D:\最新\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Context\obj\D
 D:\最新\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Context\obj\Debug\netcoreapp2.2\STSys.Core.Data.Context.pdb
 F:\项目集合\github\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Context\bin\Debug\netcoreapp2.2\STSys.Core.Product.Abstractions.dll
 F:\项目集合\github\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Context\bin\Debug\netcoreapp2.2\STSys.Core.Product.Abstractions.pdb
+D:\最新\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Context\bin\Debug\netcoreapp2.2\STSys.Core.Product.Abstractions.dll
+D:\最新\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Context\bin\Debug\netcoreapp2.2\STSys.Core.Product.Abstractions.pdb

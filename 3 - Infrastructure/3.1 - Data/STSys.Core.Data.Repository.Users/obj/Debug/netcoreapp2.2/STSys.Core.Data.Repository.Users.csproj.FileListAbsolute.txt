@@ -112,3 +112,5 @@ D:\最新\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Repository.Us
 D:\最新\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Repository.Users\obj\Debug\netcoreapp2.2\STSys.Core.Data.Repository.Users.pdb
 F:\项目集合\github\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Repository.Users\bin\Debug\netcoreapp2.2\STSys.Core.Product.Abstractions.dll
 F:\项目集合\github\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Repository.Users\bin\Debug\netcoreapp2.2\STSys.Core.Product.Abstractions.pdb
+D:\最新\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Repository.Users\bin\Debug\netcoreapp2.2\STSys.Core.Product.Abstractions.dll
+D:\最新\STSys.Core\3 - Infrastructure\3.1 - Data\STSys.Core.Data.Repository.Users\bin\Debug\netcoreapp2.2\STSys.Core.Product.Abstractions.pdb

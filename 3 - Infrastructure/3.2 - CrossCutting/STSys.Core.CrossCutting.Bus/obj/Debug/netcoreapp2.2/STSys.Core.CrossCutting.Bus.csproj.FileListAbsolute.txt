@@ -87,10 +87,10 @@ D:\最新\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.CrossCutti
 D:\最新\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.CrossCutting.Bus\bin\Debug\netcoreapp2.2\Common.Utility.pdb
 D:\最新\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.CrossCutting.Bus\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Mvc.ViewFeatures.xml
 D:\最新\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.CrossCutting.Bus\bin\Debug\netcoreapp2.2\Microsoft.EntityFrameworkCore.xml
-D:\最新\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.CrossCutting.Bus\obj\Debug\netcoreapp2.2\STSys.Core.CrossCutting.Bus.csprojAssemblyReference.cache
 D:\最新\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.CrossCutting.Bus\obj\Debug\netcoreapp2.2\STSys.Core.CrossCutting.Bus.csproj.CoreCompileInputs.cache
 D:\最新\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.CrossCutting.Bus\obj\Debug\netcoreapp2.2\STSys.Core.CrossCutting.Bus.AssemblyInfoInputs.cache
 D:\最新\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.CrossCutting.Bus\obj\Debug\netcoreapp2.2\STSys.Core.CrossCutting.Bus.AssemblyInfo.cs
 D:\最新\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.CrossCutting.Bus\obj\Debug\netcoreapp2.2\STSys.Core.CrossCutting.Bus.csproj.CopyComplete
 D:\最新\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.CrossCutting.Bus\obj\Debug\netcoreapp2.2\STSys.Core.CrossCutting.Bus.dll
 D:\最新\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.CrossCutting.Bus\obj\Debug\netcoreapp2.2\STSys.Core.CrossCutting.Bus.pdb
+D:\最新\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.CrossCutting.Bus\obj\Debug\netcoreapp2.2\STSys.Core.CrossCutting.Bus.csprojAssemblyReference.cache

@@ -117,3 +117,4 @@ D:\最新\STSys.Core\5 - Client\STSys.Core.Rpc.Webserver\obj\Debug\netcoreapp2.2
 D:\最新\STSys.Core\5 - Client\STSys.Core.Rpc.Webserver\obj\Debug\netcoreapp2.2\STSys.Core.Rpc.Webserver.dll
 D:\最新\STSys.Core\5 - Client\STSys.Core.Rpc.Webserver\obj\Debug\netcoreapp2.2\STSys.Core.Rpc.Webserver.pdb
 D:\最新\STSys.Core\5 - Client\STSys.Core.Rpc.Webserver\obj\Debug\netcoreapp2.2\STSys.Core.Rpc.Webserver.csproj.CopyComplete
+D:\最新\STSys.Core\5 - Client\STSys.Core.Rpc.Webserver\obj\Debug\netcoreapp2.2\STSys.Core.Rpc.Webserver.csprojAssemblyReference.cache

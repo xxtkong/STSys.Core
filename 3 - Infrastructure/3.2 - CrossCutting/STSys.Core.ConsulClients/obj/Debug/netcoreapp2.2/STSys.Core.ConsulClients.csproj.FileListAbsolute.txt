@@ -33,3 +33,4 @@ F:\项目集合\github\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Co
 F:\项目集合\github\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.ConsulClients\obj\Debug\netcoreapp2.2\STSys.Core.ConsulClients.AssemblyInfo.cs
 F:\项目集合\github\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.ConsulClients\obj\Debug\netcoreapp2.2\STSys.Core.ConsulClients.dll
 F:\项目集合\github\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.ConsulClients\obj\Debug\netcoreapp2.2\STSys.Core.ConsulClients.pdb
+D:\最新\STSys.Core\3 - Infrastructure\3.2 - CrossCutting\STSys.Core.ConsulClients\obj\Debug\netcoreapp2.2\STSys.Core.ConsulClients.csprojAssemblyReference.cache
