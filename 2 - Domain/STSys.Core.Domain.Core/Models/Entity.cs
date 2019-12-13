@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
 namespace STSys.Core.Domain.Core.Models
@@ -12,6 +13,8 @@ namespace STSys.Core.Domain.Core.Models
         /// <summary>
         /// 唯一标识
         /// </summary>
+        /// 
+        [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public Guid Id { get; set; }
 
         /// <summary>

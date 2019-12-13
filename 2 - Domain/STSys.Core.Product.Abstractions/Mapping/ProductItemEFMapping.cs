@@ -13,8 +13,7 @@ namespace STSys.Core.Product.Abstractions.Mapping
         public void Configure(EntityTypeBuilder<ProductItemEntities> builder)
         {
             builder.ToTable("ProductItem").HasKey(s => s.Id);
-            builder.HasKey(s => s.ProductId).HasName("ProductId");
-            builder.HasOne(c => c.productEntities).WithMany().HasForeignKey(c => c.ProductId);
+            builder.HasOne(c => c.productEntities).WithMany().HasForeignKey(c => c.ProductId).IsRequired(true);
         }
 
         public void RegistTo(ModelBuilder modelBuilder)

@@ -35,11 +35,9 @@ namespace STSys.Core.Data.Context
         /// <param name="modelBuilder"></param>
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-
             //modelBuilder.ApplyConfiguration(new ProductEFMapping());
             //modelBuilder.ApplyConfiguration(new ProductItemEFMapping());
-            //modelBuilder.Entity<ProductEntities>(ConfigureBasket);
-         
+
             var domainAssembly = _assemblyOptions.DomainAssemblyName;
             foreach (var item in domainAssembly)
             {
@@ -81,7 +79,7 @@ namespace STSys.Core.Data.Context
             var navigation = builder.Metadata.FindNavigation(nameof(ProductEntities.Items));
             navigation.SetPropertyAccessMode(PropertyAccessMode.Field);
         }
-       
+
 
 
 
