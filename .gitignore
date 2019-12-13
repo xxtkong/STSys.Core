@@ -3,3 +3,9 @@
 ################################################################################
 
 /.vs/STSys.Core/v15/Server/sqlite3
+/0 - Presentention
+/1 - Application
+/2 - Domain
+/3 - Infrastructure
+/4 - Common
+/5 - Client
