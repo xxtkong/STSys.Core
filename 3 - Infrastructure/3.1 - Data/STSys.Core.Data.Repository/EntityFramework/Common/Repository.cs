@@ -141,9 +141,6 @@ namespace STSys.Core.Data.Repository.EntityFramework.Common
         public IQueryable<TEntity> GetMany(ISpecification<TEntity> spec)
         {
 
-            var p = _dbContext.Set<ProductItemEntities>().ToList();
-
-
             // 获取包含所有基于表达式的包含的可查询项
             var queryableResultWithIncludes = spec.Includes
                 .Aggregate(_dbContext.Set<TEntity>().AsQueryable(),(current, include) => current.Include(include));

@@ -14,7 +14,7 @@ namespace STSys.Core.Product.Abstractions.Mapping
         {
             builder.ToTable("Product").HasKey(s => s.Id);
             builder.Property(c => c.Id).HasColumnName("Id");
-
+            builder.HasMany(c => c.Items).WithOne(c=>c.productEntities).HasForeignKey(c => c.ProductId);
         }
 
         public void RegistTo(ModelBuilder modelBuilder)

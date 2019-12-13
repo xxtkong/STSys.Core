@@ -13,7 +13,7 @@ namespace STSys.Core.Product.Abstractions.Entities
 
 
         private readonly List<ProductItemEntities> _items = new List<ProductItemEntities>();
-        public IReadOnlyCollection<ProductItemEntities> Items => _items.AsReadOnly();
+        public ICollection<ProductItemEntities> Items => _items;
         public void AddItem(Guid productId, string key,string value)
         {
             _items.Add(new ProductItemEntities()
