@@ -13,7 +13,7 @@ namespace STSys.Core.Data.IoC
 {
     public static class SwaggerConfiguration
     {
-        public static void AddConfigure(IApplicationBuilder app)
+        public static void AddSwaggerConfigure(this IApplicationBuilder app)
         {
             app.UseSwagger(c => { c.RouteTemplate = "swagger/{documentName}/swagger.json"; });
             app.UseSwagger().UseSwaggerUI(c =>
@@ -23,19 +23,20 @@ namespace STSys.Core.Data.IoC
             });
         }
 
-        public static void AddService(IServiceCollection services)
+        public static void AddSwaggerService(this IServiceCollection services, string title, string description, string xmlpath)
         {
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new Info
                 {
                     Version = "v1",
-                    Title = "用户中心API",
-                    Description = "用户中心API" });
+                    Title = title,
+                    Description = description
+                });
                 c.SwaggerDoc("v2", new Info { Title = "Core Api V2", Version = "v2" });
                 c.DescribeAllEnumsAsStrings();
-              
-                var xmlPath = Path.Combine(AppContext.BaseDirectory, "STSys.Core.UsersApi.xml");
+
+                var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlpath);
                 c.IncludeXmlComments(xmlPath);
             });
         }

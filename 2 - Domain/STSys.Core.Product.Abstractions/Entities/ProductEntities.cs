@@ -18,6 +18,7 @@ namespace STSys.Core.Product.Abstractions.Entities
         {
             _items.Add(new ProductItemEntities()
             {
+                Id = Guid.NewGuid(),
                 ProductId = productId,
                 Key = key,
                 Value = value

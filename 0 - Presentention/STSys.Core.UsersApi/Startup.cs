@@ -39,10 +39,10 @@ namespace STSys.Core.UsersApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            
-            
+
+
             //var basePath = Path.GetDirectoryName(typeof(Program).Assembly.Location);
-            SwaggerConfiguration.AddService(services);
+            services.AddSwaggerService("","", "STSys.Core.UsersApi.xml");
             //内存数据库
             //ConfigureInMemoryDatabases(services);
             //正式库
@@ -98,7 +98,7 @@ namespace STSys.Core.UsersApi
             //autoMapper.ConfigurationProvider.AssertConfigurationIsValid();
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();
-            SwaggerConfiguration.AddConfigure(app);
+            app.AddSwaggerConfigure();
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
