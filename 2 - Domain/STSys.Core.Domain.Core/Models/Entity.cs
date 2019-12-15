@@ -14,7 +14,7 @@ namespace STSys.Core.Domain.Core.Models
         /// 唯一标识
         /// </summary>
         /// 
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
+        //[DatabaseGenerated(DatabaseGeneratedOption.None)]
         public Guid Id { get; set; }
 
         /// <summary>
