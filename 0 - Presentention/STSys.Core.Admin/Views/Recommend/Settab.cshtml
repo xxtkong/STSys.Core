@@ -1,0 +1,390 @@
+﻿@model IQueryable<STSys.Core.Admin.Abstractions.Entities.IndexRecommendEntity>
+
+@{
+    Layout = "~/Views/Shared/_Pop.cshtml";
+}
+
+<div class="row">
+    <div class="col-sm-12">
+        <div class="tabs-container">
+            <ul class="nav nav-tabs" id="myTab">
+                @{
+                    var vd = ViewData["listTab"];
+                    if (vd != null)
+                    {
+                        var listVd = vd as List<TabsViewModel>;
+                        int i = 0;
+                        foreach (var item in listVd)
+                        {
+                            <li class="@(i == 0?"active":"") tab_li" value="@item.Id">
+                                <a data-toggle="tab" href="#@item.Id">
+                                    <i class="green bigger-110"></i>
+                                    @item.Name
+                                </a>
+                            </li>
+                            i++;
+                        }
+                    }
+                    else
+                    {
+                        <li class="active">
+                            <a data-toggle="tab" href="#home">
+                                <i class="green icon-home bigger-110"></i>
+                                设置数据
+                            </a>
+                        </li>
+
+                    }
+                }
+            </ul>
+
+            <div class="tab-content">
+                @{
+                    if (vd != null)
+                    {
+                        var listVd = vd as List<TabsViewModel>;
+                        int i = 0;
+                        foreach (var item in listVd)
+                        {
+                            <div class="tab-pane in @(i == 0?"active":"") " id="@item.Id">
+                                <div class="panel-body">
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <!-- PAGE CONTENT BEGINS -->
+                                            <div class="row">
+                                                <div class="col-xs-12">
+                                                    <div class="dataTables_wrapper">
+                                                        <div class="row" style="margin-bottom:15px;">
+                                                            <div class="col-sm-6">
+                                                                <div class="dataTables_length">
+                                                                    <a href="javascript:void(0)" name="btnSelect" class="btn  btn-info">
+                                                                        <i class="icon-plus align-top bigger-125"></i>选择数据源
+                                                                    </a>
+                                                                    <a href="javascript:void(0)" name="btnDisables" class="btn btn-sm btn-danger " onclick="SetDisables()">
+                                                                        <i class="icon-lock bigger-120"></i>批量禁用
+                                                                    </a>
+                                                                    <a href="javascript:void(0)" name="btnEnableds" class="btn btn-sm btn-success" onclick="SetEnableds()">
+                                                                        <i class="icon-unlock bigger-120"></i>批量启用
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div id="showData">
+                                                            <partial name="TabList" model="Model.Where(s => s.TabId == item.Id)" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            i++;
+                        }
+                    }
+                }
+
+            </div>
+        </div>
+    </div><!-- /span -->
+</div>
+
+<link href="/lib/webuploader-0.1.5/webuploader.css" rel="stylesheet" />
+<link href="/lib/ueditor/themes/iframe.css" rel="stylesheet" />
+<link href="/lib/product.css" rel="stylesheet" />
+<link href="/lib/contextMenu/css/contextMenu.css" rel="stylesheet" />
+<script src="/lib/contextMenu/js/contextMenu.js"></script>
+<script src="/lib/webuploader-0.1.5/webuploader.js"></script>
+<style>
+    .image_ul li {
+        margin: 0px;
+        margin-bottom: 5px;
+    }
+
+    .uploading-tip {
+        height: 25px;
+        position: absolute;
+        top: -10px;
+        right: -15px;
+        z-index: 999;
+        background: inherit;
+        opacity: 1;
+    }
+
+    .webuploader-pick {
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+        background: #00b7ee;
+        padding: 10px 15px;
+        color: #fff;
+        text-align: center;
+        border-radius: 3px;
+        overflow: hidden;
+    }
+
+    .webuploader-pick-hover {
+        background: #00a2d4;
+    }
+</style>
+
+<div class="row" style="display:none" id="div_tab">
+    <div class="col-sm-12">
+        <div class="section">
+            <div class="panel-body">
+                <form class="form-horizontal" role="form" method="post" id="form1">
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label no-padding-right" for="form-field-1">名 称</label>
+                        <div class="col-sm-10">
+                            <input type="text" placeholder="名称" id="txt_Name" class="col-xs-10 ">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label no-padding-right" for="form-field-1">链接地址</label>
+                        <div class="col-sm-10">
+                            <input type="text" placeholder="链接地址" id="txt_Url" class="col-xs-10 ">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label no-padding-right" for="form-field-1">图标</label>
+                        <div class="col-sm-10">
+                            <input type="text" placeholder="图标" id="txt_Icon" class="col-xs-10 ">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label no-padding-right" for="form-field-1">大图</label>
+                        <div class="col-sm-10">
+                            <ul class="image_ul" id="image_ul">
+                                <li>
+                                    <img src="/Content/webuploader-0.1.5/imgadd.png" id="img_BasicPicUrl" />
+                                </li>
+                            </ul>
+                            <div id="uploader-demo">
+                                <div id="filePicker">选择图片</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label no-padding-right" for="form-field-1">说明</label>
+                        <div class="col-sm-10">
+                            <textarea style="margin: 0px; width: 409px; height: 121px;" id="txt_Intro"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-actions center">
+                        <button type="button" class="btn btn-sm btn-success" id="btnSave">
+                            保存
+                            <i class="icon-arrow-right icon-on-right bigger-110"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+<!------重命名--------->
+<div class="row" style="display:none" id="div_rename">
+    <div class="col-sm-12">
+        <form class="form-search">
+            <div class="row" style="margin-left: 20%;margin-top: 40px;">
+                <div class="col-xs-12 col-sm-8">
+                    <div class="input-group">
+                        <input type="text" id="txt_new_name" class="form-control search-query" maxlength="50" placeholder="重命名">
+                        <span class="input-group-btn">
+                            <button type="button" class="btn btn-purple btn-sm" id="btn_new_name">
+                                确定
+                            </button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+@Html.Hidden("dataSoruce", (int)ViewBag.dataSoruce)
+@Html.Hidden("columnid", (Guid)ViewBag.cid)
+@Html.Hidden("BasicPicUrl")
+@Html.Hidden("hidtabId")
+<script>
+    $(function () {
+        $("a[name='btnSelect']").click(function () {
+            var type = $("#dataSoruce").val();
+            var columnid = $("#columnid").val();
+            ///自定义页面
+            var guid = $(".tab_li.active").attr("value");
+            $.open("/Recommend/CustomPage?cid=" + columnid + "&guid=" + guid, "设置数据源", "900px", "700px;");
+        });
+        var uploader = WebUploader.create({
+            // 选完文件后，是否自动上传。
+            auto: true,
+            // swf文件路径
+            swf: '/Content/webuploader-0.1.5/Uploader.swf',
+            // 文件接收服务端。
+            server: '/Util/BasicPicUrl',
+            // 选择文件的按钮。可选。
+            // 内部根据当前运行是创建，可能是input元素，也可能是flash.
+            pick: '#filePicker',
+            // 只允许选择图片文件。
+            duplicate: true,
+            accept: {
+                title: 'Images',
+                extensions: 'gif,jpg,jpeg,bmp,png',
+                mimeTypes: 'image/jpg,image/jpeg,image/png'
+            }
+        });
+        // 文件上传成功，给item添加成功class, 用样式标记上传成功。
+        uploader.on('uploadSuccess', function (file, obj) {
+            if (obj.d) {
+                $("#img_BasicPicUrl").attr("src", obj.msg); $("#BasicPicUrl").val(obj.msg);
+            }
+            else {
+                alert(obj.msg);
+            }
+        });
+        // 文件上传失败，显示上传出错。
+        uploader.on('uploadError', function (file) {
+            alert("上传失败");
+        });
+        $(".webuploader-pick").click(function () {
+            $(".webuploader-element-invisible").click();
+        });
+
+        $(".tab_li").each(function () {
+            $(this).contextMenu({
+                menu: [{
+                    text: "新增选项卡",
+                    callback: function () {
+                        $.pop($("#div_tab"), "新增")
+                    }
+                },
+                {
+                    text: "编辑",
+                    callback: function (e) {
+                        var id = $(e).attr("value");
+                        var cid = $("#columnid").val();
+                        $.post("/Recommend/GetTab", { cid: cid, tabId: id }, function (result) {
+                            $("#txt_Name").val(result.name);
+                            $("#txt_Icon").val(result.icon);
+                            $("#txt_Url").val(result.url);
+                            $("#BasicPicUrl").val(result.img);
+                            $("#img_BasicPicUrl").attr("src", result.img);
+                            $("#txt_Intro").val(result.intro);
+                            $("#hidtabId").val(result.id);
+                        })
+                        $.pop($("#div_tab"), "编辑");
+                    }
+                },
+                {
+                    text: "重命名",
+                    callback: function (e) {
+                        var id = $(e).attr("value");
+                        $("#hidtabId").val(id);
+                        $.pop($("#div_rename"), "重命名","400px","200px;");
+                    }
+                },
+                {
+                    text: "删除",
+                    callback: function (e) {
+                        $.confirm("您确定要删除吗？", "提示", function () {
+                            var id = $(e).attr("value");
+                            var cid = $("#columnid").val();
+                            $.post("/Recommend/DeleteTab", { cid: cid, guid: id }, function (result) {
+                                if (result) {
+                                    $.alert("删除成功", "提示", function () {
+                                        window.location.reload();
+                                    })
+                                }
+                                else {
+                                    $.alert("删除失败，最后一条数据不能删除", "提示", function () {
+                                    })
+                                }
+                            })
+                        })
+                    }
+                }]
+            });
+        });
+
+
+    })
+    $("#btn_new_name").click(function () {
+        var newName = $("#txt_new_name").val();
+        var tabId = $("#hidtabId").val();
+        var cid = $("#columnid").val();
+        $.post("/Recommend/Rename", { cid: cid, tabId: tabId, newName: newName }, function (result) {
+            if (result) {
+                $.alert("重命名成功", "提示", function () {
+                    window.location.reload();
+                })
+            }
+            else {
+                $.alert("重命名失败", "提示", function () { })
+            }
+        })
+    });
+    $("#btnSave").click(function () {
+        var viewData = {};
+        viewData.Name = $("#txt_Name").val();
+        viewData.Icon = $("#txt_Icon").val();
+        viewData.Url = $("#txt_Url").val();
+        viewData.Img = $("#BasicPicUrl").val();
+        viewData.Intro = $("#txt_Intro").val();
+        viewData.Id = $("#hidtabId").val();
+        var cid = $("#columnid").val();
+        if (viewData.Name == null || viewData.Name == "" || viewData.Name == undefined)
+        {
+            $.alert("请输入选项卡名称");
+            return false;
+        }
+        $.post("/Recommend/SaveTab", { viewModel: viewData, cid: cid }, function (result) {
+            if (result) {
+                $.alert("操作成功", "提示", function () {
+                    window.location.reload();
+                })
+            }
+        })
+    });
+
+    //禁用
+    function SetDisables()
+    {
+        var ids = new Array();
+        var usertype = new Array();
+        $("input[name='chk']").closest(".table").find('tbody > tr > td:first-child input:checkbox').each(function () {
+            var that = $(this); if (that.is(":checked")) { ids.push(that.attr("value")); usertype.push(that.attr("usertype")); }
+        });
+        if (ids.length == 0) {
+            lay.msg("请先选择数据项");
+            return;
+        }
+        $.post("/Recommend/SetStatus", { ids: ids.toString(), status: 1 }, function (result) {
+            if (result) {
+                $.alert("操作成功", "提示", function () {
+                    window.location.reload();
+                })
+            }
+        })
+    }
+
+    //启用
+    function SetEnableds() {
+        var ids = new Array();
+        var usertype = new Array();
+        $("input[name='chk']").closest(".table").find('tbody > tr > td:first-child input:checkbox').each(function () {
+            var that = $(this); if (that.is(":checked")) { ids.push(that.attr("value")); usertype.push(that.attr("usertype")); }
+        });
+        if (ids.length == 0) {
+            lay.msg("请先选择数据项");
+            return;
+        }
+        $.post("/Recommend/SetStatus", { ids: ids.toString(), status: 0 }, function (result) {
+            if (result) {
+                $.alert("操作成功", "提示", function () {
+                    window.location.reload();
+                })
+            }
+        })
+    }
+</script>

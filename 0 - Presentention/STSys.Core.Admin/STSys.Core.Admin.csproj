@@ -29,6 +29,7 @@
 
 
   <ItemGroup>
+    <None Include="wwwroot\lib\contextMenu\js\contextMenu.js" />
     <None Include="wwwroot\lib\zTree\jquery.ztree.all.js" />
     <None Include="wwwroot\lib\zTree\jquery.ztree.all.min.js" />
     <None Include="wwwroot\lib\zTree\jquery.ztree.core.js" />

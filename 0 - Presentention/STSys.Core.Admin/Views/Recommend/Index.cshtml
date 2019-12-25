@@ -1,30 +1,45 @@
 ﻿@model IQueryable<STSys.Core.Admin.Abstractions.Entities.ColumnEntity>
-<section class="wrapper">
-   
-    <div class="row">
-        <div class="col-lg-12">
-            <section class="panel">
-                <header class="panel-heading">
-                    <a href="/Recommend/Add"  class="btn btn-success">新增</a>
-                    <span class="tools pull-right">
-                        <a href="javascript:;" class="fa fa-chevron-down"></a>
-                        <a href="javascript:;" class="fa fa-times"></a>
-                    </span>
-                </header>
-                <div class="panel-body">
-                    <form class="form-inline" role="form">
-                        <div class="form-group margin-r20">
-                            <label for="account">栏目名称:</label>
-                            <input type="text" class="form-control" id="name" placeholder="栏目名称" autocomplete="off" />
+<div class="row">
+    <div class="col-sm-12">
+        <div class="ibox float-e-margins">
+            <div class="ibox-title">
+                <h5></h5>
+                <div class="ibox-tools">
+                    <a class="collapse-link">
+                        <i class="fa "></i>
+                    </a>
+                    <a class="close-link">
+                        <i class="fa fa-chevron-up"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="ibox-content">
+                <div class="row">
+                    <div class="col-xs-12 ">
+                        <div class="">
+                            <button class="btn  btn-info " type="button" onclick="commonOpen(this,'/recommend/add')" title="新增" data-width="700" data-height="700"><i class="fa fa-plus"></i>新增</button>
                         </div>
-                        <button type="button" class="btn btn-success" id="btnSearch">查询</button>
-                    </form>
-                    
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <form class="form-inline" role="form" id="form">
+                                    <div class="form-group margin-r20">
+                                        <label for="account"></label>
+                                        <input type="text" class="form-control" id="name" name="name" placeholder="栏目名称" autocomplete="off" />
+                                    </div>
+
+                                    <button type="button" class="btn btn-success" id="btnSearch" onclick="commonSearch('/recommend/search')">查询</button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="table-responsive" id="showData" data-pageurl="/recommend/search">
+                            <partial name="List" />
+                        </div>
+                    </div>
                 </div>
-                <div  id="showData">
-                    <partial name="List" />
-                </div>
-            </section>
+
+            </div>
         </div>
     </div>
-</section>
+
+</div>
+

@@ -1,0 +1,96 @@
+﻿@model IQueryable<STSys.Core.Admin.Abstractions.Entities.IndexRecommendEntity>
+@using STSys.Core.Domain.Core.Common
+@using STSys.Core.Admin.Application.HtmlExt
+@{
+    var type = (int)ViewBag.dataSoruce;
+}
+<table id="sample-table-1" class="table table-striped">
+    <thead>
+        <tr>
+            <th class="center">
+                <label>
+                    <input type="checkbox" class="ace" name="chk" onclick="stselect(this)">
+                    <span class="lbl"></span>
+                </label>
+            </th>
+            <th class="center">Id</th>
+            <th class="center">标题/名称</th>
+            @if (type == 6)
+            {
+                <th class="center">价格</th>
+                <th class="center">图片</th>
+                <th class="center">跳转地址</th>
+                <th class="center">简介</th>
+            }
+            <th class="center">状态</th>
+            <th class="center">排序</th>
+            <th class="center">操作</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.Any())
+        {
+            foreach (var item in Model)
+            {
+                <tr>
+                    <td class="center">
+                        <label>
+                            <input type="checkbox" name="check" class="ace" value="@item.Id">
+                            <span class="lbl"></span>
+                        </label>
+                    </td>
+                    <td class="center" title="@item.Id">@item.Id</td>
+                    <td class="center" title="@item.Name">@item.Name</td>
+                    @if (type == 6)
+                    {
+                        <td class="center" title="@item.Price">@item.Price</td>
+                        <td class="center">
+                            <img src="@item.Img" style="width:24px;" />
+                        </td>
+                        <td class="center">@item.Url </td>
+                        <td class="center" title="@item.Intro">@item.Intro.GetSubString(20, "") </td>
+                    }
+                    <td class="center">@item.Status.CommonState()</td>
+                    <td class="center">@item.Sort</td>
+                    <td>
+                        @if (type == 6)
+                        {
+                            <a class="btn btn-xs btn-info" href="javascript:void(0)" onclick="customEdit(@item.Id)" title="编辑" value="@item.Id">
+                                编辑
+                            </a>
+                        }
+                        <a class="btn btn-xs btn-info" href="javascript:void(0)" onclick="SetSort(this)" title="修改排序" value="@item.Id">
+                            修改排序
+                        </a>
+                        <a class="btn btn-xs btn-info" href="javascript:void(0)" onclick="Cancel(this)" title="取消推荐" value="@item.Id">
+                            取消推荐
+                        </a>
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+@Html.AjaxPager((int)ViewBag.PageSize, (int)ViewBag.TotalCount)
+<script>
+    function Cancel(obj) {
+        $.confirm("您确定要取消推荐嘛？", "提示", function () {
+            var id = $(obj).attr("value");
+            $.post("/Recommend/RecommendDelete", { id: id }, function (result) {
+                if (result) {
+                    $.alert("操作成功", "提示", function () {
+                        location.reload();
+                    })
+                }
+            })
+        })
+    }
+    function SetSort(obj) {
+        var id = $(obj).attr("value");
+        $.open("/Recommend/SetSort?id=" + id, "提示", "800px", "600px");
+    }
+    function customEdit(id) {
+        $.open("/Recommend/CustomPageEdit?id=" + id, "修改数据源", "900px", "700px;")
+    }
+
+</script>

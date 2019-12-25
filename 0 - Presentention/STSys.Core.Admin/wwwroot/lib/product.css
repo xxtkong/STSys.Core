@@ -1,0 +1,33 @@
+﻿.image_ul {
+    margin: inherit;
+    width: 100%;
+}
+
+    .image_ul li {
+        width: 125px;
+        height: 125px;
+        list-style: none;
+        display: inline-block;
+        position: relative;
+        margin: 10px 15px;
+        border: 1px solid #eee;
+    }
+
+        .image_ul li img {
+            width: 100%;
+            height: 100%;
+        }
+
+.uploading-tip {
+    height: 25px;
+    position: absolute;
+    top: -15px;
+    right: 0px;
+    z-index: 999;
+}
+
+.image_ul li .uploading-tip img {
+    border: none;
+    width: 16px;
+    height: 16px;
+}
