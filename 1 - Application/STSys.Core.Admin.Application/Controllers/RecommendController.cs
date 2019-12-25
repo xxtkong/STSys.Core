@@ -228,9 +228,9 @@ namespace STSys.Core.Admin.Application.Controllers
                     Status = (int)CommonState.正常
                 });
                 _unitOfWork.Commit();
-                return Json(true);
+                return Json(new { d = true });
             }
-            return Json(false);
+            return Json(new { d = false });
         }
         public IActionResult CustomPageEdit(Guid id)
         {
@@ -241,6 +241,7 @@ namespace STSys.Core.Admin.Application.Controllers
             return View(viewModel);
         }
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public IActionResult CustomPageEdit(SelectDataViewModel viewModel, Guid cid, string tabid)
         {
             if (ModelState.IsValid)
@@ -256,10 +257,13 @@ namespace STSys.Core.Admin.Application.Controllers
                 model.TabId = Guid.Parse(tabid);
                 model.Name = viewModel.Name;
                 model.Url = viewModel.Url;
-                _indexRecommend.Update(model);
-                return Json(true);
+                _indexRecommend.Update(model,new List<Expression<Func<IndexRecommendEntity, dynamic>>>()
+                    { s => s.Status, s => s.CreateTime }
+                );
+                _unitOfWork.Commit();
+                return Json(new { d = true });
             }
-            return Json(false);
+            return Json(new { d = false });
         }
 
         public IActionResult RecommendDelete(Guid id)
